@@ -36,7 +36,7 @@ Then select and open ```MidtermApi.sln```
 ---
 
 ## Domain Model
-![Domain Model](ttps://github.com/fingerhearts/blind-vacation-api/blob/development/assets/domain-model-api.jpg)
+![Domain Model](https://github.com/fingerhearts/blind-vacation-api/blob/development/assets/domain-model-api.jpg)
 
 ---
 
