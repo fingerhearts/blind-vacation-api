@@ -19,9 +19,11 @@ namespace MidtermApi
     public class Startup
     {
         public IConfiguration Configuration { get; }
+        public IHostEnvironment Environment { get; }
 
-        public Startup()
+        public Startup(IHostEnvironment environment)
         {
+            Environment = environment;
             var builder = new ConfigurationBuilder().AddEnvironmentVariables();
             builder.AddUserSecrets<Startup>();
             Configuration = builder.Build();
@@ -33,18 +35,14 @@ namespace MidtermApi
             services.AddControllers();
             services.AddMvc();
 
-
-
             string connectionString = Environment.IsDevelopment()
                     ? Configuration["ConnectionStrings:DefaultConnection"]
                     : Configuration["ConnectionStrings:ProductionConnection"];
 
-            services.AddDbContext<VacationDbContext>(options => options.UseSqlServer(connectionString));
+            services.AddDbContext<VacationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("ProductionConnection")));
 
-
-
-            services.AddSingleton< ICity, CityService > ();
-            services.AddSingleton<ISavedVacations, SavedVacationsService>();
+            //services.AddSingleton< ICity, CityService > ();
+            //services.AddSingleton<ISavedVacations, SavedVacationsService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
