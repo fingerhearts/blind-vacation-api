@@ -17,41 +17,36 @@ This is solving the problem of a person who wants to plan a vacation but doesn't
 
 ---
 
-### Getting Started
+## Getting Started
 Clone this repository to your local machine.
 
 ```
 $ git clone https://github.com/fingerhearts/blind-vacation-api.git
 ```
 
-### To run the program from Visual Studio:
-Select ```File``` -> ```Open``` -> ```BlindVacationAPI```
+## To run the program from Visual Studio:
+Select ```File``` -> ```Open``` -> ```blind-vacation-api```
 
 Next navigate to the location you cloned the Repository.
 
-Double click on the ```BlindVacationAPI``` directory.
+Double click on the ```MidtermApi``` directory.
 
-Then select and open ```BlindVacationAPI.sln```
-
----
-
-### Entity Relationship Diagram
-![ERD](https://via.placeholder.com/960x720)
-
-* ERD description goes here
+Then select and open ```MidtermApi.sln```
 
 ---
 
-### Visuals
-### Placeholder
-![Placeholder1](https://via.placeholder.com/375x812)
+## Domain Model
+![Domain Model](ttps://github.com/fingerhearts/blind-vacation-api/blob/development/assets/domain-model-api.jpg)
 
 ---
 
-### Credits
-* Placeholder
+## Entity Relationship Diagram
+![ERD](https://github.com/fingerhearts/blind-vacation-api/blob/development/assets/erd-api.jpg)
+
+* Cities table has one to many relationship with Hotels table
+* Cities table has one to many relationship with Activities table
 
 ---
 
-### Change Log
+## Change Log
 1.0: *Blind Vacation API Scaffolded* - 11 Nov 2019
