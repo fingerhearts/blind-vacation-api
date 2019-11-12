@@ -63,14 +63,14 @@ namespace MidtermApi.Data
             modelBuilder.Entity<Activities>().HasData(
                new Activities
                {
-                   ID = 3,
+                   ID = 1,
                    Name = "Activity 1",
                    FamilyFriendly = true,
                    Outdoors = false
                },
                new Activities
                {
-                   ID = 4,
+                   ID = 2,
                    Name = "Activity 2",
                    FamilyFriendly = false,
                    Outdoors = false
@@ -80,13 +80,13 @@ namespace MidtermApi.Data
             modelBuilder.Entity<SavedVacation>().HasData(
                new SavedVacation
                {
-                   ID = 6,
+                   ID = 1,
                    Name = "saved vacation 1",
                    RecommendationCode = 1234
                },
                new SavedVacation
                {
-                   ID = 7,
+                   ID = 2,
                    Name = "saved vacation 2",
                    RecommendationCode = 4321
                }

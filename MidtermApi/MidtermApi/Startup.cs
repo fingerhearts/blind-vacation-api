@@ -32,8 +32,16 @@ namespace MidtermApi
         {
             services.AddControllers();
             services.AddMvc();
-            services.AddDbContext<VacationDbContext>(options =>
-            options.UseSqlServer(Configuration["ConnectionStrings:DefaultConnection"]));
+
+
+
+            string connectionString = Environment.IsDevelopment()
+                    ? Configuration["ConnectionStrings:DefaultConnection"]
+                    : Configuration["ConnectionStrings:ProductionConnection"];
+
+            services.AddDbContext<VacationDbContext>(options => options.UseSqlServer(connectionString));
+
+
 
             services.AddSingleton< ICity, CityService > ();
             services.AddSingleton<ISavedVacations, SavedVacationsService>();
