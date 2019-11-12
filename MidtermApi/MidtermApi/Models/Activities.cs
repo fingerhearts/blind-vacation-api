@@ -9,7 +9,7 @@ namespace MidtermApi.Models
     public class Activities
     {
         public int ID { get; set; }
-        public Cities CitiesID { get; set; }
+        public int CitiesID { get; set; }
         public string Name { get; set; }
 
         [Display(Name="Family Friendly")]

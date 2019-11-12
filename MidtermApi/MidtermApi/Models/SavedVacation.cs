@@ -8,7 +8,7 @@ namespace MidtermApi.Models
     public class SavedVacation
     {
         public int ID { get; set; }
-        public Cities CitiesID { get; set; }
+        public int CitiesID { get; set; }
         public string Name { get; set; }
         public int RecommendationCode { get; set; }
 

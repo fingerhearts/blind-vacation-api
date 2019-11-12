@@ -16,13 +16,6 @@ namespace MidtermApi.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Hotels>().HasKey(Hotels =>
-              new { Hotels.CitiesID });
-
-            modelBuilder.Entity<Hotels>().HasKey(Activities =>
-              new { Activities.CitiesID });
-
-        
             modelBuilder.Entity<Cities>().HasData(
                 new Cities
                 {
@@ -45,16 +38,19 @@ namespace MidtermApi.Data
                     Price = 100
                 }
                 );
+
             modelBuilder.Entity<Hotels>().HasData(
                new Hotels
                {
                    ID = 1,
+                   CitiesID = 1,
                    Name = "Test INN",
                    Price = 80
                },
                new Hotels
                {
                    ID = 2,
+                   CitiesID = 2,
                    Name = "Test INN 2",
                    Price = 50
                }
@@ -64,6 +60,7 @@ namespace MidtermApi.Data
                new Activities
                {
                    ID = 1,
+                   CitiesID = 1,
                    Name = "Activity 1",
                    FamilyFriendly = true,
                    Outdoors = false
@@ -71,6 +68,7 @@ namespace MidtermApi.Data
                new Activities
                {
                    ID = 2,
+                   CitiesID = 2,
                    Name = "Activity 2",
                    FamilyFriendly = false,
                    Outdoors = false
@@ -81,12 +79,14 @@ namespace MidtermApi.Data
                new SavedVacation
                {
                    ID = 1,
+                   CitiesID = 1,
                    Name = "saved vacation 1",
                    RecommendationCode = 1234
                },
                new SavedVacation
                {
                    ID = 2,
+                   CitiesID = 2,
                    Name = "saved vacation 2",
                    RecommendationCode = 4321
                }
