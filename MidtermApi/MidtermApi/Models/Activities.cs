@@ -9,7 +9,7 @@ namespace MidtermApi.Models
     public class Activities
     {
         public int ID { get; set; }
-        public int CitiesID { get; set; }
+        public int CityID { get; set; }
         public string Name { get; set; }
 
         [Display(Name="Family Friendly")]
@@ -18,6 +18,6 @@ namespace MidtermApi.Models
 
         //nav prop. (ck)
 
-        public Cities Citites { get; set; }
+        public City City { get; set; }
     }
 }

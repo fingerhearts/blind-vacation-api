@@ -21,19 +21,19 @@ namespace MidtermApi.Controllers
         }
 
         
-        [HttpGet]
-        public ActionResult<IEnumerable<Cities>> Get()
-        {
-            return _city.GetCities().ToList();
+        //[HttpGet]
+        //public ActionResult<IEnumerable<City>> Get()
+        //{
+        //    return _city.GetCities().ToList();
 
-        }
+        //}
 
         //+ ProcessSurvey(int surveyAnswers) : int recommendationCode
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<Cities>> GetCityAsync(int id)
+        public async Task<ActionResult<City>> GetCityAsync(int id)
         {
-            Cities city = await _city.GetCity(id);
+            City city = await _city.GetCity(id);
 
             if (city == null)
             {
