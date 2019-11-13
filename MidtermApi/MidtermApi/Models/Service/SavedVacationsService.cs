@@ -1,4 +1,5 @@
-﻿using MidtermApi.Models.Interfaces;
+﻿using MidtermApi.Data;
+using MidtermApi.Models.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,9 +9,16 @@ namespace MidtermApi.Models.Service
 {
     public class SavedVacationsService : ISavedVacations
     {
+        private VacationDbContext _context;
+
+        public SavedVacationsService(VacationDbContext context)
+        {
+            _context = context;
+        }
+
         public IEnumerable<SavedVacation> GetAllSavedVacations()
         {
-            throw new NotImplementedException();
+            return _context.SavedVacation;
         }
     }
 }

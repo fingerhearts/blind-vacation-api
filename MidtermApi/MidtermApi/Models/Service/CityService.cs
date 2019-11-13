@@ -1,4 +1,5 @@
-﻿using MidtermApi.Data;
+﻿using Microsoft.EntityFrameworkCore;
+using MidtermApi.Data;
 using MidtermApi.Models.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -16,24 +17,27 @@ namespace MidtermApi.Models.Service
             _context = context;
         }
 
-        public IEnumerable<Activities> GetActivitiesInCity(int CityID)
+        public async Task <IEnumerable<Activities>> GetActivitiesInCity(int CityID)
         {
-            return null;
+            var acivity = await _context.Activities.Where(x => x.CitiesID == CityID).ToListAsync();
+            return acivity;
         }
 
         public IEnumerable<Cities> GetCities()
         {
-            throw new NotImplementedException();
+            return _context.Cities;
         }
 
-        public Task GetCity(int CityID)
+        public async Task<Cities> GetCity(int CityID)
         {
-            throw new NotImplementedException();
+            Cities city = await _context.Cities.FindAsync(CityID);
+            return city;
         }
 
-        public IEnumerable<Hotels> GetHotelsInCity(int CityID)
+        public async Task <IEnumerable<Hotels>> GetHotelsInCity(int CityID)
         {
-            throw new NotImplementedException();
+            var hotel = await _context.Hotels.Where(x=> x.CitiesID == CityID).ToListAsync();
+            return hotel;
         }
     }
 }

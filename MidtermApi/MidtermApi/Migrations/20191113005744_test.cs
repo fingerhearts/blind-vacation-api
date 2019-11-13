@@ -2,7 +2,7 @@
 
 namespace MidtermApi.Migrations
 {
-    public partial class addSeededData3 : Migration
+    public partial class test : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

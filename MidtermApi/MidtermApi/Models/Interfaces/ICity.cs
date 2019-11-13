@@ -5,19 +5,18 @@ using System.Threading.Tasks;
 
 namespace MidtermApi.Models.Interfaces
 {
-    interface ICity
+    public interface ICity
     {
-        //Create city 
-        Task GetCity(int CityID);
+        //Gets a city 
+        Task<Cities> GetCity(int CityID);
 
-        //Get individual city
+        //Gets cities
         IEnumerable<Cities> GetCities();
 
-        //Get all cities
-        IEnumerable<Activities> GetActivitiesInCity(int CityID);
+        //Gets activites listed in the city
+        Task <IEnumerable<Activities>> GetActivitiesInCity(int CityID);
 
-        //Update city
-        IEnumerable<Hotels> GetHotelsInCity(int CityID);
+        Task <IEnumerable<Hotels>> GetHotelsInCity(int CityID);
 
     }
 }
