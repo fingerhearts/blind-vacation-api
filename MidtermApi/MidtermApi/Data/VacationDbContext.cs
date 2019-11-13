@@ -16,8 +16,8 @@ namespace MidtermApi.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Cities>().HasData(
-                new Cities
+            modelBuilder.Entity<City>().HasData(
+                new City
                 {
                     ID = 1,
                     Name = "Seattle",
@@ -27,7 +27,7 @@ namespace MidtermApi.Data
                     InUSA = true,
                     Price = 20
                 },
-                new Cities
+                new City
                 {
                     ID = 2,
                     Name = "Los Angeles",
@@ -39,15 +39,15 @@ namespace MidtermApi.Data
                 }
                 );
 
-            modelBuilder.Entity<Hotels>().HasData(
-               new Hotels
+            modelBuilder.Entity<Hotel>().HasData(
+               new Hotel
                {
                    ID = 1,
                    CitiesID = 1,
                    Name = "Test INN",
                    Price = 80
                },
-               new Hotels
+               new Hotel
                {
                    ID = 2,
                    CitiesID = 2,
@@ -56,8 +56,8 @@ namespace MidtermApi.Data
                }
                );
 
-            modelBuilder.Entity<Activities>().HasData(
-               new Activities
+            modelBuilder.Entity<Activity>().HasData(
+               new Activity
                {
                    ID = 1,
                    CitiesID = 1,
@@ -65,7 +65,7 @@ namespace MidtermApi.Data
                    FamilyFriendly = true,
                    Outdoors = false
                },
-               new Activities
+               new Activity
                {
                    ID = 2,
                    CitiesID = 2,
@@ -75,15 +75,15 @@ namespace MidtermApi.Data
                }
                );
 
-            modelBuilder.Entity<SavedVacation>().HasData(
-               new SavedVacation
+            modelBuilder.Entity<Plan>().HasData(
+               new Plan
                {
                    ID = 1,
                    CitiesID = 1,
                    Name = "saved vacation 1",
                    RecommendationCode = 1234
                },
-               new SavedVacation
+               new Plan
                {
                    ID = 2,
                    CitiesID = 2,
@@ -92,9 +92,9 @@ namespace MidtermApi.Data
                }
                );
         }
-        public DbSet<Cities> Cities { get; set; }
-        public DbSet<Hotels> Hotels { get; set; }
-        public DbSet<Activities> Activities { get; set; }
-        public DbSet<SavedVacation> SavedVacation { get; set; }
+        public DbSet<City> Cities { get; set; }
+        public DbSet<Hotel> Hotels { get; set; }
+        public DbSet<Activity> Activities { get; set; }
+        public DbSet<Plan> SavedVacation { get; set; }
     }
 }

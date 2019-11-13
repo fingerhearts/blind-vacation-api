@@ -13,35 +13,25 @@ namespace MidtermApi.Controllers
     [ApiController]
     public class CityController : ControllerBase
     {
-        private readonly ICity _city;
+        private readonly IPlan _city;
         
-        public CityController (ICity city)
+        public CityController (IPlan city)
         {
             _city = city;
         }
-
         
-        [HttpGet]
-        public ActionResult<IEnumerable<Cities>> Get()
-        {
-            return _city.GetCities().ToList();
-
-        }
-
         //+ ProcessSurvey(int surveyAnswers) : int recommendationCode
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<Cities>> GetCityAsync(int id)
+        public async Task<ActionResult<City>> GetCityAsync(int id)
         {
-            Cities city = await _city.GetCity(id);
+            City city = await _city.GetCity(id);
 
             if (city == null)
             {
                 return NotFound();
             }
-
             return Ok(city);
-
         }
     }
 }

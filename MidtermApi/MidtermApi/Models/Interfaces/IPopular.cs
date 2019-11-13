@@ -5,10 +5,9 @@ using System.Threading.Tasks;
 
 namespace MidtermApi.Models.Interfaces
 {
-    public interface ISavedVacations
+    public interface IPopular
     {
         //getting all saved vacations 
-        IEnumerable <SavedVacation> GetAllSavedVacations();
-
+        IEnumerable <Plan> GetAllSavedVacations();
     }
 }

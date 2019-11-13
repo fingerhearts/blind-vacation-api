@@ -6,18 +6,16 @@ using System.Threading.Tasks;
 
 namespace MidtermApi.Models
 {
-    public class Activities
+    public class Activity
     {
         public int ID { get; set; }
-        public int CitiesID { get; set; }
+        public int CityID { get; set; }
         public string Name { get; set; }
-
         [Display(Name="Family Friendly")]
         public bool FamilyFriendly { get; set; }
         public bool Outdoors { get; set; }
 
         //nav prop. (ck)
-
-        public Cities Citites { get; set; }
+        public City City { get; set; }
     }
 }

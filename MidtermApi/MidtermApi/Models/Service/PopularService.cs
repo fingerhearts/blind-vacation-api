@@ -7,16 +7,16 @@ using System.Threading.Tasks;
 
 namespace MidtermApi.Models.Service
 {
-    public class SavedVacationsService : ISavedVacations
+    public class PopularService : IPopular
     {
         private VacationDbContext _context;
 
-        public SavedVacationsService(VacationDbContext context)
+        public PopularService(VacationDbContext context)
         {
             _context = context;
         }
 
-        public IEnumerable<SavedVacation> GetAllSavedVacations()
+        public IEnumerable<Plan> GetAllSavedVacations()
         {
             return _context.SavedVacation;
         }
