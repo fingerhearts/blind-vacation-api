@@ -108,22 +108,22 @@ namespace MidtermApi.Data
                 );
 
             //cheap, average, and expensive hotels in seattle
-            modelBuilder.Entity<Hotels>().HasData(
-               new Hotels
+            modelBuilder.Entity<Hotel>().HasData(
+               new Hotel
                {
                    ID = 1,
                    CityID = 1,
                    Name = "Roy Street Commons",
                    Price = 1
                },
-                 new Hotels
+                 new Hotel
                  {
                      ID = 2,
                      CityID = 1,
                      Name = "Hilton Seattle",
                      Price = 2
                  },
-                   new Hotels
+                   new Hotel
                    {
                        ID = 3,
                        CityID = 1,
@@ -132,21 +132,21 @@ namespace MidtermApi.Data
                    },
 
                //cheap, average, and expensive hotels in buffalo
-               new Hotels
+               new Hotel
                {
                    ID = 4,
                    CityID = 2,
                    Name = "Motel 6 Buffalo Airport",
                    Price = 1
                },
-                new Hotels
+                new Hotel
                 {
                     ID = 5,
                     CityID = 2,
                     Name = "Millennium Buffalo",
                     Price = 2
                 },
-                 new Hotels
+                 new Hotel
                  {
                      ID = 6,
                      CityID = 2,
@@ -155,21 +155,21 @@ namespace MidtermApi.Data
                  },
 
                   //cheap, average, and expensive hotels in Los angeles
-                  new Hotels
+                  new Hotel
                   {
                       ID = 7,
                       CityID = 3,
                       Name = "Monterey Inn",
                       Price = 1
                   },
-                   new Hotels
+                   new Hotel
                    {
                        ID = 8,
                        CityID = 3,
                        Name = "Freehand Los Angeles",
                        Price = 2
                    },
-                    new Hotels
+                    new Hotel
                     {
                         ID = 9,
                         CityID = 3,
@@ -178,21 +178,21 @@ namespace MidtermApi.Data
                     },
 
                         //cheap, average, and expensive hotels in new delhi
-                    new Hotels
+                    new Hotel
                     {
                          ID = 10,
                          CityID = 4,
                          Name = "Suites Admiral",
                          Price = 1
                     },
-                    new Hotels
+                    new Hotel
                     {
                          ID = 11,
                          CityID = 4,
                          Name = "Haveli Dharampura",
                          Price = 3
                     },
-                    new Hotels
+                    new Hotel
                     {
                          ID = 12,
                          CityID = 4,
@@ -200,21 +200,21 @@ namespace MidtermApi.Data
                          Price = 2
                     },
                   //cheap, average, and expensive hotels in Paris
-                  new Hotels
+                  new Hotel
                   {
                       ID = 13,
                       CityID = 5,
                       Name = "Le Regent Montmarte",
                       Price = 1
                   },
-                   new Hotels
+                   new Hotel
                    {
                        ID = 14,
                        CityID = 5,
                        Name = "Holiday Inn Paris",
                        Price = 2
                    },
-                    new Hotels
+                    new Hotel
                     {
                         ID = 15,
                         CityID = 5,
@@ -223,21 +223,21 @@ namespace MidtermApi.Data
                     },
 
                   //cheap, average, and expensive hotels in Seoul Korea
-                  new Hotels
+                  new Hotel
                   {
                       ID = 16,
                       CityID = 6,
                       Name = "Hongdae Chef Guesthouse",
                       Price = 1
                   },
-                   new Hotels
+                   new Hotel
                    {
                        ID = 17,
                        CityID = 6,
                        Name = "Tmark Hotel Myeongdong",
                        Price = 2
                    },
-                    new Hotels
+                    new Hotel
                     {
                         ID = 18,
                         CityID = 6,
@@ -246,21 +246,21 @@ namespace MidtermApi.Data
                     },
 
                   //cheap, average, and expensive hotels in Moscow
-                  new Hotels
+                  new Hotel
                   {
                       ID = 19,
                       CityID = 7,
                       Name = "Winterfell Hotel Tverskaya",
                       Price = 1
                   },
-                   new Hotels
+                   new Hotel
                    {
                        ID = 20,
                        CityID = 7,
                        Name = "Hilton Garden Inn Moscow Krasnoselskaya",
                        Price = 2
                    },
-                    new Hotels
+                    new Hotel
                     {
                         ID = 21,
                         CityID = 7,
@@ -270,8 +270,8 @@ namespace MidtermApi.Data
                );
 
             //activities for each city based off of user's reponse on the survey.
-            modelBuilder.Entity<Activities>().HasData(
-               new Activities
+            modelBuilder.Entity<Activity>().HasData(
+               new Activity
                {
                    //activities for seattle with family and outdoors 
                    ID = 1,
@@ -280,7 +280,7 @@ namespace MidtermApi.Data
                    FamilyFriendly = true,
                    Outdoors = true
                },
-               new Activities
+               new Activity
                {
                    //activities for seattle without family and outdoors 
                    ID = 2,
@@ -291,7 +291,7 @@ namespace MidtermApi.Data
                    FamilyFriendly = false,
                    Outdoors = true
                },
-                new Activities
+                new Activity
                 {
                     //activities for seattle with family and indoors 
                     ID = 3,
@@ -302,7 +302,7 @@ namespace MidtermApi.Data
                     FamilyFriendly = true,
                     Outdoors = false
                 },
-                 new Activities
+                 new Activity
                  {
                      //activities for seattle without family and indoors 
                      ID = 4,
@@ -319,7 +319,7 @@ namespace MidtermApi.Data
                  //STILL WORKING ON BUFFALO SWITCH TO HOT CITY FOR DEMO!!!!
 
 
-                  new Activities
+                  new Activity
                   {
                       //activities for buffalo with family and outdoors 
                       ID = 5,
@@ -330,7 +330,7 @@ namespace MidtermApi.Data
                       FamilyFriendly = true,
                       Outdoors = true
                   },
-               new Activities
+               new Activity
                {
                    //activities for buffalo without family and outdoors 
                    ID = 6,
@@ -341,7 +341,7 @@ namespace MidtermApi.Data
                    FamilyFriendly = false,
                    Outdoors = true
                },
-                new Activities
+                new Activity
                 {
                     //activities for buffalo with family and indoors 
                     ID = 7,
@@ -352,7 +352,7 @@ namespace MidtermApi.Data
                     FamilyFriendly = true,
                     Outdoors = false
                 },
-                 new Activities
+                 new Activity
                  {
                      //activities for buffalo without family and indoors 
                      ID = 8,
@@ -367,8 +367,7 @@ namespace MidtermApi.Data
 
 
 
-
-                 new Activities
+                 new Activity
                  {
                      //activities for paris without family and indoors 
                      ID = 9,
@@ -384,26 +383,10 @@ namespace MidtermApi.Data
 
                );
 
-            modelBuilder.Entity<SavedVacation>().HasData(
-               new SavedVacation
-               {
-                   ID = 1,
-                   CityID = 1,
-                   Name = "saved vacation 1",
-                   RecommendationCode = 1234
-               },
-               new SavedVacation
-               {
-                   ID = 2,
-                   CityID = 2,
-                   Name = "saved vacation 2",
-                   RecommendationCode = 4321
-               }
-               );
         }
         public DbSet<City> City { get; set; }
-        public DbSet<Hotels> Hotels { get; set; }
-        public DbSet<Activities> Activities { get; set; }
-        public DbSet<SavedVacation> SavedVacation { get; set; }
+        public DbSet<Hotel> Hotel { get; set; }
+        public DbSet<Activity> Activity { get; set; }
+        public DbSet<Plan> SavedVacation { get; set; }
     }
 }

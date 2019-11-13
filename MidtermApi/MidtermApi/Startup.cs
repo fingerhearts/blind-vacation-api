@@ -36,14 +36,14 @@ namespace MidtermApi
             services.AddControllers();
             services.AddMvc();
 
-            //string connectionString = Environment.IsDevelopment()
-            //        ? Configuration["ConnectionStrings:DefaultConnection"]
-            //        : Configuration["ConnectionStrings:ProductionConnection"];
+            string connectionString = Environment.IsDevelopment()
+                    ? Configuration["ConnectionStrings:DefaultConnection"]
+                    : Configuration["ConnectionStrings:ProductionConnection"];
 
             services.AddDbContext<VacationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
-            services.AddScoped<ICity, CityService>();
-            services.AddScoped<ISavedVacations, SavedVacationsService>();
+            services.AddScoped<IPlan, PlanService>();
+            services.AddScoped<IPopular, PopularService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

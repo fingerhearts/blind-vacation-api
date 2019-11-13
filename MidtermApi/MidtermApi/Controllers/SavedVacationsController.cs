@@ -13,15 +13,15 @@ namespace MidtermApi.Controllers
     [ApiController]
     public class SavedVacationsController : ControllerBase
     {
-        private readonly ISavedVacations _saved;
+        private readonly IPopular _saved;
 
-        public SavedVacationsController(ISavedVacations saved)
+        public SavedVacationsController(IPopular saved)
         {
             _saved = saved;
         }
 
         [HttpGet]
-        public IEnumerable<SavedVacation> SendSavedVacation()
+        public IEnumerable<Plan> SendSavedVacation()
         {
             return _saved.GetAllSavedVacations().ToList();
         }

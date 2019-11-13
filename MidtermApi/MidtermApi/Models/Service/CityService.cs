@@ -17,9 +17,9 @@ namespace MidtermApi.Models.Service
             _context = context;
         }
 
-        public async Task <IEnumerable<Activities>> GetActivitiesInCity(int CityID)
+        public async Task <IEnumerable<Activity>> GetActivitiesInCity(int CityID)
         {
-            var acivity = await _context.Activities.Where(x => x.CityID == CityID).ToListAsync();
+            var acivity = await _context.Activity.Where(x => x.CityID == CityID).ToListAsync();
             return acivity;
         }
 
@@ -31,9 +31,9 @@ namespace MidtermApi.Models.Service
             return city;
         }
 
-        public async Task <IEnumerable<Hotels>> GetHotelsInCity(int CityID)
+        public async Task <IEnumerable<Hotel>> GetHotelsInCity(int CityID)
         {
-            var hotel = await _context.Hotels.Where(x=> x.CityID == CityID).ToListAsync();
+            var hotel = await _context.Hotel.Where(x=> x.CityID == CityID).ToListAsync();
             return hotel;
         }
     }
