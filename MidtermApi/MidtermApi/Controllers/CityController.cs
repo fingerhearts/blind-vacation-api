@@ -22,9 +22,9 @@ namespace MidtermApi.Controllers
 
         
         [HttpGet]
-        public ActionResult<IEnumerable<Cities>> Get()
+        public Task<IEnumerable<Cities>> Get(string answer)
         {
-            return _city.GetCities().ToList();
+            return _city.GetCities(answer);
 
         }
 

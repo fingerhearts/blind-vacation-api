@@ -11,7 +11,7 @@ namespace MidtermApi.Models.Interfaces
         Task<Cities> GetCity(int CityID);
 
         //Gets cities
-        IEnumerable<Cities> GetCities();
+        Task <IEnumerable<Cities>> GetCities(string answer);
 
         //Gets activites listed in the city
         Task <IEnumerable<Activities>> GetActivitiesInCity(int CityID);
