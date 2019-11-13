@@ -19,24 +19,21 @@ namespace MidtermApi.Models.Service
 
         public async Task <IEnumerable<Activities>> GetActivitiesInCity(int CityID)
         {
-            var acivity = await _context.Activities.Where(x => x.CitiesID == CityID).ToListAsync();
+            var acivity = await _context.Activities.Where(x => x.CityID == CityID).ToListAsync();
             return acivity;
         }
 
-        public IEnumerable<Cities> GetCities()
-        {
-            return _context.Cities;
-        }
+     
 
-        public async Task<Cities> GetCity(int CityID)
+        public async Task<City> GetCity(int CityID)
         {
-            Cities city = await _context.Cities.FindAsync(CityID);
+            City city = await _context.City.FindAsync(CityID);
             return city;
         }
 
         public async Task <IEnumerable<Hotels>> GetHotelsInCity(int CityID)
         {
-            var hotel = await _context.Hotels.Where(x=> x.CitiesID == CityID).ToListAsync();
+            var hotel = await _context.Hotels.Where(x=> x.CityID == CityID).ToListAsync();
             return hotel;
         }
     }

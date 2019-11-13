@@ -10,12 +10,12 @@ namespace MidtermApi.Models
     {
         public int ID { get; set; }
         [Display(Name = "Cities ID")]
-        public int CitiesID { get; set; }
+        public int CityID { get; set; }
         public string Name { get; set; }
         public int Price { get; set; }
 
         //Nav prop. (CK)
-        public Cities Cities { get; set; }
+        public City City { get; set; }
 
     }
 }
