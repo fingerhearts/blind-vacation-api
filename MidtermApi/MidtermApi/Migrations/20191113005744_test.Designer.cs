@@ -9,8 +9,8 @@ using MidtermApi.Data;
 namespace MidtermApi.Migrations
 {
     [DbContext(typeof(VacationDbContext))]
-    [Migration("20191112215041_addSeededData3")]
-    partial class addSeededData3
+    [Migration("20191113005744_test")]
+    partial class test
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

@@ -13,6 +13,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using MidtermApi.Data;
 using MidtermApi.Models.Interfaces;
+using MidtermApi.Models.Service;
 
 namespace MidtermApi
 {
@@ -39,10 +40,10 @@ namespace MidtermApi
                     ? Configuration["ConnectionStrings:DefaultConnection"]
                     : Configuration["ConnectionStrings:ProductionConnection"];
 
-            services.AddDbContext<VacationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("ProductionConnection")));
+            services.AddDbContext<VacationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
-            //services.AddSingleton< ICity, CityService > ();
-            //services.AddSingleton<ISavedVacations, SavedVacationsService>();
+            services.AddScoped<ICity, CityService>();
+            services.AddScoped<ISavedVacations, SavedVacationsService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

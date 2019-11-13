@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace MidtermApi.Models.Interfaces
 {
-    interface ISavedVacations
+    public interface ISavedVacations
     {
         //getting all saved vacations 
         IEnumerable <SavedVacation> GetAllSavedVacations();
