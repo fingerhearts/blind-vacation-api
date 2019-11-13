@@ -43,14 +43,14 @@ namespace MidtermApi.Data
                new Hotel
                {
                    ID = 1,
-                   CitiesID = 1,
+                   CityID = 1,
                    Name = "Test INN",
                    Price = 80
                },
                new Hotel
                {
                    ID = 2,
-                   CitiesID = 2,
+                   CityID = 2,
                    Name = "Test INN 2",
                    Price = 50
                }
@@ -60,7 +60,7 @@ namespace MidtermApi.Data
                new Activity
                {
                    ID = 1,
-                   CitiesID = 1,
+                   CityID = 1,
                    Name = "Activity 1",
                    FamilyFriendly = true,
                    Outdoors = false
@@ -68,33 +68,16 @@ namespace MidtermApi.Data
                new Activity
                {
                    ID = 2,
-                   CitiesID = 2,
+                   CityID = 2,
                    Name = "Activity 2",
                    FamilyFriendly = false,
                    Outdoors = false
                }
                );
-
-            modelBuilder.Entity<Plan>().HasData(
-               new Plan
-               {
-                   ID = 1,
-                   CitiesID = 1,
-                   Name = "saved vacation 1",
-                   RecommendationCode = 1234
-               },
-               new Plan
-               {
-                   ID = 2,
-                   CitiesID = 2,
-                   Name = "saved vacation 2",
-                   RecommendationCode = 4321
-               }
-               );
         }
-        public DbSet<City> Cities { get; set; }
-        public DbSet<Hotel> Hotels { get; set; }
-        public DbSet<Activity> Activities { get; set; }
+        public DbSet<City> City { get; set; }
+        public DbSet<Hotel> Hotel { get; set; }
+        public DbSet<Activity> Activity { get; set; }
         public DbSet<Plan> SavedVacation { get; set; }
     }
 }

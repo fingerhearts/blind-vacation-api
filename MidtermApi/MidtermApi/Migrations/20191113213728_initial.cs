@@ -2,12 +2,12 @@
 
 namespace MidtermApi.Migrations
 {
-    public partial class test : Migration
+    public partial class initial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Cities",
+                name: "City",
                 columns: table => new
                 {
                     ID = table.Column<int>(nullable: false)
@@ -21,48 +21,48 @@ namespace MidtermApi.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Cities", x => x.ID);
+                    table.PrimaryKey("PK_City", x => x.ID);
                 });
 
             migrationBuilder.CreateTable(
-                name: "Activities",
+                name: "Activity",
                 columns: table => new
                 {
                     ID = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    CitiesID = table.Column<int>(nullable: false),
+                    CityID = table.Column<int>(nullable: false),
                     Name = table.Column<string>(nullable: true),
                     FamilyFriendly = table.Column<bool>(nullable: false),
                     Outdoors = table.Column<bool>(nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Activities", x => x.ID);
+                    table.PrimaryKey("PK_Activity", x => x.ID);
                     table.ForeignKey(
-                        name: "FK_Activities_Cities_CitiesID",
-                        column: x => x.CitiesID,
-                        principalTable: "Cities",
+                        name: "FK_Activity_City_CityID",
+                        column: x => x.CityID,
+                        principalTable: "City",
                         principalColumn: "ID",
                         onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
-                name: "Hotels",
+                name: "Hotel",
                 columns: table => new
                 {
                     ID = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    CitiesID = table.Column<int>(nullable: false),
+                    CityID = table.Column<int>(nullable: false),
                     Name = table.Column<string>(nullable: true),
                     Price = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Hotels", x => x.ID);
+                    table.PrimaryKey("PK_Hotel", x => x.ID);
                     table.ForeignKey(
-                        name: "FK_Hotels_Cities_CitiesID",
-                        column: x => x.CitiesID,
-                        principalTable: "Cities",
+                        name: "FK_Hotel_City_CityID",
+                        column: x => x.CityID,
+                        principalTable: "City",
                         principalColumn: "ID",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -73,34 +73,47 @@ namespace MidtermApi.Migrations
                 {
                     ID = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    CitiesID = table.Column<int>(nullable: false),
-                    Name = table.Column<string>(nullable: true),
+                    CityID = table.Column<int>(nullable: true),
+                    HotelID = table.Column<int>(nullable: true),
+                    ActivityID = table.Column<int>(nullable: true),
                     RecommendationCode = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_SavedVacation", x => x.ID);
                     table.ForeignKey(
-                        name: "FK_SavedVacation_Cities_CitiesID",
-                        column: x => x.CitiesID,
-                        principalTable: "Cities",
+                        name: "FK_SavedVacation_Activity_ActivityID",
+                        column: x => x.ActivityID,
+                        principalTable: "Activity",
                         principalColumn: "ID",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "FK_SavedVacation_City_CityID",
+                        column: x => x.CityID,
+                        principalTable: "City",
+                        principalColumn: "ID",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "FK_SavedVacation_Hotel_HotelID",
+                        column: x => x.HotelID,
+                        principalTable: "Hotel",
+                        principalColumn: "ID",
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.InsertData(
-                table: "Cities",
+                table: "City",
                 columns: new[] { "ID", "Description", "Hot", "ImageURL", "InUSA", "Name", "Price" },
                 values: new object[] { 1, "test", false, "", true, "Seattle", 20 });
 
             migrationBuilder.InsertData(
-                table: "Cities",
+                table: "City",
                 columns: new[] { "ID", "Description", "Hot", "ImageURL", "InUSA", "Name", "Price" },
                 values: new object[] { 2, "test2", true, "", true, "Los Angeles", 100 });
 
             migrationBuilder.InsertData(
-                table: "Activities",
-                columns: new[] { "ID", "CitiesID", "FamilyFriendly", "Name", "Outdoors" },
+                table: "Activity",
+                columns: new[] { "ID", "CityID", "FamilyFriendly", "Name", "Outdoors" },
                 values: new object[,]
                 {
                     { 1, 1, true, "Activity 1", false },
@@ -108,52 +121,53 @@ namespace MidtermApi.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Hotels",
-                columns: new[] { "ID", "CitiesID", "Name", "Price" },
+                table: "Hotel",
+                columns: new[] { "ID", "CityID", "Name", "Price" },
                 values: new object[,]
                 {
                     { 1, 1, "Test INN", 80 },
                     { 2, 2, "Test INN 2", 50 }
                 });
 
-            migrationBuilder.InsertData(
+            migrationBuilder.CreateIndex(
+                name: "IX_Activity_CityID",
+                table: "Activity",
+                column: "CityID");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Hotel_CityID",
+                table: "Hotel",
+                column: "CityID");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_SavedVacation_ActivityID",
                 table: "SavedVacation",
-                columns: new[] { "ID", "CitiesID", "Name", "RecommendationCode" },
-                values: new object[,]
-                {
-                    { 1, 1, "saved vacation 1", 1234 },
-                    { 2, 2, "saved vacation 2", 4321 }
-                });
+                column: "ActivityID");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Activities_CitiesID",
-                table: "Activities",
-                column: "CitiesID");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Hotels_CitiesID",
-                table: "Hotels",
-                column: "CitiesID");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_SavedVacation_CitiesID",
+                name: "IX_SavedVacation_CityID",
                 table: "SavedVacation",
-                column: "CitiesID");
+                column: "CityID");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_SavedVacation_HotelID",
+                table: "SavedVacation",
+                column: "HotelID");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Activities");
-
-            migrationBuilder.DropTable(
-                name: "Hotels");
-
-            migrationBuilder.DropTable(
                 name: "SavedVacation");
 
             migrationBuilder.DropTable(
-                name: "Cities");
+                name: "Activity");
+
+            migrationBuilder.DropTable(
+                name: "Hotel");
+
+            migrationBuilder.DropTable(
+                name: "City");
         }
     }
 }

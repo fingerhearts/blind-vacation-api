@@ -11,27 +11,27 @@ namespace MidtermApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class CityController : ControllerBase
+    public class PlanController : ControllerBase
     {
-        private readonly IPlan _city;
+        private readonly IPlan _plan;
         
-        public CityController (IPlan city)
+        public PlanController (IPlan plan)
         {
-            _city = city;
+            _plan = plan;
         }
         
         //+ ProcessSurvey(int surveyAnswers) : int recommendationCode
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<City>> GetCityAsync(int id)
+        public async Task<ActionResult<Plan>> GetPlanAsync(int id)
         {
-            City city = await _city.GetCity(id);
+            Plan plan = await _plan.GetPlan(id);
 
-            if (city == null)
+            if (plan == null)
             {
                 return NotFound();
             }
-            return Ok(city);
+            return Ok(plan);
         }
     }
 }

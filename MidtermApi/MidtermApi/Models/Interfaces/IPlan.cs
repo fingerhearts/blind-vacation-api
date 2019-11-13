@@ -8,11 +8,11 @@ namespace MidtermApi.Models.Interfaces
     public interface IPlan
     {
         //Gets a city 
-        Task<City> GetCity(int CityID);
+        Task<Plan> GetPlan(int CityID);
 
         //Gets activites listed in the city
-        Task <IEnumerable<Activity>> GetActivitiesInCity(int CityID);
+        Task<Activity> GetActivityInCity(int CityID);
 
-        Task <IEnumerable<Hotel>> GetHotelsInCity(int CityID);
+        Task<Hotel> GetHotelInCity(int CityID);
     }
 }

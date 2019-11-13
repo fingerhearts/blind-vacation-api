@@ -9,14 +9,15 @@ namespace MidtermApi.Models
     {
         public int ID { get; set; }
 
-        public int CityID { get; set; }
+        public City City { get; set; }
 
-        public int HotelID { get; set; }
+        public Hotel Hotel { get; set; }
 
-        public int ActivityID { get; set; }
+        public Activity Activity { get; set; }
 
         public int RecommendationCode { get; set; }
 
         //nav prop. (ck)
+        
     }
 }
