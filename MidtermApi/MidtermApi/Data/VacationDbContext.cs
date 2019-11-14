@@ -796,92 +796,99 @@ namespace MidtermApi.Data
             #region New Delhi Activities
                 new Activity
                 {
-                    //activities for New Delhi without family and indoors 
+                    //activities for New Delhi with family and outdoors 
                     ID = 25,
                     CityID = 7,
-                    Name = "1) activity without family indoors placeholder #1. \n" +
-                    "2) activity without family indoors placeholder #2.\n" +
-                    "3) activity without family indoors placeholder #3.\n ",
-                    FamilyFriendly = 0,
-                    Outdoors = 0
-                },
+                    Name = "1) Taj Mahal" + "Taj Mahal is an ivory-white marble Islamic mausoleum. It was commissioned in 1632 by the Mughal emperor Shah Jahan to house the tomb of his favourite wife. \n" +
+                    "2) National Zoological Park of Delhi" + "National Zoological Park is a 176-acre zoo near the Oldfort in Delhi. The zoo can be seen on foot or using a battery-operated vehicle which can be rented at the zoo. \n" +
+                    "3) Go boating at the Old Fort" + "The Old Fort, or Purana Qila as called locally, has a quaint boating area set amidst the ruins of the Fort and the Delhi Zoo as a boundary. \n ",
+
+                    FamilyFriendly = 1,
+                    Outdoors = 1
+                },                
                 new Activity
                 {
                     //activities for New Delhi without family and outdoors 
                     ID = 26,
                     CityID = 7,
-                    Name = "1) activity without family outdoors placeholder #1. \n" +
-                    "2) activity without family outdoors placeholder #2.\n" +
-                    "3) activity without family outdoors placeholder #3.\n ",
+                    Name = "1) Akshardham temple" + "A place of worship, complete with exhibits, boat rides, water shows and lush gardens, the Akshardham temple situated in East Delhi is unlike any other, not only in India but the entire world. \n" +
+                    "2) Jama Masjid" + "The largest Islamic mosque in the city, Jama Masjid, was constructed way back in the 17th century. The imposing building is an iconic landmark of Old Delhi and an important place of worship. \n" +
+                    "3) Chhatarpur temple" + "Located in South Delhi, the group of temples known as Chhatarpur are the second largest of their kind in India. The temple is dedicated to the Goddess Katyayani (Durga) and is made entirely of marble. \n",
+
                     FamilyFriendly = 0,
                     Outdoors = 1
                 },
                 new Activity
                 {
-                    //activities for New Delhi with family and outdoors 
+                    //activities for New Delhi with family and indoors 
                     ID = 27,
                     CityID = 7,
-                    Name = "1) activity with family outdoors placeholder #1. \n" +
-                    "2) activity with family outdoors placeholder #2. \n" +
-                    "3) activity with family outdoors placeholder #3.\n ",
+                    Name = "1) National Mesuem - New Delhi" + "The collection consists of about 200,000 objects, mainly from the Indus Valley Civilization dating as far back as 2,500 BC. \n" +
+                    "2) India Habitat Center" + "The India Habitat Center has frequent classical music and dance concerts. Come and experience Indian classical and folk music, dance and drama. \n" +
+                    "3) Kingdom of Dreams" + "Get out of Delhi for the day and take a trip to one of India's best theme parks, the spectacular Kingdom of Dreams. \n",
+
                     FamilyFriendly = 1,
-                    Outdoors = 1
+                    Outdoors = 0
                 },
                 new Activity
-                {
-                    //activities for New Delhi with family and indoors 
+                {//activities for New Delhi without family and indoors 
                     ID = 28,
                     CityID = 7,
-                    Name = "1) activity with family indoors placeholder #1. \n" +
-                    "2) activity with family indoors placeholder #2.\n" +
-                    "3) activity with family indoors placeholder #3.\n ",
-                    FamilyFriendly = 1,
+                    Name = "1) Gurudwara Bangla Sahib" + "This is the place you must visit. The amazing Sikh Religion Temple is a beautiful building with a rich Sikh religious culture. \n" +
+                    "2) ISKCON Temple Delhi" + "ISKCON as a transcendental mission with a strong philosophical and culture base, Popularly Known with Hare Krishna Movement. \n" +
+                    "3) Spa Treatment at Shangri La's Eros Hotel" + "The Spa at the Shangri La's Eros Hotel is an exception. It focuses on traditional techniques from Asian cultures. \n",
+
+                    FamilyFriendly = 0,
                     Outdoors = 0
                 },
             #endregion
             #region Paris Activities
                 new Activity
                 {
-                    //activities for PARIS without family and indoors 
+                    //activities for Paris with family and outdoors 
                     ID = 29,
                     CityID = 8,
-                    Name = "1) activity without family indoors placeholder #1. \n" +
-                    "2) activity without family indoors placeholder #2.\n" +
-                    "3) activity without family indoors placeholder #3.\n ",
-                    FamilyFriendly = 0,
-                    Outdoors = 0
-                },
-                new Activity
-                {
-                    //activities for PARIS without family and outdoors 
-                    ID = 30,
-                    CityID = 8,
-                    Name = "1) activity without family outdoors placeholder #1. \n" +
-                    "2) activity without family outdoors placeholder #2.\n" +
-                    "3) activity without family outdoors placeholder #3.\n ",
-                    FamilyFriendly = 0,
-                    Outdoors = 1
-                },
-                new Activity
-                {
-                    //activities for PARIS with family and outdoors 
-                    ID = 31,
-                    CityID = 8,
-                    Name = "1) activity with family outdoors placeholder #1. \n" +
-                    "2) activity with family outdoors placeholder #2. \n" +
-                    "3) activity with family outdoors placeholder #3.\n ",
+                    Name = "1) Jardin des Plantes" + "Considered France's principle botanical garden, the Jardin des Plantes was established in the 17th century under the reign of Louis XIII. \n" +
+                    "2) Jardin D'Acclimatation" + "This is zoological park with many other attractions including the Exploradome, merry-go-rounds and puppet shows. \n" +
+                    "3) Eiffel Tower+ " + "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France. \n",
+
                     FamilyFriendly = 1,
                     Outdoors = 1
                 },
                 new Activity
                 {
-                    //activities for PARIS with family and indoors 
-                    ID = 32,
+                    //activities for Paris without family and outdoors 
+                    ID = 30,
+                    CityID = 8,
+                    Name = "1) L'Arc de Triomphe" + "This symbol of French victory was commissioned by Napoleon and completed in 1836. \n" +
+                    "2) Canal Cruising" + "A cruise from the Bastille marina towards the Marne river will take you to those bucolic open air dance halls. \n" +
+                    "3) Sacre Coeur De Montmartre" + "Located on the highest peak of Paris, the view from the Sacré Coeur is breathtaking. \n ",
+
+                    FamilyFriendly = 0,
+                    Outdoors = 1
+                },
+                new Activity
+                {
+                    //activities for Paris with family and indoors 
+                    ID = 31,
                     CityID = 8,
                     Name = "1) activity with family indoors placeholder #1. \n" +
                     "2) activity with family indoors placeholder #2.\n" +
                     "3) activity with family indoors placeholder #3.\n ",
+
                     FamilyFriendly = 1,
+                    Outdoors = 0
+                },
+                new Activity
+                {
+                    //activities for Paris without family and indoors 
+                    ID = 32,
+                    CityID = 8,
+                    Name = "1) activity without family indoors placeholder #1. \n" +
+                    "2) activity without family indoors placeholder #2.\n" +
+                    "3) activity without family indoors placeholder #3.\n ",
+
+                    FamilyFriendly = 0,
                     Outdoors = 0
                 },
             #endregion
