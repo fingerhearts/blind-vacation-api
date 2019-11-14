@@ -654,10 +654,10 @@ namespace MidtermApi.Data
                     Outdoors = 0
                 },
             #endregion
-            #region New Delhi Activities
+            #region Orlando Activities
                 new Activity
                 {
-                    //activities for New Delhi without family and indoors 
+                    //activities for ORLANDO without family and indoors 
                     ID = 13,
                     CityID = 4,
                     Name = "1) activity without family indoors placeholder #1. \n" +
@@ -668,7 +668,7 @@ namespace MidtermApi.Data
                 },
                 new Activity
                 {
-                    //activities for New Delhi without family and outdoors 
+                    //activities for ORLANDO without family and outdoors 
                     ID = 14,
                     CityID = 4,
                     Name = "1) activity without family outdoors placeholder #1. \n" +
@@ -679,7 +679,7 @@ namespace MidtermApi.Data
                 },
                 new Activity
                 {
-                    //activities for New Delhi with family and outdoors 
+                    //activities for ORLANDO with family and outdoors 
                     ID = 15,
                     CityID = 4,
                     Name = "1) activity with family outdoors placeholder #1. \n" +
@@ -690,193 +690,9 @@ namespace MidtermApi.Data
                 },
                 new Activity
                 {
-                    //activities for New Delhi with family and indoors 
+                    //activities for ORLANDO with family and indoors 
                     ID = 16,
                     CityID = 4,
-                    Name = "1) activity with family indoors placeholder #1. \n" +
-                    "2) activity with family indoors placeholder #2.\n" +
-                    "3) activity with family indoors placeholder #3.\n ",
-                    FamilyFriendly = 1,
-                    Outdoors = 0
-                },
-            #endregion
-            #region Paris Activities
-                new Activity
-                {
-                    //activities for PARIS without family and indoors 
-                    ID = 17,
-                    CityID = 5,
-                    Name = "1) activity without family indoors placeholder #1. \n" +
-                    "2) activity without family indoors placeholder #2.\n" +
-                    "3) activity without family indoors placeholder #3.\n ",
-                    FamilyFriendly = 0,
-                    Outdoors = 0
-                },
-                new Activity
-                {
-                    //activities for PARIS without family and outdoors 
-                    ID = 18,
-                    CityID = 5,
-                    Name = "1) activity without family outdoors placeholder #1. \n" +
-                    "2) activity without family outdoors placeholder #2.\n" +
-                    "3) activity without family outdoors placeholder #3.\n ",
-                    FamilyFriendly = 0,
-                    Outdoors = 1
-                },
-                new Activity
-                {
-                    //activities for PARIS with family and outdoors 
-                    ID = 19,
-                    CityID = 5,
-                    Name = "1) activity with family outdoors placeholder #1. \n" +
-                    "2) activity with family outdoors placeholder #2. \n" +
-                    "3) activity with family outdoors placeholder #3.\n ",
-                    FamilyFriendly = 1,
-                    Outdoors = 1
-                },
-                new Activity
-                {
-                    //activities for PARIS with family and indoors 
-                    ID = 20,
-                    CityID = 5,
-                    Name = "1) activity with family indoors placeholder #1. \n" +
-                    "2) activity with family indoors placeholder #2.\n" +
-                    "3) activity with family indoors placeholder #3.\n ",
-                    FamilyFriendly = 1,
-                    Outdoors = 0
-                },
-            #endregion
-            #region Seoul Activities
-                new Activity
-                {
-                    //activities for SEOUL without family and indoors 
-                    ID = 21,
-                    CityID = 6,
-                    Name = "1) activity without family indoors placeholder #1. \n" +
-                    "2) activity without family indoors placeholder #2.\n" +
-                    "3) activity without family indoors placeholder #3.\n ",
-                    FamilyFriendly = 0,
-                    Outdoors = 0
-                },
-                new Activity
-                {
-                    //activities for SEOUL without family and outdoors 
-                    ID = 22,
-                    CityID = 6,
-                    Name = "1) activity without family outdoors placeholder #1. \n" +
-                    "2) activity without family outdoors placeholder #2.\n" +
-                    "3) activity without family outdoors placeholder #3.\n ",
-                    FamilyFriendly = 0,
-                    Outdoors = 1
-                },
-                new Activity
-                {
-                    //activities for SEOUL with family and outdoors 
-                    ID = 23,
-                    CityID = 6,
-                    Name = "1) activity with family outdoors placeholder #1. \n" +
-                    "2) activity with family outdoors placeholder #2. \n" +
-                    "3) activity with family outdoors placeholder #3.\n ",
-                    FamilyFriendly = 1,
-                    Outdoors = 1
-                },
-                new Activity
-                {
-                    //activities for SEOUL with family and indoors 
-                    ID = 24,
-                    CityID = 6,
-                    Name = "1) activity with family indoors placeholder #1. \n" +
-                    "2) activity with family indoors placeholder #2.\n" +
-                    "3) activity with family indoors placeholder #3.\n ",
-                    FamilyFriendly = 1,
-                    Outdoors = 0
-                },
-            #endregion
-            #region Moscow Activities
-                new Activity
-                {
-                    //activities for MOSCOW without family and indoors 
-                    ID = 25,
-                    CityID = 7,
-                    Name = "1) activity without family indoors placeholder #1. \n" +
-                    "2) activity without family indoors placeholder #2.\n" +
-                    "3) activity without family indoors placeholder #3.\n ",
-                    FamilyFriendly = 0,
-                    Outdoors = 0
-                },
-                new Activity
-                {
-                    //activities for MOSCOW without family and outdoors 
-                    ID = 26,
-                    CityID = 7,
-                    Name = "1) activity without family outdoors placeholder #1. \n" +
-                    "2) activity without family outdoors placeholder #2.\n" +
-                    "3) activity without family outdoors placeholder #3.\n ",
-                    FamilyFriendly = 0,
-                    Outdoors = 1
-                },
-                new Activity
-                {
-                    //activities for MOSCOW with family and outdoors 
-                    ID = 27,
-                    CityID = 7,
-                    Name = "1) activity with family outdoors placeholder #1. \n" +
-                    "2) activity with family outdoors placeholder #2. \n" +
-                    "3) activity with family outdoors placeholder #3.\n ",
-                    FamilyFriendly = 1,
-                    Outdoors = 1
-                },
-                new Activity
-                {
-                    //activities for MOSCOW with family and indoors 
-                    ID = 28,
-                    CityID = 7,
-                    Name = "1) activity with family indoors placeholder #1. \n" +
-                    "2) activity with family indoors placeholder #2.\n" +
-                    "3) activity with family indoors placeholder #3.\n ",
-                    FamilyFriendly = 1,
-                    Outdoors = 0
-                },
-            #endregion
-            #region Orlando Activities
-                new Activity
-                {
-                    //activities for ORLANDO without family and indoors 
-                    ID = 29,
-                    CityID = 8,
-                    Name = "1) activity without family indoors placeholder #1. \n" +
-                    "2) activity without family indoors placeholder #2.\n" +
-                    "3) activity without family indoors placeholder #3.\n ",
-                    FamilyFriendly = 0,
-                    Outdoors = 0
-                },
-                new Activity
-                {
-                    //activities for ORLANDO without family and outdoors 
-                    ID = 30,
-                    CityID = 8,
-                    Name = "1) activity without family outdoors placeholder #1. \n" +
-                    "2) activity without family outdoors placeholder #2.\n" +
-                    "3) activity without family outdoors placeholder #3.\n ",
-                    FamilyFriendly = 0,
-                    Outdoors = 1
-                },
-                new Activity
-                {
-                    //activities for ORLANDO with family and outdoors 
-                    ID = 31,
-                    CityID = 8,
-                    Name = "1) activity with family outdoors placeholder #1. \n" +
-                    "2) activity with family outdoors placeholder #2. \n" +
-                    "3) activity with family outdoors placeholder #3.\n ",
-                    FamilyFriendly = 1,
-                    Outdoors = 1
-                },
-                new Activity
-                {
-                    //activities for ORLANDO with family and indoors 
-                    ID = 32,
-                    CityID = 8,
                     Name = "1) activity with family indoors placeholder #1. \n" +
                     "2) activity with family indoors placeholder #2.\n" +
                     "3) activity with family indoors placeholder #3.\n ",
@@ -888,8 +704,8 @@ namespace MidtermApi.Data
                 new Activity
                 {
                     //activities for ATLANTA without family and indoors 
-                    ID = 33,
-                    CityID = 9,
+                    ID = 17,
+                    CityID = 5,
                     Name = "1) activity without family indoors placeholder #1. \n" +
                     "2) activity without family indoors placeholder #2.\n" +
                     "3) activity without family indoors placeholder #3.\n ",
@@ -899,8 +715,8 @@ namespace MidtermApi.Data
                 new Activity
                 {
                     //activities for ATLANTA without family and outdoors 
-                    ID = 34,
-                    CityID = 9,
+                    ID = 18,
+                    CityID = 5,
                     Name = "1) activity without family outdoors placeholder #1. \n" +
                     "2) activity without family outdoors placeholder #2.\n" +
                     "3) activity without family outdoors placeholder #3.\n ",
@@ -910,8 +726,8 @@ namespace MidtermApi.Data
                 new Activity
                 {
                     //activities for ATLANTA with family and outdoors 
-                    ID = 35,
-                    CityID = 9,
+                    ID = 19,
+                    CityID = 5,
                     Name = "1) activity with family outdoors placeholder #1. \n" +
                     "2) activity with family outdoors placeholder #2. \n" +
                     "3) activity with family outdoors placeholder #3.\n ",
@@ -921,8 +737,8 @@ namespace MidtermApi.Data
                 new Activity
                 {
                     //activities for ATLANTA with family and indoors 
-                    ID = 36,
-                    CityID = 9,
+                    ID = 20,
+                    CityID = 5,
                     Name = "1) activity with family indoors placeholder #1. \n" +
                     "2) activity with family indoors placeholder #2.\n" +
                     "3) activity with family indoors placeholder #3.\n ",
@@ -934,6 +750,190 @@ namespace MidtermApi.Data
                 new Activity
                 {
                     //activities for DENVER without family and indoors 
+                    ID = 21,
+                    CityID = 6,
+                    Name = "1) activity without family indoors placeholder #1. \n" +
+                    "2) activity without family indoors placeholder #2.\n" +
+                    "3) activity without family indoors placeholder #3.\n ",
+                    FamilyFriendly = 0,
+                    Outdoors = 0
+                },
+                new Activity
+                {
+                    //activities for DENVER without family and outdoors 
+                    ID = 22,
+                    CityID = 6,
+                    Name = "1) activity without family outdoors placeholder #1. \n" +
+                    "2) activity without family outdoors placeholder #2.\n" +
+                    "3) activity without family outdoors placeholder #3.\n ",
+                    FamilyFriendly = 0,
+                    Outdoors = 1
+                },
+                new Activity
+                {
+                    //activities for DENVER with family and outdoors 
+                    ID = 23,
+                    CityID = 6,
+                    Name = "1) activity with family outdoors placeholder #1. \n" +
+                    "2) activity with family outdoors placeholder #2. \n" +
+                    "3) activity with family outdoors placeholder #3.\n ",
+                    FamilyFriendly = 1,
+                    Outdoors = 1
+                },
+                new Activity
+                {
+                    //activities for DENVER with family and indoors 
+                    ID = 24,
+                    CityID = 6,
+                    Name = "1) activity with family indoors placeholder #1. \n" +
+                    "2) activity with family indoors placeholder #2.\n" +
+                    "3) activity with family indoors placeholder #3.\n ",
+                    FamilyFriendly = 1,
+                    Outdoors = 0
+                },
+            #endregion
+            #region New Delhi Activities
+                new Activity
+                {
+                    //activities for New Delhi without family and indoors 
+                    ID = 25,
+                    CityID = 7,
+                    Name = "1) activity without family indoors placeholder #1. \n" +
+                    "2) activity without family indoors placeholder #2.\n" +
+                    "3) activity without family indoors placeholder #3.\n ",
+                    FamilyFriendly = 0,
+                    Outdoors = 0
+                },
+                new Activity
+                {
+                    //activities for New Delhi without family and outdoors 
+                    ID = 26,
+                    CityID = 7,
+                    Name = "1) activity without family outdoors placeholder #1. \n" +
+                    "2) activity without family outdoors placeholder #2.\n" +
+                    "3) activity without family outdoors placeholder #3.\n ",
+                    FamilyFriendly = 0,
+                    Outdoors = 1
+                },
+                new Activity
+                {
+                    //activities for New Delhi with family and outdoors 
+                    ID = 27,
+                    CityID = 7,
+                    Name = "1) activity with family outdoors placeholder #1. \n" +
+                    "2) activity with family outdoors placeholder #2. \n" +
+                    "3) activity with family outdoors placeholder #3.\n ",
+                    FamilyFriendly = 1,
+                    Outdoors = 1
+                },
+                new Activity
+                {
+                    //activities for New Delhi with family and indoors 
+                    ID = 28,
+                    CityID = 7,
+                    Name = "1) activity with family indoors placeholder #1. \n" +
+                    "2) activity with family indoors placeholder #2.\n" +
+                    "3) activity with family indoors placeholder #3.\n ",
+                    FamilyFriendly = 1,
+                    Outdoors = 0
+                },
+            #endregion
+            #region Paris Activities
+                new Activity
+                {
+                    //activities for PARIS without family and indoors 
+                    ID = 29,
+                    CityID = 8,
+                    Name = "1) activity without family indoors placeholder #1. \n" +
+                    "2) activity without family indoors placeholder #2.\n" +
+                    "3) activity without family indoors placeholder #3.\n ",
+                    FamilyFriendly = 0,
+                    Outdoors = 0
+                },
+                new Activity
+                {
+                    //activities for PARIS without family and outdoors 
+                    ID = 30,
+                    CityID = 8,
+                    Name = "1) activity without family outdoors placeholder #1. \n" +
+                    "2) activity without family outdoors placeholder #2.\n" +
+                    "3) activity without family outdoors placeholder #3.\n ",
+                    FamilyFriendly = 0,
+                    Outdoors = 1
+                },
+                new Activity
+                {
+                    //activities for PARIS with family and outdoors 
+                    ID = 31,
+                    CityID = 8,
+                    Name = "1) activity with family outdoors placeholder #1. \n" +
+                    "2) activity with family outdoors placeholder #2. \n" +
+                    "3) activity with family outdoors placeholder #3.\n ",
+                    FamilyFriendly = 1,
+                    Outdoors = 1
+                },
+                new Activity
+                {
+                    //activities for PARIS with family and indoors 
+                    ID = 32,
+                    CityID = 8,
+                    Name = "1) activity with family indoors placeholder #1. \n" +
+                    "2) activity with family indoors placeholder #2.\n" +
+                    "3) activity with family indoors placeholder #3.\n ",
+                    FamilyFriendly = 1,
+                    Outdoors = 0
+                },
+            #endregion
+            #region Seoul Activities
+                new Activity
+                {
+                    //activities for SEOUL without family and indoors 
+                    ID = 33,
+                    CityID = 9,
+                    Name = "1) activity without family indoors placeholder #1. \n" +
+                    "2) activity without family indoors placeholder #2.\n" +
+                    "3) activity without family indoors placeholder #3.\n ",
+                    FamilyFriendly = 0,
+                    Outdoors = 0
+                },
+                new Activity
+                {
+                    //activities for SEOUL without family and outdoors 
+                    ID = 34,
+                    CityID = 9,
+                    Name = "1) activity without family outdoors placeholder #1. \n" +
+                    "2) activity without family outdoors placeholder #2.\n" +
+                    "3) activity without family outdoors placeholder #3.\n ",
+                    FamilyFriendly = 0,
+                    Outdoors = 1
+                },
+                new Activity
+                {
+                    //activities for SEOUL with family and outdoors 
+                    ID = 35,
+                    CityID = 9,
+                    Name = "1) activity with family outdoors placeholder #1. \n" +
+                    "2) activity with family outdoors placeholder #2. \n" +
+                    "3) activity with family outdoors placeholder #3.\n ",
+                    FamilyFriendly = 1,
+                    Outdoors = 1
+                },
+                new Activity
+                {
+                    //activities for SEOUL with family and indoors 
+                    ID = 36,
+                    CityID = 9,
+                    Name = "1) activity with family indoors placeholder #1. \n" +
+                    "2) activity with family indoors placeholder #2.\n" +
+                    "3) activity with family indoors placeholder #3.\n ",
+                    FamilyFriendly = 1,
+                    Outdoors = 0
+                },
+            #endregion
+            #region Moscow Activities
+                new Activity
+                {
+                    //activities for MOSCOW without family and indoors 
                     ID = 37,
                     CityID = 10,
                     Name = "1) activity without family indoors placeholder #1. \n" +
@@ -944,7 +944,7 @@ namespace MidtermApi.Data
                 },
                 new Activity
                 {
-                    //activities for DENVER without family and outdoors 
+                    //activities for MOSCOW without family and outdoors 
                     ID = 38,
                     CityID = 10,
                     Name = "1) activity without family outdoors placeholder #1. \n" +
@@ -955,7 +955,7 @@ namespace MidtermApi.Data
                 },
                 new Activity
                 {
-                    //activities for DENVER with family and outdoors 
+                    //activities for MOSCOW with family and outdoors 
                     ID = 39,
                     CityID = 10,
                     Name = "1) activity with family outdoors placeholder #1. \n" +
@@ -966,7 +966,7 @@ namespace MidtermApi.Data
                 },
                 new Activity
                 {
-                    //activities for DENVER with family and indoors 
+                    //activities for MOSCOW with family and indoors 
                     ID = 40,
                     CityID = 10,
                     Name = "1) activity with family indoors placeholder #1. \n" +
@@ -1037,7 +1037,7 @@ namespace MidtermApi.Data
                 new Activity
                 {
                     //activities for HELSINKI without family and outdoors 
-                    ID = 45,
+                    ID = 46,
                     CityID = 12,
                     Name = "1) activity without family outdoors placeholder #1. \n" +
                     "2) activity without family outdoors placeholder #2.\n" +
@@ -1048,7 +1048,7 @@ namespace MidtermApi.Data
                 new Activity
                 {
                     //activities for HELSINKI with family and outdoors 
-                    ID = 46,
+                    ID = 47,
                     CityID = 12,
                     Name = "1) activity with family outdoors placeholder #1. \n" +
                     "2) activity with family outdoors placeholder #2. \n" +
@@ -1059,7 +1059,7 @@ namespace MidtermApi.Data
                 new Activity
                 {
                     //activities for HELSINKI with family and indoors 
-                    ID = 47,
+                    ID = 48,
                     CityID = 12,
                     Name = "1) activity with family indoors placeholder #1. \n" +
                     "2) activity with family indoors placeholder #2.\n" +
@@ -1072,7 +1072,7 @@ namespace MidtermApi.Data
                 new Activity
                 {
                     //activities for PHUKET without family and indoors 
-                    ID = 48,
+                    ID = 49,
                     CityID = 13,
                     Name = "1) activity without family indoors placeholder #1. \n" +
                     "2) activity without family indoors placeholder #2.\n" +
@@ -1083,7 +1083,7 @@ namespace MidtermApi.Data
                 new Activity
                 {
                     //activities for PHUKET without family and outdoors 
-                    ID = 49,
+                    ID = 50,
                     CityID = 13,
                     Name = "1) activity without family outdoors placeholder #1. \n" +
                     "2) activity without family outdoors placeholder #2.\n" +
@@ -1094,7 +1094,7 @@ namespace MidtermApi.Data
                 new Activity
                 {
                     //activities for PHUKET with family and outdoors 
-                    ID = 50,
+                    ID = 51,
                     CityID = 13,
                     Name = "1) activity with family outdoors placeholder #1. \n" +
                     "2) activity with family outdoors placeholder #2. \n" +
@@ -1105,7 +1105,7 @@ namespace MidtermApi.Data
                 new Activity
                 {
                     //activities for PHUKET with family and indoors 
-                    ID = 51,
+                    ID = 52,
                     CityID = 13,
                     Name = "1) activity with family indoors placeholder #1. \n" +
                     "2) activity with family indoors placeholder #2.\n" +
