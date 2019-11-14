@@ -505,7 +505,7 @@ namespace MidtermApi.Data
             #region Seattle Activities
                 new Activity
                 {
-                    //activities for seattle with family and outdoors 
+                    //activities for Seattle with family and outdoors 
                     ID = 1,
                     CityID = 1,
                     Name = "1) This is it. You’re about to walk into a memory. Soaring 520 feet skyward. The city actually, really, truly at your feet. Step up. " +
@@ -521,7 +521,7 @@ namespace MidtermApi.Data
                 },
                 new Activity
                 {
-                    //activities for seattle without family and outdoors 
+                    //activities for Seattle without family and outdoors 
                     ID = 2,
                     CityID = 1,
                     Name = "1) Fly high indoors at IFly. An exiciting indoors skydiving center located only mintues outside of Seattle. \n" +
@@ -533,7 +533,7 @@ namespace MidtermApi.Data
                 },
                 new Activity
                 {
-                    //activities for seattle with family and indoors 
+                    //activities for Seattle with family and indoors 
                     ID = 3,
                     CityID = 1,
                     Name = "1) Visit the Seattle Art Museum in downtown Seattle. \n" +
@@ -545,7 +545,7 @@ namespace MidtermApi.Data
                 },
                 new Activity
                 {
-                    //activities for seattle without family and indoors 
+                    //activities for Seattle without family and indoors 
                     ID = 4,
                     CityID = 1,
                     Name = "1) Take a tour of Seattle underground with Bill Speidel's Underground Tour. \n" +
@@ -558,7 +558,7 @@ namespace MidtermApi.Data
             #region Buffalo Activities
                 new Activity
                 {
-                    //activities for buffalo with family and outdoors 
+                    //activities for Buffalo with family and outdoors 
                     ID = 5,
                     CityID = 2,
                     Name = "1) Visit the Buffalo Zoo. \n" +
@@ -570,7 +570,7 @@ namespace MidtermApi.Data
                 },
                 new Activity
                 {
-                    //activities for buffalo without family and outdoors 
+                    //activities for Buffalo without family and outdoors 
                     // info from: https://www.onlyinyourstate.com/new-york/buffalo/free-outdoor-activities-buffalo/
                     // info from: https://www.tripadvisor.com/Attraction_Review-g60974-d7396332-Reviews-Buffalo_Pedal_Tours-Buffalo_New_York.html
                     ID = 6,
@@ -585,7 +585,7 @@ namespace MidtermApi.Data
                 },
                 new Activity
                 {
-                    //activities for buffalo with family and indoors 
+                    //activities for Buffalo with family and indoors 
                     ID = 7,
                     CityID = 2,
                     Name = "1) Pierce-Arrow Museum." + "This unique museum focuses on Buffalo's transportation history featuring Pierce Arrow, Thomas Flyer, electric vehicles, vintage bicycles, motorcycles, muscle cars and trucks, many made in Western New York.\n " +
@@ -597,12 +597,12 @@ namespace MidtermApi.Data
                 },
                 new Activity
                 {
-                    //activities for buffalo without family and indoors 
+                    //activities for Buffalo without family and indoors 
                     ID = 8,
                     CityID = 2,
                     Name = "1) Flying Bison Brewing Company" + "The music, food and beer at Flying Bison are on point. If you enjoy local brews this is the place you must stop by! \n" +
-                    "2) activity without family indoors placeholder #2.\n" +
-                    "3) activity without family indoors placeholder #3.\n ",
+                    "2) Buffalo & Erie County Naval & Military Park" + "There are 3 ships displayed at the Buffalo & Erie County Naval & Military Park. The exhibits displayed date back to the First World War. \n" +
+                    "3) Burchfield Penney Art Center" + "This is the only museum dedicated exclusively to the art and artists of Western New York. \n ",
 
                     FamilyFriendly = 0,
                     Outdoors = 0
@@ -611,53 +611,53 @@ namespace MidtermApi.Data
             #region Los Angeles Activities
                 new Activity
                 {
-                    //activities for los angeles without family and indoors 
+                    //activities for Los Angeles with family and outdoors 
                     ID = 9,
                     CityID = 3,
-                    Name = "1) activity without family indoors placeholder #1. \n" +
-                    "2) activity without family indoors placeholder #2.\n" +
-                    "3) activity without family indoors placeholder #3.\n ",
-                    FamilyFriendly = 0,
-                    Outdoors = 0
+                    Name = "1) Speed Zone" + "It's your chance of steering and speed at Speed Zone’s four go-kart tracks! Don't forget to Electric Alley’s arcade of over 100 video games! \n" +
+                    "2) Los Angeles County Arboretum & Botanical Garden." + "These gorgeous grounds in Arcadia, very close to the Santa Anita racetrack, have been designed as an educational facility. \n" +
+                    "3) Temescal Gateway Park" + "The loop at Temescal Canyon winds through a densely wooded, well-maintained trail with sweeping ocean views and a seasonal waterfall. \n ",
+                    FamilyFriendly = 1,
+                    Outdoors = 1
                 },
                 new Activity
                 {
-                    //activities for los angeles without family and outdoors 
+                    //activities for Los Angeles without family and outdoors 
                     ID = 10,
                     CityID = 3,
-                    Name = "1) activity without family outdoors placeholder #1. \n" +
-                    "2) activity without family outdoors placeholder #2.\n" +
-                    "3) activity without family outdoors placeholder #3.\n ",
+                    Name = "1) Sail to Catalina Island to Snorkel" + "This is a great day-trip option for those looking to escape the city crowds and enjoy the sea view. \n" +
+                    "2) Summit Mount Baldy" + "Mount Baldy is the highest peak in Los Angeles County. If you love hiking, you should definitely hike Mount Baldy! \n" +
+                    "3) Visit Joshua Tree National Park" + "Spend a couple of days bouldering among Martian-looking landscapes and exploring the palm-fringed oases. \n ",
                     FamilyFriendly = 0,
                     Outdoors = 1
                 },
                 new Activity
                 {
-                    //activities for los angeles with family and outdoors 
+                    //activities for Los Angeles with family and indoors 
                     ID = 11,
                     CityID = 3,
-                    Name = "1) activity with family outdoors placeholder #1. \n" +
-                    "2) activity with family outdoors placeholder #2. \n" +
-                    "3) activity with family outdoors placeholder #3.\n ",
+                    Name = "1) Madame Tussauds Hollywood" + "The life-like wax figures you’ll find at the museum are so real looking. There are 100+ wax figures here! \n" +
+                    "2) Cabrillo Marine Aquarium" + "Featuring over 200 species of marine animals that live in the Southern California region, the Cabrillo is number one of its class. \n" +
+                    "3) Dolby Theatre Guided Tour" + "You’ll will see areas of the theatre not seen on TV, plus get a behind-the-scenes look at where lots of popular events take place. \n ",
                     FamilyFriendly = 1,
-                    Outdoors = 1
-                },
+                    Outdoors = 0
+                },                
                 new Activity
                 {
-                    //activities for los angeles with family and indoors 
+                    //activities for los angeles without family and indoors 
                     ID = 12,
                     CityID = 3,
-                    Name = "1) activity with family indoors placeholder #1. \n" +
-                    "2) activity with family indoors placeholder #2.\n" +
-                    "3) activity with family indoors placeholder #3.\n ",
-                    FamilyFriendly = 1,
+                    Name = "1) Studio Tours" + "Come visit a real working studio and see behind-the-scenes of how Hollywood works.\n" +
+                    "2) K1 Speed Indoor Karting" + "High-performance, zero-emission cars equipped with the newest technology make K1 Speed one of the premier places to go in LA! \n" +
+                    "3) Grammy Museum" + "The Grammy Museum has impressive collection of artifacts, exhibits, films, and more. \n ",
+                    FamilyFriendly = 0,
                     Outdoors = 0
                 },
             #endregion
             #region Orlando Activities
                 new Activity
                 {
-                    //activities for ORLANDO without family and indoors 
+                    //activities for Orlando without family and indoors 
                     ID = 13,
                     CityID = 4,
                     Name = "1) activity without family indoors placeholder #1. \n" +
