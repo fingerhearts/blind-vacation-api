@@ -20,9 +20,7 @@ namespace MidtermApi.Models.Service
 
         public async Task<Plan> GetPlan(string answers)
         {
-
-            string test = "0,1,3,0,0";
-            int[] numbers = test.Split(',').Select(Int32.Parse).ToArray();
+            int[] numbers = answers.Split(',').Select(Int32.Parse).ToArray();
 
             City city = await _context.City
                .Where(x => x.InUSA == numbers[0])
@@ -42,6 +40,7 @@ namespace MidtermApi.Models.Service
             Plan plan = new Plan();
             plan.City = city;
             plan.Hotel = hotel;
+            plan.Activity = activity;
 
             return plan;
         }
