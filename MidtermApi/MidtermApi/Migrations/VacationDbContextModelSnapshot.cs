@@ -40,8 +40,6 @@ namespace MidtermApi.Migrations
 
                     b.HasKey("ID");
 
-                    b.HasIndex("CityID");
-
                     b.ToTable("Activity");
 
                     b.HasData(
@@ -266,8 +264,6 @@ namespace MidtermApi.Migrations
 
                     b.HasKey("ID");
 
-                    b.HasIndex("CityID");
-
                     b.ToTable("Hotel");
 
                     b.HasData(
@@ -448,24 +444,6 @@ namespace MidtermApi.Migrations
                     b.HasIndex("HotelID");
 
                     b.ToTable("SavedVacation");
-                });
-
-            modelBuilder.Entity("MidtermApi.Models.Activity", b =>
-                {
-                    b.HasOne("MidtermApi.Models.City", "City")
-                        .WithMany()
-                        .HasForeignKey("CityID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-                });
-
-            modelBuilder.Entity("MidtermApi.Models.Hotel", b =>
-                {
-                    b.HasOne("MidtermApi.Models.City", "City")
-                        .WithMany()
-                        .HasForeignKey("CityID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
                 });
 
             modelBuilder.Entity("MidtermApi.Models.Plan", b =>

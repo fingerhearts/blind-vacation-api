@@ -5,6 +5,11 @@ using System.Threading.Tasks;
 
 namespace MidtermApi.Models
 {
+    /// <summary>
+    /// plan class is the entire vacation, it will include everything that the user will needs; the city
+    /// description, image, hotel, and activity. The recommendation code is what we are sending over to the mvc 
+    /// team to be able to parse and display the vacation package.
+    /// </summary>
     public class Plan
     {
         public int ID { get; set; }
