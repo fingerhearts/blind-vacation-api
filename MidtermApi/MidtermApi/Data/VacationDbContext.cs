@@ -704,30 +704,8 @@ namespace MidtermApi.Data
             #region Atlanta Activities
                 new Activity
                 {
-                    //activities for ATLANTA without family and indoors 
-                    ID = 17,
-                    CityID = 5,
-                    Name = "1) activity without family indoors placeholder #1. \n" +
-                    "2) activity without family indoors placeholder #2.\n" +
-                    "3) activity without family indoors placeholder #3.\n ",
-                    FamilyFriendly = 0,
-                    Outdoors = 0
-                },
-                new Activity
-                {
-                    //activities for ATLANTA without family and outdoors 
-                    ID = 18,
-                    CityID = 5,
-                    Name = "1) activity without family outdoors placeholder #1. \n" +
-                    "2) activity without family outdoors placeholder #2.\n" +
-                    "3) activity without family outdoors placeholder #3.\n ",
-                    FamilyFriendly = 0,
-                    Outdoors = 1
-                },
-                new Activity
-                {
                     //activities for ATLANTA with family and outdoors 
-                    ID = 19,
+                    ID = 17,
                     CityID = 5,
                     Name = "1) activity with family outdoors placeholder #1. \n" +
                     "2) activity with family outdoors placeholder #2. \n" +
@@ -738,12 +716,34 @@ namespace MidtermApi.Data
                 new Activity
                 {
                     //activities for ATLANTA with family and indoors 
-                    ID = 20,
+                    ID = 18,
                     CityID = 5,
                     Name = "1) activity with family indoors placeholder #1. \n" +
                     "2) activity with family indoors placeholder #2.\n" +
                     "3) activity with family indoors placeholder #3.\n ",
                     FamilyFriendly = 1,
+                    Outdoors = 0
+                },
+                new Activity
+                {
+                    //activities for ATLANTA without family and outdoors 
+                    ID = 19,
+                    CityID = 5,
+                    Name = "1) activity without family outdoors placeholder #1. \n" +
+                    "2) activity without family outdoors placeholder #2.\n" +
+                    "3) activity without family outdoors placeholder #3.\n ",
+                    FamilyFriendly = 0,
+                    Outdoors = 1
+                },
+                new Activity
+                {
+                    //activities for ATLANTA without family and indoors 
+                    ID = 20,
+                    CityID = 5,
+                    Name = "1) activity without family indoors placeholder #1. \n" +
+                    "2) activity without family indoors placeholder #2.\n" +
+                    "3) activity without family indoors placeholder #3.\n ",
+                    FamilyFriendly = 0,
                     Outdoors = 0
                 },
             #endregion
@@ -872,9 +872,9 @@ namespace MidtermApi.Data
                     //activities for Paris with family and indoors 
                     ID = 31,
                     CityID = 8,
-                    Name = "1) activity with family indoors placeholder #1. \n" +
-                    "2) activity with family indoors placeholder #2.\n" +
-                    "3) activity with family indoors placeholder #3.\n ",
+                    Name = "1) Jardin des Plantes" + "The most famous greenhouse in Paris is Grandes Serres in the Jardin des Plantes. The plants are kept warm all year round, which make the greenhouses a welcoming retreat from inclement weather. \n" +
+                    "2) Paris Aquarium " + "With 43 tanks, more than 10,000 fish and invertebrates, and 25 sharks, there is a veritable bounty of delightful sights.\n" +
+                    "3) Relax in a Turkish Bath" + "Paris has warmly embraced the tradition of languorous baths, particularly Turkish baths, also known as ‘hammams.’ These steam baths will warm your tired bones, and are often accompanied by a full-body scrub. \n ",
 
                     FamilyFriendly = 1,
                     Outdoors = 0
@@ -884,9 +884,9 @@ namespace MidtermApi.Data
                     //activities for Paris without family and indoors 
                     ID = 32,
                     CityID = 8,
-                    Name = "1) activity without family indoors placeholder #1. \n" +
-                    "2) activity without family indoors placeholder #2.\n" +
-                    "3) activity without family indoors placeholder #3.\n ",
+                    Name = "1) Walk Through a Haunted House" + "This haunted house makes a thoroughly spooky, and thoroughly fun, retreat from bad weather. \n" +
+                    "2) Indulge in Hot Chocolate and Tea Rooms" + "Paris’ most famous spot for hot chocolate is Angelina’s. This is a tea house which has almost pudding-like hot chocolate and Belle Époque decor. \n" +
+                    "3) The Catacombs" + "The Catacombs are one of Paris’ most unsettling and fascinating sights. \n ",
 
                     FamilyFriendly = 0,
                     Outdoors = 0
