@@ -12,10 +12,7 @@ namespace MidtermApi.Models
         public int CityID { get; set; }
         public string Name { get; set; }
         [Display(Name="Family Friendly")]
-        public bool FamilyFriendly { get; set; }
-        public bool Outdoors { get; set; }
-
-        ////nav prop. (ck)
-        //public City City { get; set; }
+        public int FamilyFriendly { get; set; }
+        public int Outdoors { get; set; }
     }
 }

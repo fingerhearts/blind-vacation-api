@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Text.RegularExpressions;
 
 namespace MidtermApi.Models.Service
 {
@@ -17,11 +18,24 @@ namespace MidtermApi.Models.Service
             _context = context;
         }
 
-        public async Task<Plan> GetPlan(int cityID)
+        public async Task<Plan> GetPlan(string answers)
         {
-            City city = await _context.City.FindAsync(cityID);
-            Hotel hotel = await _context.Hotel.FindAsync(cityID);
-            Activity activity = await _context.Activity.FindAsync(cityID);
+            int[] numbers = answers.Split(',').Select(Int32.Parse).ToArray();
+
+            City city = await _context.City
+               .Where(x => x.InUSA == numbers[0])
+               .Where(x => x.Hot == numbers[1])
+               .Where(x => x.Price == numbers[2])
+               .FirstOrDefaultAsync();
+            Hotel hotel = await _context.Hotel
+               .Where(x => x.CityID == city.ID)
+               .Where(x => x.Price == numbers[2])
+               .FirstOrDefaultAsync();
+            Activity activity = await _context.Activity
+               .Where(x => x.CityID == city.ID)
+               .Where(x => x.FamilyFriendly == numbers[3])
+               .Where(x => x.Outdoors == numbers[4])
+               .FirstOrDefaultAsync();
 
             Plan plan = new Plan();
             plan.City = city;

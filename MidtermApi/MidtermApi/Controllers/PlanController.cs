@@ -22,10 +22,10 @@ namespace MidtermApi.Controllers
         
         //+ ProcessSurvey(int surveyAnswers) : int recommendationCode
 
-        [HttpGet("{id}")]
-        public async Task<ActionResult<Plan>> GetPlanAsync(int id)
+        [HttpGet]
+        public async Task<ActionResult<Plan>> GetPlanAsync(string answers)
         {
-            Plan plan = await _plan.GetPlan(id);
+            Plan plan = await _plan.GetPlan(answers);
 
             if (plan == null)
             {
