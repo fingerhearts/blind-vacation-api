@@ -704,45 +704,49 @@ namespace MidtermApi.Data
             #region Atlanta Activities
                 new Activity
                 {
-                    //activities for ATLANTA with family and outdoors 
+                    //activities for Atlanta with family and outdoors 
                     ID = 17,
                     CityID = 5,
-                    Name = "1) activity with family outdoors placeholder #1. \n" +
-                    "2) activity with family outdoors placeholder #2. \n" +
-                    "3) activity with family outdoors placeholder #3.\n ",
+                    Name = "1) River Floating Down The Chattahoochee River" + "Enjoy the water and sun while paddleboarding, kayaking, canoeing, and floating down the river. \n" +
+                    "2) Atlanta Botanical Garden" + "The onset of spring brings a fresh crop of blooming flowers at the Atlanta Botanical Garden that you can't see year-round. \n" +
+                    "3) Six Flags Theme Park" + "Get ready to dive into the largest expansion in park history at Six Flags Over Georgia with the all-new Hurricane Harbor water park! \n",
+
                     FamilyFriendly = 1,
                     Outdoors = 1
                 },
                 new Activity
                 {
-                    //activities for ATLANTA with family and indoors 
+                    //activities for Atlanta without family and outdoors 
                     ID = 18,
                     CityID = 5,
-                    Name = "1) activity with family indoors placeholder #1. \n" +
-                    "2) activity with family indoors placeholder #2.\n" +
-                    "3) activity with family indoors placeholder #3.\n ",
-                    FamilyFriendly = 1,
-                    Outdoors = 0
-                },
-                new Activity
-                {
-                    //activities for ATLANTA without family and outdoors 
-                    ID = 19,
-                    CityID = 5,
-                    Name = "1) activity without family outdoors placeholder #1. \n" +
-                    "2) activity without family outdoors placeholder #2.\n" +
-                    "3) activity without family outdoors placeholder #3.\n ",
+                    Name = "1) Trek Up Stone Mountain" + "Follow the yellow-painted line to the top of Stone Mountain, one of Georgia's most-visited attractions, for an incredible view of downtown Atlanta and the North Georgia mountains. \n" +
+                    "2) Porsche Experience Center" + "With a fleet of over 75 new model vehicles and Porsche Drive Coaches to navigate you through the 1.6 mile handling circuit, the Porsche Experience Center may be the world's greatest test drive. \n" +
+                    "3) Hike to the Waterfalls at the Warwoman Dell Trail" + "The eponymous trail and the Bartram Trail travel along a pebble-lined stream, through densely green forests, and past a pastiche of wildflowers and ferns. \n",
+
                     FamilyFriendly = 0,
                     Outdoors = 1
                 },
                 new Activity
                 {
-                    //activities for ATLANTA without family and indoors 
+                    //activities for Atlanta with family and indoors 
+                    ID = 19,
+                    CityID = 5,
+                    Name = "1) World of Coca-Cola" + "Whether you are in town for vacation, planning a staycation with the family, or just looking for a fun weekend outing, the World of Coca-Cola is a great place to start. \n" +
+                    "2) LEGOLAND Discovery Center – Atlanta" + "A LEGOLAND Discovery Center ticket includes access to several LEGO-themed rides, the 4D cinema, and all the rest of the LEGO attractions. \n" +
+                    "3) X-Drenaline" + "This trampoline park has everything your kids need to work off some pent-up energy. \n",
+
+                    FamilyFriendly = 1,
+                    Outdoors = 0
+                },
+                new Activity
+                {
+                    //activities for Atlanta without family and indoors 
                     ID = 20,
                     CityID = 5,
-                    Name = "1) activity without family indoors placeholder #1. \n" +
-                    "2) activity without family indoors placeholder #2.\n" +
-                    "3) activity without family indoors placeholder #3.\n ",
+                    Name = "1) Atlanta Brewing Company" + "Established in 1993, Atlanta Brewing Co was Georgia’s first craft brewery. \n" +
+                    "2) Martin Luther King Jr. National Historic Site" + "This is a major Atlanta attraction, the park draws some 500,000 visitors each year. \n" +
+                    "3) Fernbank" + "Discover a World of Wow at Fernbank, Atlanta's Science and Nature Experience. \n",
+
                     FamilyFriendly = 0,
                     Outdoors = 0
                 },
