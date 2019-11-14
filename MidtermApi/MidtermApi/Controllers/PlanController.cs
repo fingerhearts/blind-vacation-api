@@ -22,7 +22,7 @@ namespace MidtermApi.Controllers
         
         //+ ProcessSurvey(int surveyAnswers) : int recommendationCode
 
-        [HttpGet]
+        [HttpGet("{answers}")]
         public async Task<ActionResult<Plan>> GetPlanAsync(string answers)
         {
             Plan plan = await _plan.GetPlan(answers);
