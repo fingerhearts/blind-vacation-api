@@ -14,7 +14,7 @@ namespace MidtermApi.Models
         public string Name { get; set; }
         public int Price { get; set; }
 
-        //nav prop. (CK)
-        public City City { get; set; }
+        ////nav prop. (CK)
+        //public City City { get; set; }
     }
 }

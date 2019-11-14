@@ -20,8 +20,8 @@ namespace MidtermApi.Models.Service
         public async Task<Plan> GetPlan(int cityID)
         {
             City city = await _context.City.FindAsync(cityID);
-            Hotel hotel = await _context.Hotel.FindAsync(1);
-            Activity activity = await _context.Activity.FindAsync(1);
+            Hotel hotel = await _context.Hotel.FindAsync(cityID);
+            Activity activity = await _context.Activity.FindAsync(cityID);
 
             Plan plan = new Plan();
             plan.City = city;

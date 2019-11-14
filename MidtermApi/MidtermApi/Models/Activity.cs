@@ -15,7 +15,7 @@ namespace MidtermApi.Models
         public bool FamilyFriendly { get; set; }
         public bool Outdoors { get; set; }
 
-        //nav prop. (ck)
-        public City City { get; set; }
+        ////nav prop. (ck)
+        //public City City { get; set; }
     }
 }
