@@ -30,8 +30,8 @@ namespace MidtermApi.Data
                     "Washington State’s largest city, it’s home to a large tech industry, with Microsoft and Amazon headquartered in its metropolitan area. " +
                     "The futuristic Space Needle, a 1962 World’s Fair legacy, is its most iconic landmark.",
                     ImageURL = "",
-                    Hot = false,
-                    InUSA = true,
+                    Hot = 0,
+                    InUSA = 1,
                     Price = 2
                 },
                   new City
@@ -42,8 +42,8 @@ namespace MidtermApi.Data
                       "Its fine neoclassical, beaux arts and art deco architecture speaks to its history as an industrial capital in the early 20th century. " +
                       "Its landmarks include the 398-ft art deco City Hall, the Frank Lloyd Wright–designed Darwin D. Martin House and the Albright-Knox Art Gallery, a Greek Revival museum with works by Picasso and Warhol.",
                       ImageURL = "",
-                      Hot = false,
-                      InUSA = true,
+                      Hot = 0,
+                      InUSA = 1,
                       Price = 1
                   },
                 new City
@@ -55,8 +55,8 @@ namespace MidtermApi.Data
                     "On Hollywood Boulevard, TCL Chinese Theatre displays celebrities’ hand- and footprints, " +
                     "the Walk of Fame honors thousands of luminaries and vendors sell maps to stars’ homes.",
                     ImageURL = "",
-                    Hot = true,
-                    InUSA = true,
+                    Hot = 1,
+                    InUSA = 1,
                     Price = 3
                 },
                  new City
@@ -67,8 +67,8 @@ namespace MidtermApi.Data
                      " The foundation stone of the city was laid by Emperor George V during the Delhi Durbar of 1911. " +
                      "It was designed by British architects, Sir Edwin Lutyens and Sir Herbert Baker.",
                      ImageURL = "",
-                     Hot = true,
-                     InUSA = false,
+                     Hot = 1,
+                     InUSA = 0,
                      Price = 1
                  },
                  new City
@@ -79,8 +79,8 @@ namespace MidtermApi.Data
                      "Its 19th-century cityscape is crisscrossed by wide boulevards and the River Seine. " +
                      "Beyond such landmarks as the Eiffel Tower and the 12th-century, Gothic Notre-Dame cathedral, the city is known for its cafe culture and designer boutiques along the Rue du Faubourg Saint-Honoré.",
                      ImageURL = "",
-                     Hot = true,
-                     InUSA = false,
+                     Hot = 1,
+                     InUSA = 0,
                      Price = 3
                  },
                  new City
@@ -90,8 +90,8 @@ namespace MidtermApi.Data
                      Description = "Seoul, the capital of South Korea, is a huge metropolis where modern skyscrapers, high-tech subways and pop culture meet Buddhist temples, palaces and street markets. " +
                      "Notable attractions include futuristic Dongdaemun Design Plaza, a convention hall with curving architecture and a rooftop park; Gyeongbokgung Palace, which once had more than 7,000 rooms; and Jogyesa Temple, site of ancient locust and pine trees.",
                      ImageURL = "",
-                     Hot = true,
-                     InUSA = false,
+                     Hot = 1,
+                     InUSA = 0,
                      Price = 2
                  },
                  new City
@@ -101,8 +101,8 @@ namespace MidtermApi.Data
                      Description = "Moscow, on the Moskva River in western Russia, is the nation’s cosmopolitan capital. In its historic core is the Kremlin, a complex that’s home to the president and tsarist treasures in the Armoury. " +
                      "Outside its walls is Red Square, Russia's symbolic center. It's home to Lenin’s Mausoleum, the State Historical Museum's comprehensive collection and St. Basil’s Cathedral, known for its colorful, onion-shaped domes.",
                      ImageURL = "",
-                     Hot = false,
-                     InUSA = false,
+                     Hot = 0,
+                     InUSA = 0,
                      Price = 2
                  }
                 );
@@ -277,8 +277,8 @@ namespace MidtermApi.Data
                    ID = 1,
                    CityID = 1,
                    Name = "1) Visit the Space Needle \n 2) Ride the Duck \n 3) Tour Pike Place Market \n",
-                   FamilyFriendly = true,
-                   Outdoors = true
+                   FamilyFriendly = 1,
+                   Outdoors = 1
                },
                new Activity
                {
@@ -288,8 +288,8 @@ namespace MidtermApi.Data
                    Name = "1) Fly high indoors at IFly. An exiciting indoors skydiving center located only mintues outside of Seattle \n" +
                    "2) Try to stay dry canoeing on Lake Washington at the University of Washington Waterfront Activities Center.\n " +
                    "3) Visit REI in downtown Seattle and try Rock Climbing \n",
-                   FamilyFriendly = false,
-                   Outdoors = true
+                   FamilyFriendly = 0,
+                   Outdoors = 1
                },
                 new Activity
                 {
@@ -299,8 +299,8 @@ namespace MidtermApi.Data
                     Name = "1) Visit the Seattle Art Museum in downtown Seattle.\n " +
                     "2) Visit the Seattle Aquarium located on Pier 59 on the Elliott Bay waterfront.\n " +
                     "3) Visit the Pacific Science Center.\n ",
-                    FamilyFriendly = true,
-                    Outdoors = false
+                    FamilyFriendly = 1,
+                    Outdoors = 0
                 },
                  new Activity
                  {
@@ -310,8 +310,8 @@ namespace MidtermApi.Data
                      Name = "1) Take a tour of Seattle underground with Bill Speidel's Underground Tour. \n" +
                      "2) Get some drinks at some great bars on Capitol Hill.\n" +
                      "3) Get a bite to eat with a great view at Six Seven Restaurant.\n ",
-                     FamilyFriendly = false,
-                     Outdoors = false
+                     FamilyFriendly = 0,
+                     Outdoors = 0
                  },
 
 
@@ -327,8 +327,8 @@ namespace MidtermApi.Data
                       Name = "1) Visit the Buffalo Zoo \n " +
                       "2) Swim, climb, and slide on a nautical-themed playground at the Buffalo Harbor State Park. \n " +
                       "3) Have some outdoor fun at Canalside, a master-planned neighborhood and festival marketplace within the inner harbor of Buffalo.\n",
-                      FamilyFriendly = true,
-                      Outdoors = true
+                      FamilyFriendly = 1,
+                      Outdoors = 1
                   },
                new Activity
                {
@@ -338,8 +338,8 @@ namespace MidtermApi.Data
                    Name = "1) Fly high indoors at IFly. An exiciting indoors skydiving center located only mintues outside of Seattle \n" +
                    "2) Try to stay dry canoeing on Lake Washington at the University of Washington Waterfront Activities Center.\n " +
                    "3) Visit REI in downtown Seattle and try Rock Climbing \n",
-                   FamilyFriendly = false,
-                   Outdoors = true
+                   FamilyFriendly = 0,
+                   Outdoors = 1
                },
                 new Activity
                 {
@@ -349,8 +349,8 @@ namespace MidtermApi.Data
                     Name = "1) Visit the Buffalo Museum of Science.\n " +
                     "2) Visit the Seattle Aquarium located on Pier 59 on the Elliott Bay waterfront.\n " +
                     "3) Visit the Pacific Science Center.\n ",
-                    FamilyFriendly = true,
-                    Outdoors = false
+                    FamilyFriendly = 1,
+                    Outdoors = 0
                 },
                  new Activity
                  {
@@ -360,8 +360,8 @@ namespace MidtermApi.Data
                      Name = "1) Take a tour of Seattle underground with Bill Speidel's Underground Tour. \n" +
                      "2) Get some drinks at some great bars on Capitol Hill.\n" +
                      "3) Get a bite to eat with a great view at the Six Seven Restaurant.\n ",
-                     FamilyFriendly = false,
-                     Outdoors = false
+                     FamilyFriendly = 0,
+                     Outdoors = 0
                  },
 
 
@@ -375,8 +375,8 @@ namespace MidtermApi.Data
                      Name = "1) Test 1 activity \n" +
                      "2) Test 2 acivity.\n" +
                      "3) Test 3 activity.\n ",
-                     FamilyFriendly = false,
-                     Outdoors = false
+                     FamilyFriendly = 0,
+                     Outdoors = 0
                  }
 
 
