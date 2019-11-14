@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using MidtermApi.Data;
 
 namespace MidtermApi.Migrations
 {
     [DbContext(typeof(VacationDbContext))]
-    partial class VacationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20191114014110_initial")]
+    partial class initial
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -48,10 +50,7 @@ namespace MidtermApi.Migrations
                             ID = 1,
                             CityID = 1,
                             FamilyFriendly = 1,
-                            Name = @"1) Visit the Space Needle 
- 2) Ride the Duck 
- 3) Tour Pike Place Market 
-",
+                            Name = "1) Visit the Space Needle_ 2) Ride the Duck_ 3) Tour Pike Place Market",
                             Outdoors = 1
                         },
                         new
@@ -59,10 +58,7 @@ namespace MidtermApi.Migrations
                             ID = 2,
                             CityID = 1,
                             FamilyFriendly = 0,
-                            Name = @"1) Fly high indoors at IFly. An exiciting indoors skydiving center located only mintues outside of Seattle 
-2) Try to stay dry canoeing on Lake Washington at the University of Washington Waterfront Activities Center.
- 3) Visit REI in downtown Seattle and try Rock Climbing 
-",
+                            Name = "1) Fly high indoors at IFly. An exiciting indoors skydiving center located only mintues outside of Seattle._ 2) Try to stay dry canoeing on Lake Washington at the University of Washington Waterfront Activities Center._ 3) Visit REI in downtown Seattle and try Rock Climbing.",
                             Outdoors = 1
                         },
                         new
@@ -70,10 +66,7 @@ namespace MidtermApi.Migrations
                             ID = 3,
                             CityID = 1,
                             FamilyFriendly = 1,
-                            Name = @"1) Visit the Seattle Art Museum in downtown Seattle.
- 2) Visit the Seattle Aquarium located on Pier 59 on the Elliott Bay waterfront.
- 3) Visit the Pacific Science Center.
- ",
+                            Name = "1) Visit the Seattle Art Museum in downtown Seattle._ 2) Visit the Seattle Aquarium located on Pier 59 on the Elliott Bay waterfront._ 3) Visit the Pacific Science Center.",
                             Outdoors = 0
                         },
                         new
@@ -81,10 +74,7 @@ namespace MidtermApi.Migrations
                             ID = 4,
                             CityID = 1,
                             FamilyFriendly = 0,
-                            Name = @"1) Take a tour of Seattle underground with Bill Speidel's Underground Tour. 
-2) Get some drinks at some great bars on Capitol Hill.
-3) Get a bite to eat with a great view at Six Seven Restaurant.
- ",
+                            Name = "1) Take a tour of Seattle underground with Bill Speidel's Underground Tour._ 2) Get some drinks at some great bars on Capitol Hill._ 3) Get a bite to eat with a great view at Six Seven Restaurant.",
                             Outdoors = 0
                         },
                         new
@@ -92,10 +82,7 @@ namespace MidtermApi.Migrations
                             ID = 5,
                             CityID = 2,
                             FamilyFriendly = 1,
-                            Name = @"1) Visit the Buffalo Zoo 
- 2) Swim, climb, and slide on a nautical-themed playground at the Buffalo Harbor State Park. 
- 3) Have some outdoor fun at Canalside, a master-planned neighborhood and festival marketplace within the inner harbor of Buffalo.
-",
+                            Name = "1) Visit the Buffalo Zoo._ 2) Swim, climb, and slide on a nautical-themed playground at the Buffalo Harbor State Park._ 3) Have some outdoor fun at Canalside, a master-planned neighborhood and festival marketplace within the inner harbor of Buffalo.",
                             Outdoors = 1
                         },
                         new
@@ -103,10 +90,7 @@ namespace MidtermApi.Migrations
                             ID = 6,
                             CityID = 2,
                             FamilyFriendly = 0,
-                            Name = @"1) Fly high indoors at IFly. An exiciting indoors skydiving center located only mintues outside of Seattle 
-2) Try to stay dry canoeing on Lake Washington at the University of Washington Waterfront Activities Center.
- 3) Visit REI in downtown Seattle and try Rock Climbing 
-",
+                            Name = "1) Fly high indoors at IFly. An exiciting indoors skydiving center located only mintues outside of Seattle._ 2) Try to stay dry canoeing on Lake Washington at the University of Washington Waterfront Activities Center._ 3) Visit REI in downtown Seattle and try Rock Climbing.",
                             Outdoors = 1
                         },
                         new
@@ -114,10 +98,7 @@ namespace MidtermApi.Migrations
                             ID = 7,
                             CityID = 2,
                             FamilyFriendly = 1,
-                            Name = @"1) Visit the Buffalo Museum of Science.
- 2) Visit the Seattle Aquarium located on Pier 59 on the Elliott Bay waterfront.
- 3) Visit the Pacific Science Center.
- ",
+                            Name = "1) Visit the Buffalo Museum of Science._ 2) Visit the Seattle Aquarium located on Pier 59 on the Elliott Bay waterfront._3) Visit the Pacific Science Center.",
                             Outdoors = 0
                         },
                         new
@@ -125,10 +106,7 @@ namespace MidtermApi.Migrations
                             ID = 8,
                             CityID = 2,
                             FamilyFriendly = 0,
-                            Name = @"1) Take a tour of Seattle underground with Bill Speidel's Underground Tour. 
-2) Get some drinks at some great bars on Capitol Hill.
-3) Get a bite to eat with a great view at the Six Seven Restaurant.
- ",
+                            Name = "1) Take a tour of Seattle underground with Bill Speidel's Underground Tour._ 2) Get some drinks at some great bars on Capitol Hill._3) Get a bite to eat with a great view at the Six Seven Restaurant.",
                             Outdoors = 0
                         },
                         new
@@ -136,10 +114,7 @@ namespace MidtermApi.Migrations
                             ID = 9,
                             CityID = 5,
                             FamilyFriendly = 0,
-                            Name = @"1) Test 1 activity 
-2) Test 2 acivity.
-3) Test 3 activity.
- ",
+                            Name = "1) Test 1 activity_2) Test 2 acivity._3) Test 3 activity.",
                             Outdoors = 0
                         });
                 });
@@ -177,7 +152,7 @@ namespace MidtermApi.Migrations
                         new
                         {
                             ID = 1,
-                            Description = "Seattle, a city on Puget Sound in the Pacific Northwest, is surrounded by water, mountains and evergreen forests, and contains thousands of acres of parkland. Washington State’s largest city, it’s home to a large tech industry, with Microsoft and Amazon headquartered in its metropolitan area. The futuristic Space Needle, a 1962 World’s Fair legacy, is its most iconic landmark.",
+                            Description = "Seattle, a city on Puget Sound in the Pacific Northwest, is surrounded by water, mountains and evergreen forests, and contains thousands of acres of parkland. Washington State’s largest city, it’s home to a large tech industry, with Microsoft and Amazon headquartered in its metropolitan area. The futuristic Space Needle, a 1962 World’s Fair legacy, is its most iconic landmark. ",
                             Hot = 0,
                             ImageURL = "",
                             InUSA = 1,
@@ -464,4 +439,3 @@ namespace MidtermApi.Migrations
         }
     }
 }
-
