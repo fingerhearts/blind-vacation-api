@@ -655,48 +655,49 @@ namespace MidtermApi.Data
                 },
             #endregion
             #region Orlando Activities
+
                 new Activity
                 {
-                    //activities for Orlando without family and indoors 
+                    //activities for Orlando with family and outdoors 
                     ID = 13,
                     CityID = 4,
-                    Name = "1) activity without family indoors placeholder #1. \n" +
-                    "2) activity without family indoors placeholder #2.\n" +
-                    "3) activity without family indoors placeholder #3.\n ",
+                    Name = "1) Discovery Cove" + "Discovery Cove is a one-of-a kind experience where you can interact with bottlenose dolphins, feed tropical birds, play inches from a family of otters and even walk on the Grand Reef floor-all in one day. \n" +
+                    "2) Exotic Animal Experience" + "Exotic Animal Experience is a TOTALLY interactive, hands on experience with exotic animals! \n" +
+                    "3) Walt Disney World" + "Walt Disney World Resort features four theme parks with interactive rides, animal adventures, magical attractions and many more! \n",
+                    FamilyFriendly = 1,
+                    Outdoors = 1
+                },
+                new Activity
+                {
+                    //activities for Orlando without family and outdoors 
+                    ID = 14,
+                    CityID = 4,
+                    Name = "1) Kayak Tours at Central Florida" + "From rivers to lakes to breathtaking sparkling springs, there are so many waterways to explore in Central Florida. \n" +
+                    "2) Orlando Balloon Rides" + "See Orlando from the air in a different way, on this sunrise hot-air balloon adventure. \n" +
+                    "3) Falcon Flyboarding" + "No prior experience is needed! Just after some simple training and you will be souring through the air in no time. \n",
                     FamilyFriendly = 0,
+                    Outdoors = 1
+                },
+                new Activity
+                {
+                    //activities for Orlando with family and indoors 
+                    ID = 15,
+                    CityID = 4,
+                    Name = "1) Crayola Experience" + "Aspiring artists of all ages can enjoy 26 hands-on activities while experiencing the fun of learning and creating with color. \n" +
+                    "2) iFLY Orlando Indoor Skydiving" + "Enjoy the feeling of free flight at iFLY Orlando Indoor Skydiving! \n" +
+                    "3) Sea Life Orlando Aquarium" + "Soak up incredible views from Orlando’s only 360-degree underwater tunnel! \n ",
+                    FamilyFriendly = 1,
                     Outdoors = 0
                 },
                 new Activity
                 {
-                    //activities for ORLANDO without family and outdoors 
-                    ID = 14,
-                    CityID = 4,
-                    Name = "1) activity without family outdoors placeholder #1. \n" +
-                    "2) activity without family outdoors placeholder #2.\n" +
-                    "3) activity without family outdoors placeholder #3.\n ",
-                    FamilyFriendly = 0,
-                    Outdoors = 1
-                },
-                new Activity
-                {
-                    //activities for ORLANDO with family and outdoors 
-                    ID = 15,
-                    CityID = 4,
-                    Name = "1) activity with family outdoors placeholder #1. \n" +
-                    "2) activity with family outdoors placeholder #2. \n" +
-                    "3) activity with family outdoors placeholder #3.\n ",
-                    FamilyFriendly = 1,
-                    Outdoors = 1
-                },
-                new Activity
-                {
-                    //activities for ORLANDO with family and indoors 
+                    //activities for Orlando without family and indoors 
                     ID = 16,
                     CityID = 4,
-                    Name = "1) activity with family indoors placeholder #1. \n" +
-                    "2) activity with family indoors placeholder #2.\n" +
-                    "3) activity with family indoors placeholder #3.\n ",
-                    FamilyFriendly = 1,
+                    Name = "1) Escape Rooms" + "Teams are locked into a room, and the mission is to escape by using logic, creative thinking and the provided tools to solve puzzles! \n" +
+                    "2) Virtual Reality Attractions" + "Escape to realms of pure digital imagination at Orlando’s VR attractions! \n" +
+                    "3) Wonderworks" + "This interactive museum has lots of interactive and diverse exhibits that teach while they entertain.\n ",
+                    FamilyFriendly = 0,
                     Outdoors = 0
                 },
             #endregion
