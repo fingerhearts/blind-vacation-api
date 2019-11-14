@@ -261,21 +261,21 @@ namespace MidtermApi.Data
                 new Hotel
                 {
                     ID = 10,
-                    CityID = 8,
+                    CityID = 4,
                     Name = "Howard Johnson by Wyndham Lake Front Park Kissimmee",
                     Price = 1
                 },
                 new Hotel
                 {
                     ID = 11,
-                    CityID = 8,
+                    CityID = 4,
                     Name = "DoubleTree by Hilton Hotel at the Entrance to Universal Orlando",
                     Price = 2
                 },
                 new Hotel
                 {
                     ID = 12,
-                    CityID = 8,
+                    CityID = 4,
                     Name = "Grand Bohemian Hotel Orlando, Autograph Collection",
                     Price = 3
                 },
@@ -285,21 +285,21 @@ namespace MidtermApi.Data
                 new Hotel
                 {
                     ID = 13,
-                    CityID = 9,
+                    CityID = 5,
                     Name = "Super 8 by Wyndham Austell/Six Flags",
                     Price = 1
                 },
                 new Hotel
                 {
                     ID = 14,
-                    CityID = 9,
+                    CityID = 5,
                     Name = "Crowne Plaza Atlanta-Airport",
                     Price = 2
                 },
                 new Hotel
                 {
                     ID = 15,
-                    CityID = 9,
+                    CityID = 5,
                     Name = "Four Seasons Hotel Atlanta",
                     Price = 3
                 },
@@ -309,21 +309,21 @@ namespace MidtermApi.Data
                 new Hotel
                 {
                     ID = 16,
-                    CityID = 10,
+                    CityID = 6,
                     Name = "Ember Hostel",
                     Price = 1
                 },
                 new Hotel
                 {
                     ID = 17,
-                    CityID = 10,
+                    CityID = 6,
                     Name = "Home2 Suites by Hilton Denver International Airport",
                     Price = 2
                 },
                 new Hotel
                 {
                     ID = 18,
-                    CityID = 10,
+                    CityID = 6,
                     Name = "Four Seasons Hotel Denver",
                     Price = 3
                 },
@@ -333,21 +333,21 @@ namespace MidtermApi.Data
                 new Hotel
                 {
                     ID = 19,
-                    CityID = 4,
+                    CityID = 7,
                     Name = "Suites Admiral",
                     Price = 1
                 },
                 new Hotel
                 {
                     ID = 20,
-                    CityID = 4,
+                    CityID = 7,
                     Name = "Haveli Dharampura",
                     Price = 3
                 },
                 new Hotel
                 {
                     ID = 21,
-                    CityID = 4,
+                    CityID = 7,
                     Name = "Hotel Diplomat",
                     Price = 2
                 },
@@ -357,21 +357,21 @@ namespace MidtermApi.Data
                 new Hotel
                 {
                     ID = 22,
-                    CityID = 5,
+                    CityID = 8,
                     Name = "Le Regent Montmarte",
                     Price = 1
                 },
                 new Hotel
                 {
                     ID = 23,
-                    CityID = 5,
+                    CityID = 8,
                     Name = "Holiday Inn Paris",
                     Price = 2
                 },
                 new Hotel
                 {
                     ID = 24,
-                    CityID = 5,
+                    CityID = 8,
                     Name = "InterContinental Paris",
                     Price = 3
                 },
@@ -381,21 +381,21 @@ namespace MidtermApi.Data
                 new Hotel
                 {
                     ID = 25,
-                    CityID = 6,
+                    CityID = 9,
                     Name = "Hongdae Chef Guesthouse",
                     Price = 1
                 },
                 new Hotel
                 {
                     ID = 26,
-                    CityID = 6,
+                    CityID = 9,
                     Name = "Tmark Hotel Myeongdong",
                     Price = 2
                 },
                 new Hotel
                 {
                     ID = 27,
-                    CityID = 6,
+                    CityID = 9,
                     Name = "Park Hyatt Seoul",
                     Price = 3
                 },
@@ -405,21 +405,21 @@ namespace MidtermApi.Data
                 new Hotel
                 {
                     ID = 28,
-                    CityID = 7,
+                    CityID = 10,
                     Name = "Winterfell Hotel Tverskaya",
                     Price = 1
                 },
                 new Hotel
                 {
                     ID = 29,
-                    CityID = 7,
+                    CityID = 10,
                     Name = "Hilton Garden Inn Moscow Krasnoselskaya",
                     Price = 2
                 },
                 new Hotel
                 {
                     ID = 30,
-                    CityID = 7,
+                    CityID = 10,
                     Name = "The St. Regis Moscow Nikolskaya",
                     Price = 3
                 },
