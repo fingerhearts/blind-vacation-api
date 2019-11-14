@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace MidtermApi.Models
 {
+    /// <summary>
+    /// created city class that will give the user a description and an image of the city. The survey will have questions
+    /// regarding the hot, inUSA, and price properties.
+    /// </summary>
     public class City
     {
         public int ID { get; set; }

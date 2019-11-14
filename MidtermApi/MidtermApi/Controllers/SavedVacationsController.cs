@@ -9,6 +9,11 @@ using MidtermApi.Models.Interfaces;
 
 namespace MidtermApi.Controllers
 {
+    /// <summary>
+    /// in the savedvacationsController we are injecting the iPopular interface which will allow us
+    /// to be able to use the GetAllSavedVacations method. Which, we us in the 'SendSavedVacation' method
+    /// to be able to get all the saved vacations and return it as a list.
+    /// </summary>
     [Route("api/[controller]")]
     [ApiController]
     public class SavedVacationsController : ControllerBase

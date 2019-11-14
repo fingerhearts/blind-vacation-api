@@ -5,6 +5,11 @@ using System.Threading.Tasks;
 
 namespace MidtermApi.Models.Interfaces
 {
+    /// <summary>
+    /// ICity interface will be able to get a specific city using the cityID. This interface will also read all the 
+    /// activities in that city by using the cityID. Lastly, it will read all the hotels available in a specific
+    /// city, and its doing that by including the cityID in the parameter.
+    /// </summary>
     public interface ICity
     {
         //Gets a city 

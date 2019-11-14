@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace MidtermApi.Models
 {
+    /// <summary>
+    /// created an activity class with the properties that are used for the survey questions to narrow
+    /// down the vacation to a specific vacation plan.
+    /// </summary>
     public class Activity
     {
         public int ID { get; set; }
