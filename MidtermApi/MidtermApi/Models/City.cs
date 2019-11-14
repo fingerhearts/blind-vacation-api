@@ -13,8 +13,8 @@ namespace MidtermApi.Models
         public string Description { get; set; }
         [Display(Name = "Image Url")]
         public string ImageURL { get; set; }
-        public bool Hot { get; set; }
-        public bool InUSA { get; set; }
+        public int Hot { get; set; }
+        public int InUSA { get; set; }
         public int Price { get; set; }
     }
 }
