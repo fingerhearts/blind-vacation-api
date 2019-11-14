@@ -1048,18 +1048,6 @@ namespace MidtermApi.Data
                       FamilyFriendly = 0,
                       Outdoors = 0
                   },
-
-                  new Activity
-                  {
-                      //activities for HELSINKI without family and outdoors 
-                      ID = 45,
-                      CityID = 12,
-                      Name = "1) activity without family outdoors placeholder #1. \n" +
-                     "2) activity without family outdoors placeholder #2.\n" +
-                     "3) activity without family outdoors placeholder #3.\n ",
-                      FamilyFriendly = 0,
-                      Outdoors = 1
-                  },
                    new Activity
                    {
                        //activities for HELSINKI with family and outdoors 
