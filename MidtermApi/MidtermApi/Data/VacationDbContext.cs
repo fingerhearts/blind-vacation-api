@@ -30,7 +30,7 @@ namespace MidtermApi.Data
                     "mountains and evergreen forests, and contains thousands of acres of parkland. " +
                     "Washington State’s largest city, it’s home to a large tech industry, with Microsoft and Amazon headquartered in its metropolitan area. " +
                     "The futuristic Space Needle, a 1962 World’s Fair legacy, is its most iconic landmark. ",
-                    ImageURL = "",
+                    ImageURL = "https://upload.wikimedia.org/wikipedia/commons/e/e3/Seattle_Kerry_Park_Skyline.jpg",
                     Hot = 0,
                     InUSA = 1,
                     Price = 2
@@ -42,7 +42,7 @@ namespace MidtermApi.Data
                     Description = "Buffalo is a city on the shores of Lake Erie in upstate New York. " +
                     "Its fine neoclassical, beaux arts and art deco architecture speaks to its history as an industrial capital in the early 20th century. " +
                     "Its landmarks include the 398-ft art deco City Hall, the Frank Lloyd Wright–designed Darwin D. Martin House and the Albright-Knox Art Gallery, a Greek Revival museum with works by Picasso and Warhol.",
-                    ImageURL = "",
+                    ImageURL = "https://cdn.pixabay.com/photo/2012/08/27/22/15/niagara-falls-55119_960_720.jpg",
                     Hot = 0,
                     InUSA = 1,
                     Price = 1
@@ -55,7 +55,7 @@ namespace MidtermApi.Data
                     "Near its iconic Hollywood sign, studios such as Paramount Pictures, Universal and Warner Brothers offer behind-the-scenes tours. " +
                     "On Hollywood Boulevard, TCL Chinese Theatre displays celebrities’ hand- and footprints, " +
                     "the Walk of Fame honors thousands of luminaries and vendors sell maps to stars’ homes.",
-                    ImageURL = "",
+                    ImageURL = "https://storage.needpix.com/rsynced_images/los-angeles-1598750_1280.jpg",
                     Hot = 1,
                     InUSA = 1,
                     Price = 3
@@ -66,7 +66,7 @@ namespace MidtermApi.Data
                     Name = "Orlando, Florida",
                     Description = "Orlando, a city in central Florida, is home to more than a dozen theme parks. Chief among its claims to fame is Walt Disney World, comprised of parks like the Magic Kingdom and Epcot, as well as water parks. " +
                     "Another major destination, Universal Orlando, offers Universal Studios and Islands of Adventure, with the Wizarding World of Harry Potter straddling both.",
-                    ImageURL = "",
+                    ImageURL = "https://cdn.pixabay.com/photo/2017/08/29/09/26/disney-2692578_960_720.jpg",
                     Hot = 1,
                     InUSA = 1,
                     Price = 2
@@ -78,7 +78,7 @@ namespace MidtermApi.Data
                     Description = "Atlanta is the capital of the U.S. state of Georgia. It played an important part in both the Civil War and the 1960s Civil Rights Movement. " +
                     "Atlanta History Center chronicles the city's past, and the Martin Luther King Jr. National Historic Site is dedicated to the African-American leader’s life and times. " +
                     "Downtown, Centennial Olympic Park, built for the 1996 Olympics, encompasses the massive Georgia Aquarium.",
-                    ImageURL = "",
+                    ImageURL = "https://upload.wikimedia.org/wikipedia/commons/a/a7/Atlanta_Skyline_from_Buckhead.jpg",
                     Hot = 1,
                     InUSA = 1,
                     Price = 1
@@ -91,7 +91,7 @@ namespace MidtermApi.Data
                     "Larimer Square, the city’s oldest block, features landmark 19th-century buildings. " +
                     "Museums include the Denver Art Museum, an ultramodern complex known for its collection of indigenous works, and the mansion of famed Titanic survivor Molly Brown. " +
                     "Denver is also a jumping-off point for ski resorts in the nearby Rocky Mountains.",
-                    ImageURL = "",
+                    ImageURL = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAgmDB1n98IbT0LLXff2ASnUgOG7UKuwTMg196OiyPNgJa0E_Hxw&s",
                     Hot = 0,
                     InUSA = 1,
                     Price = 1
@@ -105,7 +105,7 @@ namespace MidtermApi.Data
                     Description = "New Delhi is an urban district of Delhi which serves as the capital of India and seat of all three branches of the Government of India." +
                     " The foundation stone of the city was laid by Emperor George V during the Delhi Durbar of 1911. " +
                     "It was designed by British architects, Sir Edwin Lutyens and Sir Herbert Baker.",
-                    ImageURL = "",
+                    ImageURL = "https://live.staticflickr.com/2834/9491020841_08c3c47f11_b.jpg",
                     Hot = 1,
                     InUSA = 0,
                     Price = 1
@@ -117,7 +117,7 @@ namespace MidtermApi.Data
                     Description = "Paris, France's capital, is a major European city and a global center for art, fashion, gastronomy and culture. " +
                     "Its 19th-century cityscape is crisscrossed by wide boulevards and the River Seine. " +
                     "Beyond such landmarks as the Eiffel Tower and the 12th-century, Gothic Notre-Dame cathedral, the city is known for its cafe culture and designer boutiques along the Rue du Faubourg Saint-Honoré.",
-                    ImageURL = "",
+                    ImageURL = "https://cdn.pixabay.com/photo/2019/07/21/15/48/paris-4353012_960_720.jpg",
                     Hot = 1,
                     InUSA = 0,
                     Price = 3
@@ -128,7 +128,7 @@ namespace MidtermApi.Data
                     Name = "Seoul, South Korea",
                     Description = "Seoul, the capital of South Korea, is a huge metropolis where modern skyscrapers, high-tech subways and pop culture meet Buddhist temples, palaces and street markets. " +
                     "Notable attractions include futuristic Dongdaemun Design Plaza, a convention hall with curving architecture and a rooftop park; Gyeongbokgung Palace, which once had more than 7,000 rooms; and Jogyesa Temple, site of ancient locust and pine trees.",
-                    ImageURL = "",
+                    ImageURL = "https://s.iha.com/00128375786/South-korea-Bongeunsa-temple-in-seoul.jpeg",
                     Hot = 1,
                     InUSA = 0,
                     Price = 2
@@ -139,7 +139,7 @@ namespace MidtermApi.Data
                     Name = "Moscow, Russia",
                     Description = "Moscow, on the Moskva River in western Russia, is the nation’s cosmopolitan capital. In its historic core is the Kremlin, a complex that’s home to the president and tsarist treasures in the Armoury. " +
                     "Outside its walls is Red Square, Russia's symbolic center. It's home to Lenin’s Mausoleum, the State Historical Museum's comprehensive collection and St. Basil’s Cathedral, known for its colorful, onion-shaped domes.",
-                    ImageURL = "",
+                    ImageURL = "https://media.defense.gov/2007/Nov/08/2000432272/780/780/0/082207-F-0000A-004.JPG",
                     Hot = 0,
                     InUSA = 0,
                     Price = 2
@@ -151,7 +151,7 @@ namespace MidtermApi.Data
                     Description = "Reykjavik, on the coast of Iceland, is the country's capital and largest city. It's home to the National and Saga museums, tracing Iceland’s Viking history. " +
                     "The striking concrete Hallgrimskirkja church and rotating Perlan glass dome offer sweeping views of the sea and nearby hills. " +
                     "Exemplifying the island’s volcanic activity is the geothermal Blue Lagoon spa, near the village of Grindavik.",
-                    ImageURL = "",
+                    ImageURL = "https://c1.staticflickr.com/6/5488/9465885222_b14d4e6d6a_b.jpg",
                     Hot = 0,
                     InUSA = 0,
                     Price = 3
@@ -164,7 +164,7 @@ namespace MidtermApi.Data
                     "Its central avenue, Mannerheimintie, is flanked by institutions including the National Museum, tracing Finnish history from the Stone Age to the present. " +
                     "Also on Mannerheimintie are the imposing Parliament House and Kiasma, a contemporary art museum. " +
                     "Ornate red-brick Uspenski Cathedral overlooks a harbor.",
-                    ImageURL = "",
+                    ImageURL = "https://cdn.pixabay.com/photo/2019/05/08/22/01/helsinki-cathedral-4189824_960_720.jpg",
                     Hot = 0,
                     InUSA = 0,
                     Price = 1
@@ -176,7 +176,7 @@ namespace MidtermApi.Data
                     Description = "Phuket, a rainforested, mountainous island in the Andaman Sea, has some of Thailand’s most popular beaches, mainly situated along the clear waters of the western shore. " +
                     "The island is home to many high-end seaside resorts, spas and restaurants. " +
                     "Phuket City, the capital, has old shophouses and busy markets. Patong, the main resort town, has many nightclubs, bars and discos.",
-                    ImageURL = "",
+                    ImageURL = "https://cdn.pixabay.com/photo/2017/02/21/00/54/beach-2084350_960_720.jpg",
                     Hot = 1,
                     InUSA = 0,
                     Price = 2
@@ -754,30 +754,8 @@ namespace MidtermApi.Data
             #region Denver Activities
                 new Activity
                 {
-                    //activities for DENVER without family and indoors 
+                    //activities for Denver with family and outdoors 
                     ID = 21,
-                    CityID = 6,
-                    Name = "1) activity without family indoors placeholder #1. \n" +
-                    "2) activity without family indoors placeholder #2.\n" +
-                    "3) activity without family indoors placeholder #3.\n ",
-                    FamilyFriendly = 0,
-                    Outdoors = 0
-                },
-                new Activity
-                {
-                    //activities for DENVER without family and outdoors 
-                    ID = 22,
-                    CityID = 6,
-                    Name = "1) activity without family outdoors placeholder #1. \n" +
-                    "2) activity without family outdoors placeholder #2.\n" +
-                    "3) activity without family outdoors placeholder #3.\n ",
-                    FamilyFriendly = 0,
-                    Outdoors = 1
-                },
-                new Activity
-                {
-                    //activities for DENVER with family and outdoors 
-                    ID = 23,
                     CityID = 6,
                     Name = "1) activity with family outdoors placeholder #1. \n" +
                     "2) activity with family outdoors placeholder #2. \n" +
@@ -787,13 +765,35 @@ namespace MidtermApi.Data
                 },
                 new Activity
                 {
-                    //activities for DENVER with family and indoors 
-                    ID = 24,
+                    //activities for Denver without family and outdoors 
+                    ID = 22,
+                    CityID = 6,
+                    Name = "1) Take a Bike Ride on 85 Miles of Paths" + "With 85 miles of bike trails and 300 days of sunshine, Denver is a cycling paradise. \n" +
+                    "2) activity without family outdoors placeholder #2.\n" +
+                    "3) activity without family outdoors placeholder #3.\n ",
+                    FamilyFriendly = 0,
+                    Outdoors = 1
+                },
+                new Activity
+                {
+                    //activities for Denver with family and indoors 
+                    ID = 23,
                     CityID = 6,
                     Name = "1) activity with family indoors placeholder #1. \n" +
                     "2) activity with family indoors placeholder #2.\n" +
                     "3) activity with family indoors placeholder #3.\n ",
                     FamilyFriendly = 1,
+                    Outdoors = 0
+                },
+                new Activity
+                {
+                    //activities for Denver without family and indoors 
+                    ID = 24,
+                    CityID = 6,
+                    Name = "1) activity without family indoors placeholder #1. \n" +
+                    "2) activity without family indoors placeholder #2.\n" +
+                    "3) activity without family indoors placeholder #3.\n ",
+                    FamilyFriendly = 0,
                     Outdoors = 0
                 },
             #endregion
