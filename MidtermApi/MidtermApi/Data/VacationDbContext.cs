@@ -28,7 +28,7 @@ namespace MidtermApi.Data
                     Description = "Seattle, a city on Puget Sound in the Pacific Northwest, is surrounded by water, " +
                     "mountains and evergreen forests, and contains thousands of acres of parkland. " +
                     "Washington State’s largest city, it’s home to a large tech industry, with Microsoft and Amazon headquartered in its metropolitan area. " +
-                    "The futuristic Space Needle, a 1962 World’s Fair legacy, is its most iconic landmark.",
+                    "The futuristic Space Needle, a 1962 World’s Fair legacy, is its most iconic landmark. ",
                     ImageURL = "",
                     Hot = 0,
                     InUSA = 1,
@@ -276,7 +276,7 @@ namespace MidtermApi.Data
                    //activities for seattle with family and outdoors 
                    ID = 1,
                    CityID = 1,
-                   Name = "1) Visit the Space Needle \n 2) Ride the Duck \n 3) Tour Pike Place Market \n",
+                   Name = "1) Visit the Space Needle_ 2) Ride the Duck_ 3) Tour Pike Place Market",
                    FamilyFriendly = 1,
                    Outdoors = 1
                },
@@ -285,9 +285,7 @@ namespace MidtermApi.Data
                    //activities for seattle without family and outdoors 
                    ID = 2,
                    CityID = 1,
-                   Name = "1) Fly high indoors at IFly. An exiciting indoors skydiving center located only mintues outside of Seattle \n" +
-                   "2) Try to stay dry canoeing on Lake Washington at the University of Washington Waterfront Activities Center.\n " +
-                   "3) Visit REI in downtown Seattle and try Rock Climbing \n",
+                   Name = "1) Fly high indoors at IFly. An exiciting indoors skydiving center located only mintues outside of Seattle._ 2) Try to stay dry canoeing on Lake Washington at the University of Washington Waterfront Activities Center._ 3) Visit REI in downtown Seattle and try Rock Climbing.",
                    FamilyFriendly = 0,
                    Outdoors = 1
                },
@@ -296,9 +294,7 @@ namespace MidtermApi.Data
                     //activities for seattle with family and indoors 
                     ID = 3,
                     CityID = 1,
-                    Name = "1) Visit the Seattle Art Museum in downtown Seattle.\n " +
-                    "2) Visit the Seattle Aquarium located on Pier 59 on the Elliott Bay waterfront.\n " +
-                    "3) Visit the Pacific Science Center.\n ",
+                    Name = "1) Visit the Seattle Art Museum in downtown Seattle._ 2) Visit the Seattle Aquarium located on Pier 59 on the Elliott Bay waterfront._ 3) Visit the Pacific Science Center.",
                     FamilyFriendly = 1,
                     Outdoors = 0
                 },
@@ -307,9 +303,7 @@ namespace MidtermApi.Data
                      //activities for seattle without family and indoors 
                      ID = 4,
                      CityID = 1,
-                     Name = "1) Take a tour of Seattle underground with Bill Speidel's Underground Tour. \n" +
-                     "2) Get some drinks at some great bars on Capitol Hill.\n" +
-                     "3) Get a bite to eat with a great view at Six Seven Restaurant.\n ",
+                     Name = "1) Take a tour of Seattle underground with Bill Speidel's Underground Tour._ 2) Get some drinks at some great bars on Capitol Hill._ 3) Get a bite to eat with a great view at Six Seven Restaurant.",
                      FamilyFriendly = 0,
                      Outdoors = 0
                  },
@@ -324,9 +318,7 @@ namespace MidtermApi.Data
                       //activities for buffalo with family and outdoors 
                       ID = 5,
                       CityID = 2,
-                      Name = "1) Visit the Buffalo Zoo \n " +
-                      "2) Swim, climb, and slide on a nautical-themed playground at the Buffalo Harbor State Park. \n " +
-                      "3) Have some outdoor fun at Canalside, a master-planned neighborhood and festival marketplace within the inner harbor of Buffalo.\n",
+                      Name = "1) Visit the Buffalo Zoo._ 2) Swim, climb, and slide on a nautical-themed playground at the Buffalo Harbor State Park._ 3) Have some outdoor fun at Canalside, a master-planned neighborhood and festival marketplace within the inner harbor of Buffalo.",
                       FamilyFriendly = 1,
                       Outdoors = 1
                   },
@@ -335,9 +327,7 @@ namespace MidtermApi.Data
                    //activities for buffalo without family and outdoors 
                    ID = 6,
                    CityID = 2,
-                   Name = "1) Fly high indoors at IFly. An exiciting indoors skydiving center located only mintues outside of Seattle \n" +
-                   "2) Try to stay dry canoeing on Lake Washington at the University of Washington Waterfront Activities Center.\n " +
-                   "3) Visit REI in downtown Seattle and try Rock Climbing \n",
+                   Name = "1) Fly high indoors at IFly. An exiciting indoors skydiving center located only mintues outside of Seattle._ 2) Try to stay dry canoeing on Lake Washington at the University of Washington Waterfront Activities Center._ 3) Visit REI in downtown Seattle and try Rock Climbing.",
                    FamilyFriendly = 0,
                    Outdoors = 1
                },
@@ -346,9 +336,7 @@ namespace MidtermApi.Data
                     //activities for buffalo with family and indoors 
                     ID = 7,
                     CityID = 2,
-                    Name = "1) Visit the Buffalo Museum of Science.\n " +
-                    "2) Visit the Seattle Aquarium located on Pier 59 on the Elliott Bay waterfront.\n " +
-                    "3) Visit the Pacific Science Center.\n ",
+                    Name = "1) Visit the Buffalo Museum of Science._ 2) Visit the Seattle Aquarium located on Pier 59 on the Elliott Bay waterfront._3) Visit the Pacific Science Center.",
                     FamilyFriendly = 1,
                     Outdoors = 0
                 },
@@ -357,9 +345,7 @@ namespace MidtermApi.Data
                      //activities for buffalo without family and indoors 
                      ID = 8,
                      CityID = 2,
-                     Name = "1) Take a tour of Seattle underground with Bill Speidel's Underground Tour. \n" +
-                     "2) Get some drinks at some great bars on Capitol Hill.\n" +
-                     "3) Get a bite to eat with a great view at the Six Seven Restaurant.\n ",
+                     Name = "1) Take a tour of Seattle underground with Bill Speidel's Underground Tour._ 2) Get some drinks at some great bars on Capitol Hill._3) Get a bite to eat with a great view at the Six Seven Restaurant.",
                      FamilyFriendly = 0,
                      Outdoors = 0
                  },
@@ -372,9 +358,7 @@ namespace MidtermApi.Data
                      //activities for paris without family and indoors 
                      ID = 9,
                      CityID = 5,
-                     Name = "1) Test 1 activity \n" +
-                     "2) Test 2 acivity.\n" +
-                     "3) Test 3 activity.\n ",
+                     Name = "1) Test 1 activity_2) Test 2 acivity._3) Test 3 activity.",
                      FamilyFriendly = 0,
                      Outdoors = 0
                  }

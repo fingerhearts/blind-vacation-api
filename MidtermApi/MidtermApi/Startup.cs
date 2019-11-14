@@ -40,7 +40,7 @@ namespace MidtermApi
                     ? Configuration["ConnectionStrings:DefaultConnection"]
                     : Configuration["ConnectionStrings:ProductionConnection"];
 
-            services.AddDbContext<VacationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddDbContext<VacationDbContext>(options => options.UseSqlServer(connectionString));
 
             services.AddScoped<IPlan, PlanService>();
             services.AddScoped<IPopular, PopularService>();
@@ -54,7 +54,7 @@ namespace MidtermApi
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseHttpsRedirection();
+        app.UseHttpsRedirection();
 
             app.UseRouting();
 
