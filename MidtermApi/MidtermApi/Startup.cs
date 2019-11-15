@@ -36,12 +36,13 @@ namespace MidtermApi
             services.AddControllers();
             services.AddMvc();
 
-            //string connectionString = Environment.IsDevelopment()
-            //        ? Configuration["ConnectionStrings:DefaultConnection"]
-            //        : Configuration["ConnectionStrings:ProductionConnection"];
+            string connectionString = Environment.IsDevelopment()
+                    ? Configuration["ConnectionStrings:DefaultConnection"]
+                    : Configuration["ConnectionStrings:ProductionConnection"];
 
             //services.AddDbContext<VacationDbContext>(options => options.UseSqlServer(Configuration["ConnectionStrings:ProductionConnection"]));
-            services.AddDbContext<VacationDbContext>(options => options.UseSqlServer(Configuration["ConnectionStrings:DefaultConnection"]));
+            //services.AddDbContext<VacationDbContext>(options => options.UseSqlServer(Configuration["ConnectionStrings:DefaultConnection"]));
+            services.AddDbContext<VacationDbContext>(options => options.UseSqlServer(connectionString));
 
             services.AddScoped<IPlan, PlanService>();
             services.AddScoped<IPopular, PopularService>();
