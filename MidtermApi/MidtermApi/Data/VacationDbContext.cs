@@ -907,11 +907,12 @@ namespace MidtermApi.Data
                 new Activity
                 {
                     //activities for Seoul with family and outdoors 
-                    ID = 35,
+                    ID = 33,
                     CityID = 9,
-                    Name = "1) activity with family outdoors placeholder #1. \n" +
-                    "2) activity with family outdoors placeholder #2. \n" +
-                    "3) activity with family outdoors placeholder #3.\n ",
+                    Name = "1) Children’s Grand Park\n\n" + "Children’s Grand Park is one of the more famous family spots in Seoul, featuring a zoo, an amusement park, and plenty of paths for strolling.\n\n" +
+                    "2) Bukhansan National Park\n\n" + "One of the most popular pastimes in Seoul is hiking and this stunning national park just outside the city is a local favorite. Aside from a variety of hiking trails for every skill level, you’ll also see lots of flora and fauna, temples and ancient fortresses.\n\n" +
+                    "3) Visit Rabbit Park\n\n" + "This amazing park is located in the trendy french neighborhood Seorae Village. Check out the nearby area for great bakeries, wine bars, and better yet a park filled with friendly rabbits!\n\n",
+
                     FamilyFriendly = 1,
                     Outdoors = 1
                 },
@@ -920,31 +921,33 @@ namespace MidtermApi.Data
                     //activities for Seoul without family and outdoors 
                     ID = 34,
                     CityID = 9,
-                    Name = "1) activity without family outdoors placeholder #1. \n" +
-                    "2) activity without family outdoors placeholder #2.\n" +
-                    "3) activity without family outdoors placeholder #3.\n ",
+                    Name = "1) Enjoy the scene at Hangang River\n\n" + "The Hangang River is the most important physical landmark in the city. Lined with parks and recreational facilities on both banks, it’s the perfect place to rent bikes, go on cruise up the river, enjoy bird-watching, or splash around and cool off in public swimming pools during the summer months.\n\n" +
+                    "2) Hike the Mountain Baegaksan\n\n" + "Mt.Baegaksan is a 342-meter high granite mountain in the middle of Seoul and is home to Gyeongbokgung Palace and a Joseon Dynasty fortress.\n\n" +
+                    "3) Myeongdong Real Gun Shooting Range\n\n" + "The Myeongdong Real Gun Shooting Range is an indoor live firing range located in Myeong-dong. With over a 100 firearms to choose from, visitors can try their best to shoot at targets with a real gun.\n\n",
+
                     FamilyFriendly = 0,
                     Outdoors = 1
                 },
                 new Activity
                 {
                     //activities for Seoul with family and indoors 
-                    ID = 36,
+                    ID = 35,
                     CityID = 9,
-                    Name = "1) Visit the COEX Aquarium\n\n" +
-                    "2) activity with family indoors placeholder #2.\n" +
-                    "3) activity with family indoors placeholder #3.\n ",
+                    Name = "1) Visit the COEX Aquarium\n\n" + "The COEX Aquarium consists of 183 display tanks and 90 breeding tanks with over 3,500 tons of water volume. 40.000 animals from 650 different species live here.\n\n" +
+                    "2) Take funny photos at the Trick Eye Museum\n\n" + "The Trick Eye Museum is an artistic game of sorts which uses distorted perspectives and scientific calculations to transform well-known paintings in optically amusing ones.\n\n" +
+                    "3) See the legendary Nanta Cooking Show\n\n" + "Nanta is the first non-verbal performance produced in Korea that comically depicts happenings in the kitchen by integrating Korea’s traditional rhythm, 'Samulnori'.\n\n",
+
                     FamilyFriendly = 1,
                     Outdoors = 0
                 },
                 new Activity
                 {
                     //activities for Seoul without family and indoors 
-                    ID = 33,
+                    ID = 36,
                     CityID = 9,
-                    Name = "1) activity without family indoors placeholder #1. \n" +
-                    "2) activity without family indoors placeholder #2.\n" +
-                    "3) activity without family indoors placeholder #3.\n ",
+                    Name = "1) Jjimjilbang Hot Sauna\n\n" + "Jjimjilbang is deeply integrated with Korean culture. Locals enjoy going to the hot saunas, taking rejuvenating baths and getting body scrubs and massages.\n\n" + "2) Get Creative!\n\n" + "In Seoul, you can visit a ring making café and craft your own rings! You can also create your own perfume or visit a cake shop and decorate your own cake!\n\n" +
+                    "3) Discover Korea’s Bang Culture\n\n " + "If you spontaneously want to have a crazy dancing and singing party with your friends, you can rent a Noraebang (Karaoke room) for a few dollars and be the star of your own concert.\n\n",
+
                     FamilyFriendly = 0,
                     Outdoors = 0
                 },
