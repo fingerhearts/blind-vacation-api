@@ -955,18 +955,18 @@ namespace MidtermApi.Data
             #region Moscow Activities
                 new Activity
                 {
-                    //activities for MOSCOW without family and indoors 
+                    //activities for Moscow with family and outdoors 
                     ID = 37,
                     CityID = 10,
-                    Name = "1) activity without family indoors placeholder #1. \n" +
-                    "2) activity without family indoors placeholder #2.\n" +
-                    "3) activity without family indoors placeholder #3.\n ",
-                    FamilyFriendly = 0,
-                    Outdoors = 0
+                    Name = "1) activity with family outdoors placeholder #1. \n" +
+                    "2) activity with family outdoors placeholder #2. \n" +
+                    "3) activity with family outdoors placeholder #3.\n ",
+                    FamilyFriendly = 1,
+                    Outdoors = 1
                 },
                 new Activity
                 {
-                    //activities for MOSCOW without family and outdoors 
+                    //activities for Moscow without family and outdoors 
                     ID = 38,
                     CityID = 10,
                     Name = "1) activity without family outdoors placeholder #1. \n" +
@@ -977,19 +977,8 @@ namespace MidtermApi.Data
                 },
                 new Activity
                 {
-                    //activities for MOSCOW with family and outdoors 
+                    //activities for Moscow with family and indoors 
                     ID = 39,
-                    CityID = 10,
-                    Name = "1) activity with family outdoors placeholder #1. \n" +
-                    "2) activity with family outdoors placeholder #2. \n" +
-                    "3) activity with family outdoors placeholder #3.\n ",
-                    FamilyFriendly = 1,
-                    Outdoors = 1
-                },
-                new Activity
-                {
-                    //activities for MOSCOW with family and indoors 
-                    ID = 40,
                     CityID = 10,
                     Name = "1) activity with family indoors placeholder #1. \n" +
                     "2) activity with family indoors placeholder #2.\n" +
@@ -997,18 +986,29 @@ namespace MidtermApi.Data
                     FamilyFriendly = 1,
                     Outdoors = 0
                 },
-            #endregion
-            #region Reykjavik Activities
                 new Activity
                 {
-                    //activities for Reykjavík without family and indoors 
-                    ID = 41,
-                    CityID = 11,
+                    //activities for Moscow without family and indoors 
+                    ID = 40,
+                    CityID = 10,
                     Name = "1) activity without family indoors placeholder #1. \n" +
                     "2) activity without family indoors placeholder #2.\n" +
                     "3) activity without family indoors placeholder #3.\n ",
                     FamilyFriendly = 0,
                     Outdoors = 0
+                },
+            #endregion
+            #region Reykjavik Activities
+                new Activity
+                {
+                    //activities for Reykjavík with family and outdoors 
+                    ID = 41,
+                    CityID = 11,
+                    Name = "1) activity with family outdoors placeholder #1. \n" +
+                    "2) activity with family outdoors placeholder #2. \n" +
+                    "3) activity with family outdoors placeholder #3.\n ",
+                    FamilyFriendly = 1,
+                    Outdoors = 1
                 },
                 new Activity
                 {
@@ -1023,9 +1023,33 @@ namespace MidtermApi.Data
                 },
                 new Activity
                 {
-                    //activities for Reykjavík with family and outdoors 
+                    //activities for Reykjavík with family and indoors 
                     ID = 43,
                     CityID = 11,
+                    Name = "1) activity with family indoors placeholder #1. \n" +
+                    "2) activity with family indoors placeholder #2.\n" +
+                    "3) activity with family indoors placeholder #3.\n ",
+                    FamilyFriendly = 1,
+                    Outdoors = 0
+                },
+                new Activity
+                {
+                    //activities for Reykjavík without family and indoors 
+                    ID = 44,
+                    CityID = 11,
+                    Name = "1) activity without family indoors placeholder #1. \n" +
+                    "2) activity without family indoors placeholder #2.\n" +
+                    "3) activity without family indoors placeholder #3.\n ",
+                    FamilyFriendly = 0,
+                    Outdoors = 0
+                },
+            #endregion
+            #region Helsinki Activities
+                new Activity
+                {
+                    //activities for Helsinki with family and outdoors 
+                    ID = 45,
+                    CityID = 12,
                     Name = "1) activity with family outdoors placeholder #1. \n" +
                     "2) activity with family outdoors placeholder #2. \n" +
                     "3) activity with family outdoors placeholder #3.\n ",
@@ -1034,31 +1058,7 @@ namespace MidtermApi.Data
                 },
                 new Activity
                 {
-                    //activities for Reykjavík with family and indoors 
-                    ID = 44,
-                    CityID = 11,
-                    Name = "1) activity with family indoors placeholder #1. \n" +
-                    "2) activity with family indoors placeholder #2.\n" +
-                    "3) activity with family indoors placeholder #3.\n ",
-                    FamilyFriendly = 1,
-                    Outdoors = 0
-                },
-            #endregion
-            #region Helsinki Activities
-                new Activity
-                {
-                    //activities for HELSINKI without family and indoors 
-                    ID = 45,
-                    CityID = 12,
-                    Name = "1) activity without family indoors placeholder #1. \n" +
-                    "2) activity without family indoors placeholder #2.\n" +
-                    "3) activity without family indoors placeholder #3.\n ",
-                    FamilyFriendly = 0,
-                    Outdoors = 0
-                },
-                new Activity
-                {
-                    //activities for HELSINKI without family and outdoors 
+                    //activities for Helsinki without family and outdoors 
                     ID = 46,
                     CityID = 12,
                     Name = "1) activity without family outdoors placeholder #1. \n" +
@@ -1069,9 +1069,33 @@ namespace MidtermApi.Data
                 },
                 new Activity
                 {
-                    //activities for HELSINKI with family and outdoors 
+                    //activities for Helsinki with family and indoors 
                     ID = 47,
                     CityID = 12,
+                    Name = "1) activity with family indoors placeholder #1. \n" +
+                    "2) activity with family indoors placeholder #2.\n" +
+                    "3) activity with family indoors placeholder #3.\n ",
+                    FamilyFriendly = 1,
+                    Outdoors = 0
+                },
+                new Activity
+                {
+                    //activities for Helsinki without family and indoors 
+                    ID = 48,
+                    CityID = 12,
+                    Name = "1) activity without family indoors placeholder #1. \n" +
+                    "2) activity without family indoors placeholder #2.\n" +
+                    "3) activity without family indoors placeholder #3.\n ",
+                    FamilyFriendly = 0,
+                    Outdoors = 0
+                },
+            #endregion
+            #region Phuket Activities
+                new Activity
+                {
+                    //activities for Phuket with family and outdoors 
+                    ID = 49,
+                    CityID = 13,
                     Name = "1) activity with family outdoors placeholder #1. \n" +
                     "2) activity with family outdoors placeholder #2. \n" +
                     "3) activity with family outdoors placeholder #3.\n ",
@@ -1080,31 +1104,7 @@ namespace MidtermApi.Data
                 },
                 new Activity
                 {
-                    //activities for HELSINKI with family and indoors 
-                    ID = 48,
-                    CityID = 12,
-                    Name = "1) activity with family indoors placeholder #1. \n" +
-                    "2) activity with family indoors placeholder #2.\n" +
-                    "3) activity with family indoors placeholder #3.\n ",
-                    FamilyFriendly = 1,
-                    Outdoors = 0
-                },
-            #endregion
-            #region Phuket Activities
-                new Activity
-                {
-                    //activities for PHUKET without family and indoors 
-                    ID = 49,
-                    CityID = 13,
-                    Name = "1) activity without family indoors placeholder #1. \n" +
-                    "2) activity without family indoors placeholder #2.\n" +
-                    "3) activity without family indoors placeholder #3.\n ",
-                    FamilyFriendly = 0,
-                    Outdoors = 0
-                },
-                new Activity
-                {
-                    //activities for PHUKET without family and outdoors 
+                    //activities for Phuket without family and outdoors 
                     ID = 50,
                     CityID = 13,
                     Name = "1) activity without family outdoors placeholder #1. \n" +
@@ -1115,24 +1115,24 @@ namespace MidtermApi.Data
                 },
                 new Activity
                 {
-                    //activities for PHUKET with family and outdoors 
+                    //activities for Phuket with family and indoors 
                     ID = 51,
-                    CityID = 13,
-                    Name = "1) activity with family outdoors placeholder #1. \n" +
-                    "2) activity with family outdoors placeholder #2. \n" +
-                    "3) activity with family outdoors placeholder #3.\n ",
-                    FamilyFriendly = 1,
-                    Outdoors = 1
-                },
-                new Activity
-                {
-                    //activities for PHUKET with family and indoors 
-                    ID = 52,
                     CityID = 13,
                     Name = "1) activity with family indoors placeholder #1. \n" +
                     "2) activity with family indoors placeholder #2.\n" +
                     "3) activity with family indoors placeholder #3.\n ",
                     FamilyFriendly = 1,
+                    Outdoors = 0
+                },
+                new Activity
+                {
+                    //activities for Phuket without family and indoors 
+                    ID = 52,
+                    CityID = 13,
+                    Name = "1) activity without family indoors placeholder #1. \n" +
+                    "2) activity without family indoors placeholder #2.\n" +
+                    "3) activity without family indoors placeholder #3.\n ",
+                    FamilyFriendly = 0,
                     Outdoors = 0
                 }
                 #endregion
