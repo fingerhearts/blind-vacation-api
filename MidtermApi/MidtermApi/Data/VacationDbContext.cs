@@ -1058,9 +1058,9 @@ namespace MidtermApi.Data
                     //activities for Helsinki with family and outdoors 
                     ID = 45,
                     CityID = 12,
-                    Name = "1) activity with family outdoors placeholder #1. \n" +
-                    "2) activity with family outdoors placeholder #2. \n" +
-                    "3) activity with family outdoors placeholder #3.\n ",
+                    Name = "1) Linnanmaki\n\n" + "Linnanmäki is the most popular amusement park in Finland. The outdoor amusement park is open from April to October. It was opened in 1950 and is owned by a non-profit foundation for child welfare.\n\n" +
+                    "2) Picnic in Esplanad Park\n\n" + "The Esplanad park is in the heart of Helsinki and a popular place for people to get together and have picnics.\n\n" +
+                    "3) Paddling Helsinki\n\n" + "Ferries to the islands are a good way to see Helsinki from the sea but if you are adventurous paddling is an excellent option. Many places rent kayaks including some seaside cafes but if you don’t have much previous experience it may be a good idea to go on a guided tour.\n\n ",
 
                     FamilyFriendly = 1,
                     Outdoors = 1
@@ -1070,9 +1070,9 @@ namespace MidtermApi.Data
                     //activities for Helsinki without family and outdoors 
                     ID = 46,
                     CityID = 12,
-                    Name = "1) activity without family outdoors placeholder #1. \n" +
-                    "2) activity without family outdoors placeholder #2.\n" +
-                    "3) activity without family outdoors placeholder #3.\n ",
+                    Name = "1) Suomenlinna Sea Fortress\n\n" + "The sea fortress is a Unesco World Heritage Site and one of the most popular attractions in Finland. Suomenlinna is accessible around the year by ferry from the market square with a regular public transportation ticket. The market is a perfect spot to buy some Finnish berries and peas from to take along.\n\n" +
+                    "2) Pihlajasaari\n\n" + "Pihlajasaari is known for one of the best beaches in Helsinki so it’s a great place to spend a warm day. Keep in mind that the sea is usually cold. The island is accessible by ferry connections from Merisatama, next to Café Carousel and from Ruoholahti, next to Restaurant Faro.\n\n" +
+                    "3) Bicycling Along The Coastline\n\n" + "Rent a bicycle and head west from Helsinki through Lauttasaari to Espoo Westend where you reach the waterfront walkway Rantaraitti that offers an about 30 km long walking and cycling path along the coast. There are nice seaside cafes along the route.\n\n",
 
                     FamilyFriendly = 0,
                     Outdoors = 1
@@ -1082,9 +1082,9 @@ namespace MidtermApi.Data
                     //activities for Helsinki with family and indoors 
                     ID = 47,
                     CityID = 12,
-                    Name = "1) activity with family indoors placeholder #1. \n" +
-                    "2) activity with family indoors placeholder #2.\n" +
-                    "3) activity with family indoors placeholder #3.\n ",
+                    Name = "1) Old Market Hall\n\n" + "Old Market Hall is aesthetically pleasing as well as historically interesting, and well located by the harbour. It is filled with every imaginable fresh and cooked food, and quickly became our local coffee hang whilst in Helsinki, as well as the place to gather local produce and meats to prepare for dinner.\n\n" +
+                    "2) Helsinki Cathedral\n\n" + "Helsinki Cathedral is the Finnish Evangelical Lutheran cathedral of the Diocese of Helsinki, located in the neighborhood of Kruununhaka in the centre of Helsinki, Finland. The church was originally built from 1830-1852 as a tribute to the Grand Duke of Finland, Tsar Nicholas I of Russia.\n\n" +
+                    "3) Kamppi Chapel of Silence\n\n" + "In the center of the busy town of Helsinki you find this Little chapel which looks so different from other chapels. The building is 11,5 meter in High and is build in 3 different tree types.You can have a seat and really enjoy the silence and peace.\n\n",
 
                     FamilyFriendly = 1,
                     Outdoors = 0
@@ -1094,9 +1094,9 @@ namespace MidtermApi.Data
                     //activities for Helsinki without family and indoors 
                     ID = 48,
                     CityID = 12,
-                    Name = "1) activity without family indoors placeholder #1. \n" +
-                    "2) activity without family indoors placeholder #2.\n" +
-                    "3) activity without family indoors placeholder #3.\n ",
+                    Name = "1) Tallink and Silja Line - Cruises\n\n" + "With the most modern fleet operating in the Baltic Sea today, there are various short cruises of routes include Stockholm-Helsinki, Stockholm-Turku, Helsinki-Tallinn, Stockholm-Tallinn and Stockholm-Riga.\n\n" +
+                    "2) Museum of Contemporary Art Kiasma\n\n" + "Kiasma is a contemporary art museum located on Mannerheimintie in Helsinki, Finland. Kiasma is part of the Finnish National Gallery, and it is responsible for the gallery's contemporary art collection. Its central goal is to showcase contemporary art and to strengthen its status.\n\n" +
+                    "3) Stockmann Department Store\n\n" + "Founded in 1862, Stockmann is the largest department store in Scandinavia. Here you can find everything you need. The flagship of the department store chain, located in the heart of Helsinki, offers more than 50,000 square meters of shopping space across ten floors. Stockmann is famous for its wide selection of products and excellent customer service.\n\n",
 
                     FamilyFriendly = 0,
                     Outdoors = 0
