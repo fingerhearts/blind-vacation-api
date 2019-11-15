@@ -1108,9 +1108,9 @@ namespace MidtermApi.Data
                     //activities for Phuket with family and outdoors 
                     ID = 49,
                     CityID = 13,
-                    Name = "1) activity with family outdoors placeholder #1. \n" +
-                    "2) activity with family outdoors placeholder #2. \n" +
-                    "3) activity with family outdoors placeholder #3.\n ",
+                    Name = "1) Sea Cave Canoeing\n\n" + "Well known for its limestone karsts jutting out of the sea, numerous caves and the shimmery emerald-green water, Phang Nga Bay is an ideal to find the thrill and serenity on a journey through the spectacular scenery and exotic seascape on the east coast of Phuket.\n\n" +
+                    "2) Zipline\n\n" + "Zipline in Phuket combines a thrilling mix of adrenaline and the beauty of nature. This exciting activity will let you soar above the rainforest canopy and take in spectacular views that stretch out as far as the Andaman Sea.\n\n" +
+                    "3) Nai Harn Beach\n\n" + "Situated in the south of the island is Nai Harn Beach, it is a popular beach with thousands of visitors every year but it is still relatively untouched and maintains a lot of its originality.  With beautifully soft sand and crystal clear water you will immediately see why the beach is so popular.\n\n",
 
                     FamilyFriendly = 1,
                     Outdoors = 1
@@ -1120,9 +1120,9 @@ namespace MidtermApi.Data
                     //activities for Phuket without family and outdoors 
                     ID = 50,
                     CityID = 13,
-                    Name = "1) activity without family outdoors placeholder #1. \n" +
-                    "2) activity without family outdoors placeholder #2.\n" +
-                    "3) activity without family outdoors placeholder #3.\n ",
+                    Name = "1) Jungle Bungee Jump\n\n" + "A jungle bungee jump in Kathu gives a perfect combination of views and thrills. Jumpers can choose to stay dry, to be dunked in the water, or try something different from the classic solo jump, like tandem and catapult variations.\n\n" +
+                    "2) Water Skiing\n\n" + "Whether you’re a newbie to this extreme sport or you’ve been doing it for ages, water skiing is an fun-filled activity that will keep your adventurous spirit alive. The operators in Phuket have got everything you need to have a great time riding the water from beginner to intermediate.\n\n" +
+                    "3) ATV Ride to the Big Buddha\n\n" + "This fun adventure activity combines a thrilled ride on an ATV quad bike and the exciting safari camp on Nakkerd Hill. The ATV ride provides some of the most stunning views over Phuket Town, Chalong Bay, Rawai Beach and the Andaman archipelago. The path takes you through dirt roads in the jungle and up over to the Big Buddha, one of the most important landmarks in Phuket, on top of the hill.\n\n",
 
                     FamilyFriendly = 0,
                     Outdoors = 1
@@ -1132,9 +1132,9 @@ namespace MidtermApi.Data
                     //activities for Phuket with family and indoors 
                     ID = 51,
                     CityID = 13,
-                    Name = "1) activity with family indoors placeholder #1. \n" +
-                    "2) activity with family indoors placeholder #2.\n" +
-                    "3) activity with family indoors placeholder #3.\n ",
+                    Name = "1) Phuket Trickeye Museum\n\n" + "Phuket Trickeye Museum is an interactive 3D painting museum offering amazing photo opportunities and great fun for the whole family. Phuket Trickeye Museum features a gallery of about 100 scenes painted using trompe-l’oeil techniques.\n\n" +
+                    "2) Central Festival Phuket\n\n" + "Central Festival Phuket is a fully equipped one-stop shopping mall lying just outside of Phuket Town. Rightly regarded as the shopping hub of the island, Central plays host to over 120 outlets. It's literally possible to spend a full day here - shopping, catching the latest movies, and dining out at the range of international restaurants that offer everything from French cuisine to Japanese to local Thai outlets.\n\n" +
+                    "3) Phuket Aquarium\n\n" + "The aquarium is surrounded by some of the most beautiful scenery, making it a perfect destination for the whole family as well as providing educational activities for kids.\n\n",
 
                     FamilyFriendly = 1,
                     Outdoors = 0
@@ -1144,9 +1144,9 @@ namespace MidtermApi.Data
                     //activities for Phuket without family and indoors 
                     ID = 52,
                     CityID = 13,
-                    Name = "1) activity without family indoors placeholder #1. \n" +
-                    "2) activity without family indoors placeholder #2.\n" +
-                    "3) activity without family indoors placeholder #3.\n ",
+                    Name = "1) Have a Tour of The Chalong Bay Rum Distillery\n\n" + "There is lots to do when you arrive at the distillery, you start by taking a tour where you will learn about the way the rum is produced before taking a look at the work that goes on behind the scenes. The final part of the trip is in the cocktail workshop and bar, here you will learn how to make various cocktails that all include Chalong Bay Rum and then relax while you sample them.\n\n" +
+                    "2) Wat Chalong\n\n" + "The highlight of your visit will be the Grand Pagoda which contains a small splinter from the bone of Lord Buddha, The pagoda is beautifully decorated with Buddha images and pictures that depict his life story.\n\n" +
+                    "3) See The Ladyboys at the Simon Cabaret Show\n\n" + "For over two decades the now very famous Simon Cabaret show has wowed tourists to Phuket with the most beautiful of ladyboys performing night after night. For one hour you will be treated to spectacular cabaret by the various performers including a big fat transvestite who always wipes her sweaty boobs on an unsuspecting gentleman sitting in the front row.\n\n",
 
                     FamilyFriendly = 0,
                     Outdoors = 0
