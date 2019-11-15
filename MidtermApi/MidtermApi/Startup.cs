@@ -40,7 +40,8 @@ namespace MidtermApi
             //        ? Configuration["ConnectionStrings:DefaultConnection"]
             //        : Configuration["ConnectionStrings:ProductionConnection"];
 
-            services.AddDbContext<VacationDbContext>(options => options.UseSqlServer(Configuration["ConnectionStrings:ProductionConnection"]));
+            //services.AddDbContext<VacationDbContext>(options => options.UseSqlServer(Configuration["ConnectionStrings:ProductionConnection"]));
+            services.AddDbContext<VacationDbContext>(options => options.UseSqlServer(Configuration["ConnectionStrings:DefaultConnection"]));
 
             services.AddScoped<IPlan, PlanService>();
             services.AddScoped<IPopular, PopularService>();

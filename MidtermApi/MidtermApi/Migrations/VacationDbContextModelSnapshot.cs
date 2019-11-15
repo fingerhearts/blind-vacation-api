@@ -48,9 +48,18 @@ namespace MidtermApi.Migrations
                             ID = 1,
                             CityID = 1,
                             FamilyFriendly = 1,
-                            Name = @"1) This is it. You’re about to walk into a memory. Soaring 520 feet skyward. The city actually, really, truly at your feet. Step up. Step out. Step beyond your comfort zone. And experience wonder on a higher level. Visit the Space Needle in the heart of Seattle. 
-2) When you and your friends arrive in Seattle by plane, cruise ship, car or Seattle-style bicycle, 'Ride the Ducks of Seattle' should be your first stop. In ninety minutes, you’ll see the top sights and hear about how the city developed into the tech-coffee-expensive-real-estate hub it is today. Before you start drinking your double tall, extra foam, skinny vanilla latte or posting photos when “the mountain’s out,” enjoy all that makes Seattle famous on the tour that was rated #1 City Tour for more than a decade. 
-3) One of the few authentic farmer's markets in the United States, this hub of delicious scents, delectable eats and delightful personalities attracts nine million visitors a year. Take a tour of Pike Place Market and find outwhy this market has become a staple in Seattle. 
+                            Name = @"1) Space Needle
+
+This is it. You’re about to walk into a memory. Soaring 520 feet skyward. The city actually, really, truly at your feet. Step up. Step out. Step beyond your comfort zone. And experience wonder on a higher level. Visit the Space Needle in the heart of Seattle.
+
+2) Ride the Ducks of Seattle
+
+When you and your friends arrive in Seattle by plane, cruise ship, car or Seattle-style bicycle, 'Ride the Ducks of Seattle' should be your first stop. In ninety minutes, you’ll see the top sights and hear about how the city developed into the tech-coffee-expensive-real-estate hub it is today. Before you start drinking your double tall, extra foam, skinny vanilla latte or posting photos when “the mountain’s out,” enjoy all that makes Seattle famous on the tour that was rated #1 City Tour for more than a decade.
+
+3) Pike Place Market
+
+One of the few authentic farmer's markets in the United States, this hub of delicious scents, delectable eats and delightful personalities attracts nine million visitors a year. Take a tour of Pike Place Market and find out why this market has become a staple in Seattle.
+
 ",
                             Outdoors = 1
                         },
@@ -59,9 +68,18 @@ namespace MidtermApi.Migrations
                             ID = 2,
                             CityID = 1,
                             FamilyFriendly = 0,
-                            Name = @"1) Fly high indoors at IFly. An exiciting indoors skydiving center located only mintues outside of Seattle. 
-2) Try to stay dry canoeing on Lake Washington at the University of Washington Waterfront Activities Center. 
-3) Visit REI in downtown Seattle and try your luck at Rock Climbing. 
+                            Name = @"1) Fly high indoors at IFly
+
+An exiciting indoors skydiving center located only mintues outside of Seattle.
+
+2) Canoeing at University of Washington Waterfront
+
+Try to stay dry canoeing on Lake Washington at the University of Washington Waterfront Activities Center.
+
+3) Rock Climing at REI
+
+Visit REI in downtown Seattle and try your luck at Rock Climbing.
+
 ",
                             Outdoors = 1
                         },
@@ -70,9 +88,18 @@ namespace MidtermApi.Migrations
                             ID = 3,
                             CityID = 1,
                             FamilyFriendly = 1,
-                            Name = @"1) Visit the Seattle Art Museum in downtown Seattle. 
-2) Visit the Seattle Aquarium located on Pier 59 on the Elliott Bay waterfront. 
-3) Visit the Pacific Science Center. 
+                            Name = @"1) Seattle Art Museum
+
+Visit Seattle Art Museum to see a museum carved into the city, as much a part of Seattle's landscape and personality as the coffee, rain, mountains, Pike Place Market, and the Space Needle.
+
+2) Seattle Aquarium
+
+The Seattle Aquarium is a public aquarium opened in 1977 and located on Pier 59 on the Elliott Bay waterfront in Seattle.
+
+3) Pacific Science Center
+
+Pacific Science Center is a science center with a mission to ignite curiosity and fuel a passion for discovery, experimentation, and critical thinking.
+
 ",
                             Outdoors = 0
                         },
@@ -81,9 +108,18 @@ namespace MidtermApi.Migrations
                             ID = 4,
                             CityID = 1,
                             FamilyFriendly = 0,
-                            Name = @"1) Take a tour of Seattle underground with Bill Speidel's Underground Tour. 
-2) Get some drinks at some great bars on Capitol Hill. 
-3) Get a bite to eat with a great view at Six Seven Restaurant. 
+                            Name = @"1) Bill Speidel's Underground Tour
+
+Bill Special's Underground Tour is Seattle’s most unusual attraction, a humorous stroll through intriguing subterranean storefronts and sidewalks entombed when the city rebuilt on top of itself after the Great Fire of 1889.
+
+2) Capitol Hill
+
+Capitol Hill is a densely populated residential district. It is one of the city's most prominent nightlife and entertainment districts and is the center of the city's LGBT and counterculture communities.
+
+3) Six Seven Restaurant
+
+The award-winning Six Seven features seasonally inspired cuisine crafted with only the freshest and finest organic and naturally raised ingredients, procured for you to enjoy via our Executive Chef Jesse Souza's new and exciting menus.
+
 ",
                             Outdoors = 0
                         },
@@ -92,9 +128,18 @@ namespace MidtermApi.Migrations
                             ID = 5,
                             CityID = 2,
                             FamilyFriendly = 1,
-                            Name = @"1) Visit the Buffalo Zoo. 
-2) Swim, climb, and slide on a nautical-themed playground at the Buffalo Harbor State Park. 
-3) Have some outdoor fun at Canalside, a master-planned neighborhood and festival marketplace within the inner harbor of Buffalo. 
+                            Name = @"1) Buffalo Zoo
+
+Each year, the Buffalo Zoo welcomes approximately 400,000 visitors and is the second largest tourist attraction in Western New York.
+
+2) Buffalo Harbor State Park
+
+Swim, climb, and slide on a nautical-themed playground at the Buffalo Harbor State Park.
+
+3) Canalside
+
+Have some outdoor fun at Canalside, a master-planned neighborhood and festival marketplace within the inner harbor of Buffalo.
+
 ",
                             Outdoors = 1
                         },
@@ -103,9 +148,18 @@ namespace MidtermApi.Migrations
                             ID = 6,
                             CityID = 2,
                             FamilyFriendly = 0,
-                            Name = @"1) Niagara FallsOne of the world's most awe-inspiring waterfalls. Just about 20 miles north of Buffalo, Niagara Falls makes for a great day trip. 
-2) Buffalo and Erie County Botanical GardensThe Botanical Gardens is an education center and tourist destination full of exotic horticulture treasures from around the world.Come enjoy the amazing architecture and the indoor and outdoor garden sanctuaries. 
- 3) Hop aboard on the Buffalo Pedal Tour, this people powered tour bus or boat for a fun filled time. On land and now on the water! Our professional drivers will guide you and your friends through the streets of Buffalo as you provide the energy by pedaling. 
+                            Name = @"1) Niagara Falls
+
+One of the world's most awe-inspiring waterfalls. Just about 20 miles north of Buffalo, Niagara Falls makes for a great day trip.
+
+2) Buffalo and Erie County Botanical Gardens
+
+The Botanical Gardens is an education center and tourist destination full of exotic horticulture treasures from around the world.Come enjoy the amazing architecture and the indoor and outdoor garden sanctuaries.
+
+ 3) Buffalo Pedal Tour
+
+Hop aboard on the Buffalo Pedal Tour, this people powered tour bus or boat for a fun filled time. On land and now on the water!
+
 ",
                             Outdoors = 1
                         },
@@ -114,10 +168,19 @@ namespace MidtermApi.Migrations
                             ID = 7,
                             CityID = 2,
                             FamilyFriendly = 1,
-                            Name = @"1) Pierce-Arrow Museum.This unique museum focuses on Buffalo's transportation history featuring Pierce Arrow, Thomas Flyer, electric vehicles, vintage bicycles, motorcycles, muscle cars and trucks, many made in Western New York.
- 2) Theodore Roosevelt Inaugural National Historic Site.Come tour the historical neighborhoods and enojoy the exhibits of Roosevelt's life! 
- 3) Buffalo Museum of ScienceThe Buffalo Museum of Science offers educational and exciting experiences the whole family can enjoy! 
- ",
+                            Name = @"1) Pierce-Arrow Museum
+
+This unique museum focuses on Buffalo's transportation history featuring Pierce Arrow, Thomas Flyer, electric vehicles, vintage bicycles, motorcycles, muscle cars and trucks, many made in Western New York.
+
+ 2) Theodore Roosevelt Inaugural National Historic Site
+
+Come tour the historical neighborhoods and enojoy the exhibits of Roosevelt's life!
+
+ 3) Buffalo Museum of Science
+
+The Buffalo Museum of Science offers educational and exciting experiences the whole family can enjoy!
+
+",
                             Outdoors = 0
                         },
                         new
@@ -125,9 +188,18 @@ namespace MidtermApi.Migrations
                             ID = 8,
                             CityID = 2,
                             FamilyFriendly = 0,
-                            Name = @"1) Flying Bison Brewing CompanyThe music, food and beer at Flying Bison are on point. If you enjoy local brews this is the place you must stop by! 
-2) Buffalo & Erie County Naval & Military ParkThere are 3 ships displayed at the Buffalo & Erie County Naval & Military Park. The exhibits displayed date back to the First World War. 
-3) Burchfield Penney Art CenterThis is the only museum dedicated exclusively to the art and artists of Western New York. 
+                            Name = @"1) Flying Bison Brewing Company
+
+The music, food and beer at Flying Bison are on point. If you enjoy local brews this is the place you must stop by!
+
+2) Buffalo & Erie County Naval & Military Park
+
+There are 3 ships displayed at the Buffalo & Erie County Naval & Military Park. The exhibits displayed date back to the First World War.
+
+3) Burchfield Penney Art Center
+
+This is the only museum dedicated exclusively to the art and artists of Western New York.
+
  ",
                             Outdoors = 0
                         },
@@ -136,9 +208,18 @@ namespace MidtermApi.Migrations
                             ID = 9,
                             CityID = 3,
                             FamilyFriendly = 1,
-                            Name = @"1) Speed ZoneIt's your chance of steering and speed at Speed Zone’s four go-kart tracks! Don't forget to Electric Alley’s arcade of over 100 video games! 
-2) Los Angeles County Arboretum & Botanical Garden.These gorgeous grounds in Arcadia, very close to the Santa Anita racetrack, have been designed as an educational facility. 
-3) Temescal Gateway ParkThe loop at Temescal Canyon winds through a densely wooded, well-maintained trail with sweeping ocean views and a seasonal waterfall. 
+                            Name = @"1) Speed Zone
+
+It's your chance of steering and speed at Speed Zone’s four go-kart tracks! Don't forget to Electric Alley’s arcade of over 100 video games!
+
+2) Los Angeles County Arboretum & Botanical Garden
+
+These gorgeous grounds in Arcadia, very close to the Santa Anita racetrack, have been designed as an educational facility.
+
+3) Temescal Gateway Park
+
+The loop at Temescal Canyon winds through a densely wooded, well-maintained trail with sweeping ocean views and a seasonal waterfall.
+
  ",
                             Outdoors = 1
                         },
@@ -147,10 +228,19 @@ namespace MidtermApi.Migrations
                             ID = 10,
                             CityID = 3,
                             FamilyFriendly = 0,
-                            Name = @"1) Sail to Catalina Island to SnorkelThis is a great day-trip option for those looking to escape the city crowds and enjoy the sea view. 
-2) Summit Mount BaldyMount Baldy is the highest peak in Los Angeles County. If you love hiking, you should definitely hike Mount Baldy! 
-3) Visit Joshua Tree National ParkSpend a couple of days bouldering among Martian-looking landscapes and exploring the palm-fringed oases. 
- ",
+                            Name = @"1) Sail to Catalina Island to Snorkel
+
+This is a great day-trip option for those looking to escape the city crowds and enjoy the sea view.
+
+2) Summit Mount Bald
+
+Mount Baldy is the highest peak in Los Angeles County. If you love hiking, you should definitely hike Mount Baldy!
+
+3) Visit Joshua Tree National Park
+
+Spend a couple of days bouldering among Martian-looking landscapes and exploring the palm-fringed oases.
+
+",
                             Outdoors = 1
                         },
                         new
@@ -158,10 +248,19 @@ namespace MidtermApi.Migrations
                             ID = 11,
                             CityID = 3,
                             FamilyFriendly = 1,
-                            Name = @"1) Madame Tussauds HollywoodThe life-like wax figures you’ll find at the museum are so real looking. There are 100+ wax figures here! 
-2) Cabrillo Marine AquariumFeaturing over 200 species of marine animals that live in the Southern California region, the Cabrillo is number one of its class. 
-3) Dolby Theatre Guided TourYou’ll will see areas of the theatre not seen on TV, plus get a behind-the-scenes look at where lots of popular events take place. 
- ",
+                            Name = @"1) Madame Tussauds Hollywood
+
+The life-like wax figures you’ll find at the museum are so real looking. There are 100+ wax figures here!
+
+2) Cabrillo Marine Aquarium
+
+Featuring over 200 species of marine animals that live in the Southern California region, the Cabrillo is number one of its class.
+
+3) Dolby Theatre Guided Tour
+
+You’ll will see areas of the theatre not seen on TV, plus get a behind-the-scenes look at where lots of popular events take place.
+
+",
                             Outdoors = 0
                         },
                         new
@@ -169,9 +268,18 @@ namespace MidtermApi.Migrations
                             ID = 12,
                             CityID = 3,
                             FamilyFriendly = 0,
-                            Name = @"1) Studio ToursCome visit a real working studio and see behind-the-scenes of how Hollywood works.
-2) K1 Speed Indoor KartingHigh-performance, zero-emission cars equipped with the newest technology make K1 Speed one of the premier places to go in LA! 
-3) Grammy MuseumThe Grammy Museum has impressive collection of artifacts, exhibits, films, and more. 
+                            Name = @"1) Studio Tours
+
+Come visit a real working studio and see behind-the-scenes of how Hollywood works.
+
+2) K1 Speed Indoor Karting
+
+High-performance, zero-emission cars equipped with the newest technology make K1 Speed one of the premier places to go in LA!
+
+3) Grammy Museum
+
+The Grammy Museum has impressive collection of artifacts, exhibits, films, and more.
+
  ",
                             Outdoors = 0
                         },
@@ -180,9 +288,18 @@ namespace MidtermApi.Migrations
                             ID = 13,
                             CityID = 4,
                             FamilyFriendly = 1,
-                            Name = @"1) Discovery CoveDiscovery Cove is a one-of-a kind experience where you can interact with bottlenose dolphins, feed tropical birds, play inches from a family of otters and even walk on the Grand Reef floor-all in one day. 
-2) Exotic Animal ExperienceExotic Animal Experience is a TOTALLY interactive, hands on experience with exotic animals! 
-3) Walt Disney WorldWalt Disney World Resort features four theme parks with interactive rides, animal adventures, magical attractions and many more! 
+                            Name = @"1) Discovery Cove
+
+Discovery Cove is a one-of-a kind experience where you can interact with bottlenose dolphins, feed tropical birds, play inches from a family of otters and even walk on the Grand Reef floor-all in one day.
+
+2) Exotic Animal Experience
+
+Exotic Animal Experience is a TOTALLY interactive, hands on experience with exotic animals!
+
+3) Walt Disney World
+
+Walt Disney World Resort features four theme parks with interactive rides, animal adventures, magical attractions and many more!
+
 ",
                             Outdoors = 1
                         },
@@ -191,9 +308,18 @@ namespace MidtermApi.Migrations
                             ID = 14,
                             CityID = 4,
                             FamilyFriendly = 0,
-                            Name = @"1) Kayak Tours at Central FloridaFrom rivers to lakes to breathtaking sparkling springs, there are so many waterways to explore in Central Florida. 
-2) Orlando Balloon RidesSee Orlando from the air in a different way, on this sunrise hot-air balloon adventure. 
-3) Falcon FlyboardingNo prior experience is needed! Just after some simple training and you will be souring through the air in no time. 
+                            Name = @"1) Kayak Tours at Central Florida
+
+From rivers to lakes to breathtaking sparkling springs, there are so many waterways to explore in Central Florida.
+
+2) Orlando Balloon Rides
+
+See Orlando from the air in a different way, on this sunrise hot-air balloon adventure.
+
+3) Falcon Flyboarding
+
+No prior experience is needed! Just after some simple training and you will be souring through the air in no time.
+
 ",
                             Outdoors = 1
                         },
@@ -202,10 +328,19 @@ namespace MidtermApi.Migrations
                             ID = 15,
                             CityID = 4,
                             FamilyFriendly = 1,
-                            Name = @"1) Crayola ExperienceAspiring artists of all ages can enjoy 26 hands-on activities while experiencing the fun of learning and creating with color. 
-2) iFLY Orlando Indoor SkydivingEnjoy the feeling of free flight at iFLY Orlando Indoor Skydiving! 
-3) Sea Life Orlando AquariumSoak up incredible views from Orlando’s only 360-degree underwater tunnel! 
- ",
+                            Name = @"1) Crayola Experience
+
+Aspiring artists of all ages can enjoy 26 hands-on activities while experiencing the fun of learning and creating with color.
+
+2) iFLY Orlando Indoor Skydiving
+
+Enjoy the feeling of free flight at iFLY Orlando Indoor Skydiving!
+
+3) Sea Life Orlando Aquarium
+
+Soak up incredible views from Orlando’s only 360-degree underwater tunnel!
+
+",
                             Outdoors = 0
                         },
                         new
@@ -213,10 +348,19 @@ namespace MidtermApi.Migrations
                             ID = 16,
                             CityID = 4,
                             FamilyFriendly = 0,
-                            Name = @"1) Escape RoomsTeams are locked into a room, and the mission is to escape by using logic, creative thinking and the provided tools to solve puzzles! 
-2) Virtual Reality AttractionsEscape to realms of pure digital imagination at Orlando’s VR attractions! 
-3) WonderworksThis interactive museum has lots of interactive and diverse exhibits that teach while they entertain.
- ",
+                            Name = @"1) Escape Rooms
+
+Teams are locked into a room, and the mission is to escape by using logic, creative thinking and the provided tools to solve puzzles!
+
+2) Virtual Reality Attractions
+
+Escape to realms of pure digital imagination at Orlando’s VR attractions!
+
+3) Wonderworks
+
+This interactive museum has lots of interactive and diverse exhibits that teach while they entertain.
+
+",
                             Outdoors = 0
                         },
                         new
@@ -224,9 +368,18 @@ namespace MidtermApi.Migrations
                             ID = 17,
                             CityID = 5,
                             FamilyFriendly = 1,
-                            Name = @"1) River Floating Down The Chattahoochee RiverEnjoy the water and sun while paddleboarding, kayaking, canoeing, and floating down the river. 
-2) Atlanta Botanical GardenThe onset of spring brings a fresh crop of blooming flowers at the Atlanta Botanical Garden that you can't see year-round. 
-3) Six Flags Theme ParkGet ready to dive into the largest expansion in park history at Six Flags Over Georgia with the all-new Hurricane Harbor water park! 
+                            Name = @"1) River Floating Down The Chattahoochee River
+
+Enjoy the water and sun while paddleboarding, kayaking, canoeing, and floating down the river.
+
+2) Atlanta Botanical Garden
+
+The onset of spring brings a fresh crop of blooming flowers at the Atlanta Botanical Garden that you can't see year-round.
+
+3) Six Flags Theme Park
+
+Get ready to dive into the largest expansion in park history at Six Flags Over Georgia with the all-new Hurricane Harbor water park!
+
 ",
                             Outdoors = 1
                         },
@@ -235,9 +388,18 @@ namespace MidtermApi.Migrations
                             ID = 18,
                             CityID = 5,
                             FamilyFriendly = 0,
-                            Name = @"1) Trek Up Stone MountainFollow the yellow-painted line to the top of Stone Mountain, one of Georgia's most-visited attractions, for an incredible view of downtown Atlanta and the North Georgia mountains. 
-2) Porsche Experience CenterWith a fleet of over 75 new model vehicles and Porsche Drive Coaches to navigate you through the 1.6 mile handling circuit, the Porsche Experience Center may be the world's greatest test drive. 
-3) Hike to the Waterfalls at the Warwoman Dell TrailThe eponymous trail and the Bartram Trail travel along a pebble-lined stream, through densely green forests, and past a pastiche of wildflowers and ferns. 
+                            Name = @"1) Trek Up Stone Mountain
+
+Follow the yellow-painted line to the top of Stone Mountain, one of Georgia's most-visited attractions, for an incredible view of downtown Atlanta and the North Georgia mountains.
+
+2) Porsche Experience Center
+
+With a fleet of over 75 new model vehicles and Porsche Drive Coaches to navigate you through the 1.6 mile handling circuit, the Porsche Experience Center may be the world's greatest test drive.
+
+3) Hike to the Waterfalls at the Warwoman Dell Trail
+
+The eponymous trail and the Bartram Trail travel along a pebble-lined stream, through densely green forests, and past a pastiche of wildflowers and ferns.
+
 ",
                             Outdoors = 1
                         },
@@ -246,9 +408,18 @@ namespace MidtermApi.Migrations
                             ID = 19,
                             CityID = 5,
                             FamilyFriendly = 1,
-                            Name = @"1) World of Coca-ColaWhether you are in town for vacation, planning a staycation with the family, or just looking for a fun weekend outing, the World of Coca-Cola is a great place to start. 
-2) LEGOLAND Discovery Center – AtlantaA LEGOLAND Discovery Center ticket includes access to several LEGO-themed rides, the 4D cinema, and all the rest of the LEGO attractions. 
-3) X-DrenalineThis trampoline park has everything your kids need to work off some pent-up energy. 
+                            Name = @"1) World of Coca-Cola
+
+Whether you are in town for vacation, planning a staycation with the family, or just looking for a fun weekend outing, the World of Coca-Cola is a great place to start.
+
+2) LEGOLAND Discovery Center – Atlanta
+
+A LEGOLAND Discovery Center ticket includes access to several LEGO-themed rides, the 4D cinema, and all the rest of the LEGO attractions.
+
+3) X-Drenaline
+
+This trampoline park has everything your kids need to work off some pent-up energy.
+
 ",
                             Outdoors = 0
                         },
@@ -257,9 +428,18 @@ namespace MidtermApi.Migrations
                             ID = 20,
                             CityID = 5,
                             FamilyFriendly = 0,
-                            Name = @"1) Atlanta Brewing CompanyEstablished in 1993, Atlanta Brewing Co was Georgia’s first craft brewery. 
-2) Martin Luther King Jr. National Historic SiteThis is a major Atlanta attraction, the park draws some 500,000 visitors each year. 
-3) FernbankDiscover a World of Wow at Fernbank, Atlanta's Science and Nature Experience. 
+                            Name = @"1) Atlanta Brewing Company
+
+Established in 1993, Atlanta Brewing Co was Georgia’s first craft brewery.
+
+2) Martin Luther King Jr. National Historic Site
+
+This is a major Atlanta attraction, the park draws some 500,000 visitors each year.
+
+3) Fernbank
+
+Discover a World of Wow at Fernbank, Atlanta's Science and Nature Experience.
+
 ",
                             Outdoors = 0
                         },
@@ -268,10 +448,19 @@ namespace MidtermApi.Migrations
                             ID = 21,
                             CityID = 6,
                             FamilyFriendly = 1,
-                            Name = @"1) activity with family outdoors placeholder #1. 
-2) activity with family outdoors placeholder #2. 
-3) activity with family outdoors placeholder #3.
- ",
+                            Name = @"1) Visit an Asian Village Populated by Elephants at Denver Zoo
+
+The Denver Zoo's phenomenal Toyota Elephant Passage offers you the chance to get up close and personal with some amazing animals, all in an extremely cool setting designed to look like a rustic Asian village.
+
+2) See Large Carnivores at Wild Animal Sanctuary
+
+The Wild Animal Sanctuary is a 720-acre rescue and educational facility where more than 350 animals rescued from dire situations now roam free.
+
+3) Take a Bike Ride on 85 Miles of Paths
+
+With 85 miles of bike trails and 300 days of sunshine, Denver is a cycling paradise.
+
+",
                             Outdoors = 1
                         },
                         new
@@ -279,10 +468,19 @@ namespace MidtermApi.Migrations
                             ID = 22,
                             CityID = 6,
                             FamilyFriendly = 0,
-                            Name = @"1) Take a Bike Ride on 85 Miles of PathsWith 85 miles of bike trails and 300 days of sunshine, Denver is a cycling paradise. 
-2) activity without family outdoors placeholder #2.
-3) activity without family outdoors placeholder #3.
- ",
+                            Name = @"1) Take a Thrilling Zip Line Tour
+
+Soar along on 1.5 miles of zip line at speeds of up to 50 miles per hour, climb a 42-foot climbing wall and return via 'adrenaline jumping stations' or a 'kamikaze zip' straight to the ground.
+
+2) Take a Hot Air Balloon Ride
+
+Enjoy spectacular views of the majestic Rockies as you float high above the Front Range.
+
+3) Whitewater Rafting
+
+ There are lots of companies offering rafting along beautiful Clear Creek in Idaho Springs and the Arkansas River at the Royal Gorge.
+
+",
                             Outdoors = 1
                         },
                         new
@@ -290,10 +488,19 @@ namespace MidtermApi.Migrations
                             ID = 23,
                             CityID = 6,
                             FamilyFriendly = 1,
-                            Name = @"1) activity with family indoors placeholder #1. 
-2) activity with family indoors placeholder #2.
-3) activity with family indoors placeholder #3.
- ",
+                            Name = @"1) Swim with Sharks at Downtown Aquarium
+
+There are more than 15,000 fish, mammals and plants at the Downtown Aquarium — and you can do more than gaze at them through the glass.
+
+2) Wings Over the Rockies Air & Space Museum
+
+The museum preserves the history of Lowry AFB's operations from 1938 to 1994 in its collections, archives, and research library. Features of the museum's collection include the USAF's B-1A Lancer and B-52 Stratofortress bombers and many other military and general aviation aircraft.
+
+3) Denver Art Museum
+
+The Denver Art Museum's collection includes more than 70000 works of art.
+
+",
                             Outdoors = 0
                         },
                         new
@@ -301,10 +508,19 @@ namespace MidtermApi.Migrations
                             ID = 24,
                             CityID = 6,
                             FamilyFriendly = 0,
-                            Name = @"1) activity without family indoors placeholder #1. 
-2) activity without family indoors placeholder #2.
-3) activity without family indoors placeholder #3.
- ",
+                            Name = @"1) Stranahan's Colorado Whiskey Tour
+
+Who doesn't love to taste shots and keeping the shot glass as a memento? If you love whiskey this is the place for you!
+
+2) Forney Museum of Transportation
+
+The Forney Museum of Transportation is a one-of-a-kind collection of over 600 artifacts relating to historical transportation.
+
+3) Balistreri Vineyards
+
+Their award-winning wines are traditionally handcrafted, without addition of sulfites or other chemicals. The tastingroom and vineyard is located just 10 minutes from downtown Denver!
+
+",
                             Outdoors = 0
                         },
                         new
@@ -312,10 +528,19 @@ namespace MidtermApi.Migrations
                             ID = 25,
                             CityID = 7,
                             FamilyFriendly = 1,
-                            Name = @"1) Taj MahalTaj Mahal is an ivory-white marble Islamic mausoleum. It was commissioned in 1632 by the Mughal emperor Shah Jahan to house the tomb of his favourite wife. 
-2) National Zoological Park of DelhiNational Zoological Park is a 176-acre zoo near the Oldfort in Delhi. The zoo can be seen on foot or using a battery-operated vehicle which can be rented at the zoo. 
-3) Go boating at the Old FortThe Old Fort, or Purana Qila as called locally, has a quaint boating area set amidst the ruins of the Fort and the Delhi Zoo as a boundary. 
- ",
+                            Name = @"1) Taj Mahal
+
+Taj Mahal is an ivory-white marble Islamic mausoleum. It was commissioned in 1632 by the Mughal emperor Shah Jahan to house the tomb of his favourite wife.
+
+2) National Zoological Park of Delhi
+
+National Zoological Park is a 176-acre zoo near the Oldfort in Delhi. The zoo can be seen on foot or using a battery-operated vehicle which can be rented at the zoo.
+
+3) Go boating at the Old Fort
+
+The Old Fort, or Purana Qila as called locally, has a quaint boating area set amidst the ruins of the Fort and the Delhi Zoo as a boundary.
+
+",
                             Outdoors = 1
                         },
                         new
@@ -323,9 +548,18 @@ namespace MidtermApi.Migrations
                             ID = 26,
                             CityID = 7,
                             FamilyFriendly = 0,
-                            Name = @"1) Akshardham templeA place of worship, complete with exhibits, boat rides, water shows and lush gardens, the Akshardham temple situated in East Delhi is unlike any other, not only in India but the entire world. 
-2) Jama MasjidThe largest Islamic mosque in the city, Jama Masjid, was constructed way back in the 17th century. The imposing building is an iconic landmark of Old Delhi and an important place of worship. 
-3) Chhatarpur templeLocated in South Delhi, the group of temples known as Chhatarpur are the second largest of their kind in India. The temple is dedicated to the Goddess Katyayani (Durga) and is made entirely of marble. 
+                            Name = @"1) Akshardham Temple
+
+A place of worship, complete with exhibits, boat rides, water shows and lush gardens, the Akshardham temple situated in East Delhi is unlike any other, not only in India but the entire world.
+
+2) Jama Masjid
+
+The largest Islamic mosque in the city, Jama Masjid, was constructed way back in the 17th century. The imposing building is an iconic landmark of Old Delhi and an important place of worship.
+
+3) Chhatarpur Temple
+
+Located in South Delhi, the group of temples known as Chhatarpur are the second largest of their kind in India. The temple is dedicated to the Goddess Katyayani (Durga) and is made entirely of marble.
+
 ",
                             Outdoors = 1
                         },
@@ -334,9 +568,18 @@ namespace MidtermApi.Migrations
                             ID = 27,
                             CityID = 7,
                             FamilyFriendly = 1,
-                            Name = @"1) National Mesuem - New DelhiThe collection consists of about 200,000 objects, mainly from the Indus Valley Civilization dating as far back as 2,500 BC. 
-2) India Habitat CenterThe India Habitat Center has frequent classical music and dance concerts. Come and experience Indian classical and folk music, dance and drama. 
-3) Kingdom of DreamsGet out of Delhi for the day and take a trip to one of India's best theme parks, the spectacular Kingdom of Dreams. 
+                            Name = @"1) National Mesuem - New Delhi
+
+The collection consists of about 200,000 objects, mainly from the Indus Valley Civilization dating as far back as 2,500 BC.
+
+2) India Habitat Center
+
+The India Habitat Center has frequent classical music and dance concerts. Come and experience Indian classical and folk music, dance and drama.
+
+3) Kingdom of Dreams
+
+Get out of Delhi for the day and take a trip to one of India's best theme parks, the spectacular Kingdom of Dreams.
+
 ",
                             Outdoors = 0
                         },
@@ -345,9 +588,18 @@ namespace MidtermApi.Migrations
                             ID = 28,
                             CityID = 7,
                             FamilyFriendly = 0,
-                            Name = @"1) Gurudwara Bangla SahibThis is the place you must visit. The amazing Sikh Religion Temple is a beautiful building with a rich Sikh religious culture. 
-2) ISKCON Temple DelhiISKCON as a transcendental mission with a strong philosophical and culture base, Popularly Known with Hare Krishna Movement. 
-3) Spa Treatment at Shangri La's Eros HotelThe Spa at the Shangri La's Eros Hotel is an exception. It focuses on traditional techniques from Asian cultures. 
+                            Name = @"1) Gurudwara Bangla Sahib
+
+This is the place you must visit. The amazing Sikh Religion Temple is a beautiful building with a rich Sikh religious culture.
+
+2) ISKCON Temple Delhi
+
+ISKCON as a transcendental mission with a strong philosophical and culture base, Popularly Known with Hare Krishna Movement.
+
+3) Spa Treatment at Shangri La's Eros Hotel
+
+The Spa at the Shangri La's Eros Hotel is an exception. It focuses on traditional techniques from Asian cultures.
+
 ",
                             Outdoors = 0
                         },
@@ -356,9 +608,18 @@ namespace MidtermApi.Migrations
                             ID = 29,
                             CityID = 8,
                             FamilyFriendly = 1,
-                            Name = @"1) Jardin des PlantesConsidered France's principle botanical garden, the Jardin des Plantes was established in the 17th century under the reign of Louis XIII. 
-2) Jardin D'AcclimatationThis is zoological park with many other attractions including the Exploradome, merry-go-rounds and puppet shows. 
-3) Eiffel Tower+ The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France. 
+                            Name = @"1) Jardin des Plantes
+
+Considered France's principle botanical garden, the Jardin des Plantes was established in the 17th century under the reign of Louis XIII.
+
+2) Jardin D'Acclimatation
+
+This is zoological park with many other attractions including the Exploradome, merry-go-rounds and puppet shows.
+
+3) Eiffel Tower
+
+The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.
+
 ",
                             Outdoors = 1
                         },
@@ -367,10 +628,19 @@ namespace MidtermApi.Migrations
                             ID = 30,
                             CityID = 8,
                             FamilyFriendly = 0,
-                            Name = @"1) L'Arc de TriompheThis symbol of French victory was commissioned by Napoleon and completed in 1836. 
-2) Canal CruisingA cruise from the Bastille marina towards the Marne river will take you to those bucolic open air dance halls. 
-3) Sacre Coeur De MontmartreLocated on the highest peak of Paris, the view from the Sacré Coeur is breathtaking. 
- ",
+                            Name = @"1) L'Arc de Triomphe
+
+This symbol of French victory was commissioned by Napoleon and completed in 1836.
+
+2) Canal Cruising
+
+A cruise from the Bastille marina towards the Marne river will take you to those bucolic open air dance halls.
+
+3) Sacre Coeur De Montmartre
+
+Located on the highest peak of Paris, the view from the Sacré Coeur is breathtaking.
+
+",
                             Outdoors = 1
                         },
                         new
@@ -378,10 +648,19 @@ namespace MidtermApi.Migrations
                             ID = 31,
                             CityID = 8,
                             FamilyFriendly = 1,
-                            Name = @"1) Jardin des PlantesThe most famous greenhouse in Paris is Grandes Serres in the Jardin des Plantes. The plants are kept warm all year round, which make the greenhouses a welcoming retreat from inclement weather. 
-2) Paris Aquarium With 43 tanks, more than 10,000 fish and invertebrates, and 25 sharks, there is a veritable bounty of delightful sights.
-3) Relax in a Turkish BathParis has warmly embraced the tradition of languorous baths, particularly Turkish baths, also known as ‘hammams.’ These steam baths will warm your tired bones, and are often accompanied by a full-body scrub. 
- ",
+                            Name = @"1) Jardin des Plantes
+
+The most famous greenhouse in Paris is Grandes Serres in the Jardin des Plantes. The plants are kept warm all year round, which make the greenhouses a welcoming retreat from inclement weather.
+
+2) Paris Aquarium
+
+With 43 tanks, more than 10,000 fish and invertebrates, and 25 sharks, there is a veritable bounty of delightful sights.
+
+3) Relax in a Turkish Bath
+
+Paris has warmly embraced the tradition of languorous baths, particularly Turkish baths, also known as ‘hammams.’ These steam baths will warm your tired bones, and are often accompanied by a full-body scrub.
+
+",
                             Outdoors = 0
                         },
                         new
@@ -389,32 +668,58 @@ namespace MidtermApi.Migrations
                             ID = 32,
                             CityID = 8,
                             FamilyFriendly = 0,
-                            Name = @"1) Walk Through a Haunted HouseThis haunted house makes a thoroughly spooky, and thoroughly fun, retreat from bad weather. 
-2) Indulge in Hot Chocolate and Tea RoomsParis’ most famous spot for hot chocolate is Angelina’s. This is a tea house which has almost pudding-like hot chocolate and Belle Époque decor. 
-3) The CatacombsThe Catacombs are one of Paris’ most unsettling and fascinating sights. 
- ",
+                            Name = @"1) Walk Through a Haunted House
+
+This haunted house makes a thoroughly spooky, and thoroughly fun, retreat from bad weather. 
+2) Indulge in Hot Chocolate and Tea Rooms
+
+Paris’ most famous spot for hot chocolate is Angelina’s. This is a tea house which has almost pudding-like hot chocolate and Belle Époque decor.
+
+3) The Catacombs
+
+The Catacombs are one of Paris’ most unsettling and fascinating sights.
+
+",
                             Outdoors = 0
                         },
                         new
                         {
                             ID = 33,
                             CityID = 9,
-                            FamilyFriendly = 0,
-                            Name = @"1) activity without family indoors placeholder #1. 
-2) activity without family indoors placeholder #2.
-3) activity without family indoors placeholder #3.
- ",
-                            Outdoors = 0
+                            FamilyFriendly = 1,
+                            Name = @"1) Children’s Grand Park
+
+Children’s Grand Park is one of the more famous family spots in Seoul, featuring a zoo, an amusement park, and plenty of paths for strolling.
+
+2) Bukhansan National Park
+
+One of the most popular pastimes in Seoul is hiking and this stunning national park just outside the city is a local favorite. Aside from a variety of hiking trails for every skill level, you’ll also see lots of flora and fauna, temples and ancient fortresses.
+
+3) Visit Rabbit Park
+
+This amazing park is located in the trendy french neighborhood Seorae Village. Check out the nearby area for great bakeries, wine bars, and better yet a park filled with friendly rabbits!
+
+",
+                            Outdoors = 1
                         },
                         new
                         {
                             ID = 34,
                             CityID = 9,
                             FamilyFriendly = 0,
-                            Name = @"1) activity without family outdoors placeholder #1. 
-2) activity without family outdoors placeholder #2.
-3) activity without family outdoors placeholder #3.
- ",
+                            Name = @"1) Enjoy the scene at Hangang River
+
+The Hangang River is the most important physical landmark in the city. Lined with parks and recreational facilities on both banks, it’s the perfect place to rent bikes, go on cruise up the river, enjoy bird-watching, or splash around and cool off in public swimming pools during the summer months.
+
+2) Hike the Mountain Baegaksan
+
+Mt.Baegaksan is a 342-meter high granite mountain in the middle of Seoul and is home to Gyeongbokgung Palace and a Joseon Dynasty fortress.
+
+3) Myeongdong Real Gun Shooting Range
+
+The Myeongdong Real Gun Shooting Range is an indoor live firing range located in Myeong-dong. With over a 100 firearms to choose from, visitors can try their best to shoot at targets with a real gun.
+
+",
                             Outdoors = 1
                         },
                         new
@@ -422,33 +727,51 @@ namespace MidtermApi.Migrations
                             ID = 35,
                             CityID = 9,
                             FamilyFriendly = 1,
-                            Name = @"1) activity with family outdoors placeholder #1. 
-2) activity with family outdoors placeholder #2. 
-3) activity with family outdoors placeholder #3.
- ",
-                            Outdoors = 1
+                            Name = @"1) Visit the COEX Aquarium
+
+The COEX Aquarium consists of 183 display tanks and 90 breeding tanks with over 3,500 tons of water volume. 40.000 animals from 650 different species live here.
+
+2) Take funny photos at the Trick Eye Museum
+
+The Trick Eye Museum is an artistic game of sorts which uses distorted perspectives and scientific calculations to transform well-known paintings in optically amusing ones.
+
+3) See the legendary Nanta Cooking Show
+
+Nanta is the first non-verbal performance produced in Korea that comically depicts happenings in the kitchen by integrating Korea’s traditional rhythm, 'Samulnori'.
+
+",
+                            Outdoors = 0
                         },
                         new
                         {
                             ID = 36,
                             CityID = 9,
-                            FamilyFriendly = 1,
-                            Name = @"1) activity with family indoors placeholder #1. 
-2) activity with family indoors placeholder #2.
-3) activity with family indoors placeholder #3.
- ",
+                            FamilyFriendly = 0,
+                            Name = @"1) Jjimjilbang Hot Sauna
+
+Jjimjilbang is deeply integrated with Korean culture. Locals enjoy going to the hot saunas, taking rejuvenating baths and getting body scrubs and massages.
+
+2) Get Creative!
+
+In Seoul, you can visit a ring making café and craft your own rings! You can also create your own perfume or visit a cake shop and decorate your own cake!
+
+3) Discover Korea’s Bang Culture
+
+ If you spontaneously want to have a crazy dancing and singing party with your friends, you can rent a Noraebang (Karaoke room) for a few dollars and be the star of your own concert.
+
+",
                             Outdoors = 0
                         },
                         new
                         {
                             ID = 37,
                             CityID = 10,
-                            FamilyFriendly = 0,
-                            Name = @"1) activity without family indoors placeholder #1. 
-2) activity without family indoors placeholder #2.
-3) activity without family indoors placeholder #3.
+                            FamilyFriendly = 1,
+                            Name = @"1) activity with family outdoors placeholder #1. 
+2) activity with family outdoors placeholder #2. 
+3) activity with family outdoors placeholder #3.
  ",
-                            Outdoors = 0
+                            Outdoors = 1
                         },
                         new
                         {
@@ -466,17 +789,6 @@ namespace MidtermApi.Migrations
                             ID = 39,
                             CityID = 10,
                             FamilyFriendly = 1,
-                            Name = @"1) activity with family outdoors placeholder #1. 
-2) activity with family outdoors placeholder #2. 
-3) activity with family outdoors placeholder #3.
- ",
-                            Outdoors = 1
-                        },
-                        new
-                        {
-                            ID = 40,
-                            CityID = 10,
-                            FamilyFriendly = 1,
                             Name = @"1) activity with family indoors placeholder #1. 
 2) activity with family indoors placeholder #2.
 3) activity with family indoors placeholder #3.
@@ -485,14 +797,25 @@ namespace MidtermApi.Migrations
                         },
                         new
                         {
-                            ID = 41,
-                            CityID = 11,
+                            ID = 40,
+                            CityID = 10,
                             FamilyFriendly = 0,
                             Name = @"1) activity without family indoors placeholder #1. 
 2) activity without family indoors placeholder #2.
 3) activity without family indoors placeholder #3.
  ",
                             Outdoors = 0
+                        },
+                        new
+                        {
+                            ID = 41,
+                            CityID = 11,
+                            FamilyFriendly = 1,
+                            Name = @"1) activity with family outdoors placeholder #1. 
+2) activity with family outdoors placeholder #2. 
+3) activity with family outdoors placeholder #3.
+ ",
+                            Outdoors = 1
                         },
                         new
                         {
@@ -510,17 +833,6 @@ namespace MidtermApi.Migrations
                             ID = 43,
                             CityID = 11,
                             FamilyFriendly = 1,
-                            Name = @"1) activity with family outdoors placeholder #1. 
-2) activity with family outdoors placeholder #2. 
-3) activity with family outdoors placeholder #3.
- ",
-                            Outdoors = 1
-                        },
-                        new
-                        {
-                            ID = 44,
-                            CityID = 11,
-                            FamilyFriendly = 1,
                             Name = @"1) activity with family indoors placeholder #1. 
 2) activity with family indoors placeholder #2.
 3) activity with family indoors placeholder #3.
@@ -529,14 +841,25 @@ namespace MidtermApi.Migrations
                         },
                         new
                         {
-                            ID = 45,
-                            CityID = 12,
+                            ID = 44,
+                            CityID = 11,
                             FamilyFriendly = 0,
                             Name = @"1) activity without family indoors placeholder #1. 
 2) activity without family indoors placeholder #2.
 3) activity without family indoors placeholder #3.
  ",
                             Outdoors = 0
+                        },
+                        new
+                        {
+                            ID = 45,
+                            CityID = 12,
+                            FamilyFriendly = 1,
+                            Name = @"1) activity with family outdoors placeholder #1. 
+2) activity with family outdoors placeholder #2. 
+3) activity with family outdoors placeholder #3.
+ ",
+                            Outdoors = 1
                         },
                         new
                         {
@@ -554,17 +877,6 @@ namespace MidtermApi.Migrations
                             ID = 47,
                             CityID = 12,
                             FamilyFriendly = 1,
-                            Name = @"1) activity with family outdoors placeholder #1. 
-2) activity with family outdoors placeholder #2. 
-3) activity with family outdoors placeholder #3.
- ",
-                            Outdoors = 1
-                        },
-                        new
-                        {
-                            ID = 48,
-                            CityID = 12,
-                            FamilyFriendly = 1,
                             Name = @"1) activity with family indoors placeholder #1. 
 2) activity with family indoors placeholder #2.
 3) activity with family indoors placeholder #3.
@@ -573,14 +885,25 @@ namespace MidtermApi.Migrations
                         },
                         new
                         {
-                            ID = 49,
-                            CityID = 13,
+                            ID = 48,
+                            CityID = 12,
                             FamilyFriendly = 0,
                             Name = @"1) activity without family indoors placeholder #1. 
 2) activity without family indoors placeholder #2.
 3) activity without family indoors placeholder #3.
  ",
                             Outdoors = 0
+                        },
+                        new
+                        {
+                            ID = 49,
+                            CityID = 13,
+                            FamilyFriendly = 1,
+                            Name = @"1) activity with family outdoors placeholder #1. 
+2) activity with family outdoors placeholder #2. 
+3) activity with family outdoors placeholder #3.
+ ",
+                            Outdoors = 1
                         },
                         new
                         {
@@ -598,20 +921,20 @@ namespace MidtermApi.Migrations
                             ID = 51,
                             CityID = 13,
                             FamilyFriendly = 1,
-                            Name = @"1) activity with family outdoors placeholder #1. 
-2) activity with family outdoors placeholder #2. 
-3) activity with family outdoors placeholder #3.
+                            Name = @"1) activity with family indoors placeholder #1. 
+2) activity with family indoors placeholder #2.
+3) activity with family indoors placeholder #3.
  ",
-                            Outdoors = 1
+                            Outdoors = 0
                         },
                         new
                         {
                             ID = 52,
                             CityID = 13,
-                            FamilyFriendly = 1,
-                            Name = @"1) activity with family indoors placeholder #1. 
-2) activity with family indoors placeholder #2.
-3) activity with family indoors placeholder #3.
+                            FamilyFriendly = 0,
+                            Name = @"1) activity without family indoors placeholder #1. 
+2) activity without family indoors placeholder #2.
+3) activity without family indoors placeholder #3.
  ",
                             Outdoors = 0
                         });

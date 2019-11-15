@@ -454,21 +454,21 @@ namespace MidtermApi.Data
                 {
                     ID = 34,
                     CityID = 12,
-                    Name = "Reykjavik Downtown HI Hostel",
+                    Name = "Crowne Plaza Helsinki - Hesperia",
                     Price = 1
                 },
                 new Hotel
                 {
                     ID = 35,
                     CityID = 12,
-                    Name = "Grand Hótel Reykjavík",
+                    Name = "Kotimaailma Helsinki Homes",
                     Price = 2
                 },
                 new Hotel
                 {
                     ID = 36,
                     CityID = 12,
-                    Name = "Kvosin Downtown Hotel",
+                    Name = "Hotel St. George Helsinki",
                     Price = 3
                 },
             #endregion
@@ -958,9 +958,10 @@ namespace MidtermApi.Data
                     //activities for Moscow with family and outdoors 
                     ID = 37,
                     CityID = 10,
-                    Name = "1) activity with family outdoors placeholder #1. \n" +
-                    "2) activity with family outdoors placeholder #2. \n" +
-                    "3) activity with family outdoors placeholder #3.\n ",
+                    Name = "1) Saint Basil’s Cathedral\n\n" + "Get stunned by the cathedral’s architectural magnificence designed on a flame of a bonfire. At night, the lit up cathedral looks very lively and colorful and you will never regret visiting it.\n\n" +
+                    "2) Izmailovo Flea Market\n\n" + "Experience the vibrant architecture of Moscow during a tour of the Izmailovo Flea Market and the Izmailovo Kremlin. Brimming with museums, galleries, and regal palaces, the area is a colorful cultural hub that provides ample photo opportunities. Browse stalls selling Russian crafts, culinary specialties, and antiques, and admire the architecture of the Izmailovo Kremlin and the Tsar’s Palaces.\n\n" +
+                    "3) Gorky Park – Go Cycling\n\n" + "The Gorky Park is undoubtedly among Moscow’s premier green spaces and offers tonnes of entertainment for every taste. From outdoor dancing sessions, yoga and fitness classes in the summer, to activities like beach volleyball, ping-pong, rollerblading, skateboarding, cycling, this place offers everything!\n\n",
+
                     FamilyFriendly = 1,
                     Outdoors = 1
                 },
@@ -969,9 +970,10 @@ namespace MidtermApi.Data
                     //activities for Moscow without family and outdoors 
                     ID = 38,
                     CityID = 10,
-                    Name = "1) activity without family outdoors placeholder #1. \n" +
-                    "2) activity without family outdoors placeholder #2.\n" +
-                    "3) activity without family outdoors placeholder #3.\n ",
+                    Name = "1) Sparrow Hills – Trek\n\n" + "Sparrow Hills, also known as Lenin Hills, is the highest point in Moscow. Trekking to these hills is one of the most adventurous things to do in Moscow.\n\n" +
+                    "2) Moscow Hermitage Garden – Indulge In Events\n\n" + "This popular recreation spot also hosts a number of cultural events like ballet, opera, and concerts.\n\n" +
+                    "3) Sokolniki Park – Tour The Falcon Hunt Ground\n\n" + "In the 15th century, the today’s Sokolniki Park was a thick forest and was used for grand ducal falcon hunt by the kings and princes. Later, it became a social gathering place for nobles and common people. Today, it stands majestically in a thick cover of a woods as one of the largest and oldest parks in Europe.\n\n",
+
                     FamilyFriendly = 0,
                     Outdoors = 1
                 },
@@ -980,9 +982,10 @@ namespace MidtermApi.Data
                     //activities for Moscow with family and indoors 
                     ID = 39,
                     CityID = 10,
-                    Name = "1) activity with family indoors placeholder #1. \n" +
-                    "2) activity with family indoors placeholder #2.\n" +
-                    "3) activity with family indoors placeholder #3.\n ",
+                    Name = "1) Bolshoi Theatre – Watch A Live Ballet/Opera Performance\n\n" + "Watch Russia’s authentic Bolshoi Ballet and Bolshoi Opera in the neoclassical theatre designed by architect Joseph Bové.\n\n" +
+                    "2) Tsaritsyno Museum-Reserve\n\n" + "The former summer residence of Empress Catherine the Great was commissioned in 1775, and succumbed to deterioration during the Soviet era. The whole of Tsaritsyno Museum-Reserve has been fundamentally renovated since 1980s to look even brighter than the original. With its opulently decorated buildings, gardens, meadows and forests, Tsaritsyno Park is the perfect place for a green respite in Moscow.\n\n" +
+                    "3) Novodevichy Convent\n\n" + "Founded in 1524, the Novodevichy Convent is a place steeped in history. Behind the walls that once served as a fortress, there are four cathedrals with a fascinating icon collection and a venerable cemetery.\n\n",
+
                     FamilyFriendly = 1,
                     Outdoors = 0
                 },
@@ -991,9 +994,10 @@ namespace MidtermApi.Data
                     //activities for Moscow without family and indoors 
                     ID = 40,
                     CityID = 10,
-                    Name = "1) activity without family indoors placeholder #1. \n" +
-                    "2) activity without family indoors placeholder #2.\n" +
-                    "3) activity without family indoors placeholder #3.\n ",
+                    Name = "1) State Historical Museum\n\n" + "An attraction in its own right, the State Historical Museum, sheltered in a neo-Russian style building, was founded in 1872 by Ivan Zabelin and Aleksey Uvarov.\n\n" +
+                    "2) Moscow Metro – Ride\n\n" + "Riding the city’s underground rapid transit system is an experience in itself. The vaulted, marble-columned stations, some with ornate mosaics and splendid stained glass are architectural marvels.\n\n" +
+                    "3) GUM Department Store\n\n" + "Russia’s main department store, GUM’s stunning interior houses a variety of high-end boutiques. Built between 1890 and 1893 and known as the Upper Trading Rows until the 1920s, the legendary store is now home to over 200 boutiques selling a variety of brands.\n\n",
+
                     FamilyFriendly = 0,
                     Outdoors = 0
                 },
@@ -1004,9 +1008,10 @@ namespace MidtermApi.Data
                     //activities for Reykjavík with family and outdoors 
                     ID = 41,
                     CityID = 11,
-                    Name = "1) activity with family outdoors placeholder #1. \n" +
-                    "2) activity with family outdoors placeholder #2. \n" +
-                    "3) activity with family outdoors placeholder #3.\n ",
+                    Name = "1) Visit the Grótta lighthouse and soak your feet in the hot pool\n\n" + "After a long day of exploring I promise this will be an amazing (and free!) way to end your day.\n\n" +
+                    "2) Take in the unique nature at Heiðmörk\n\n" + "A popular recreational area in Reykjavik, Heiðmörk is one of my favorite outdoor spots to spend a sunny day exploring. Just a short drive outside of the city will take you to Heiðmörk and all the unique nature in the area. From red colored rock formations to caves, Heiðmörk will keep you entertained all day long, you never know what you will discover next!\n\n" +
+                    "3) Snorkeling at Silfra\n\n" + "Located in Thingvellir National Park, the Silfra rift is a fissure that lies between the Eurasian and North American tectonic plates. The water is fed from the meltwater of a nearby glacier and visibility is top notch.\n\n",
+
                     FamilyFriendly = 1,
                     Outdoors = 1
                 },
@@ -1015,9 +1020,10 @@ namespace MidtermApi.Data
                     //activities for Reykjavík without family and outdoors 
                     ID = 42,
                     CityID = 11,
-                    Name = "1) activity without family outdoors placeholder #1. \n" +
-                    "2) activity without family outdoors placeholder #2.\n" +
-                    "3) activity without family outdoors placeholder #3.\n ",
+                    Name = "1) Hike Mt Esja and take in the stunning views of Reykjavik\n\n" + "Mt. Esja is a quick drive away and you can easily get the bus out there from downtown Reykjavik. Everyone should try hiking while in Iceland during the summer and with a little bit of everything Mt. Esja if the perfect hike to fit in.\n\n" +
+                    "2) Take the ferry to Viðey Island\n\n" + "With Esja on one side, the city of Reykjavik on the other and the ocean surrounding you Viðey Island is a must see spot when in Reykjavik. Pack a picnic and take the ferry over and enjoy the nature on this little island.\n\n" +
+                    "3) Glacier Hiking and Ice Climbing\n\n" + "More than 10% of Iceland is covered with glaciers, so “The Land of Fire and Ice” is the perfect place for glacier hiking and ice climbing!\n\n",
+
                     FamilyFriendly = 0,
                     Outdoors = 1
                 },
@@ -1026,9 +1032,10 @@ namespace MidtermApi.Data
                     //activities for Reykjavík with family and indoors 
                     ID = 43,
                     CityID = 11,
-                    Name = "1) activity with family indoors placeholder #1. \n" +
-                    "2) activity with family indoors placeholder #2.\n" +
-                    "3) activity with family indoors placeholder #3.\n ",
+                    Name = "1) Volcano House\n\n" + "Volcano House is one of the most popular tourist attractions in the heart of Reykjavik. This is the place where one can learn about the Icelandic volcanoes by watching high quality film that were created for the Volcano House. Moreover, there is a great lava stones collection, souvenir shop and the collection of arts from famous Icelandic artists.\n\n" +
+                    "2) Whales of Iceland\n\n" + "Whales of Iceland is largest whale exhibition in Europe, located in Reykjavík's harbour area. The exhibition features life-size models of 23 whale species that have been seen in Icelandic waters, as well as man-made skeletons of select whales. There is no better way to learn about whales than seeing these giants up close in full-size. You will leave with a new perspective and appreciation for these interesting and beautiful animals.\n\n" +
+                    "3) Perlan\n\n" + "At Perlan’s exhibitions you learn all about Icelandic nature in interactive and fun ways. Natural wonders come alive at your fingertips – volcanoes, northern lights, glaciers, ocean-life, seabirds and so much more. You explore a real ice cave, sit back in a first-class Planetarium, have fun with interactive displays and enjoy views all over Reykjavík city.\n\n",
+
                     FamilyFriendly = 1,
                     Outdoors = 0
                 },
@@ -1037,9 +1044,10 @@ namespace MidtermApi.Data
                     //activities for Reykjavík without family and indoors 
                     ID = 44,
                     CityID = 11,
-                    Name = "1) activity without family indoors placeholder #1. \n" +
-                    "2) activity without family indoors placeholder #2.\n" +
-                    "3) activity without family indoors placeholder #3.\n ",
+                    Name = "1) Hallgrimskirkja\n\n" + "Hallgrimskirkja is the largest church in the country, and towers over the centre of Reykjavik. Its 73-metre-high tower provides a wonderful 360° view over all Reykjavik, the mountains around and the ocean streaching west to Greenland and the Americas. Because of this, the tower is among the most visited tourist destinations in Reykjavik.\n\n" +
+                    "2) Eimverk Distillery\n\n" + "Eimverk Distillery is Icelands' first and only whisky distillery and a perfect destination for whiskey fans and for anyone with an interest in Icelandic Spirits. During the Distillery tour you will have the opportunity to sample Floki Icelands' first and only whiskey, learn about the processes involved in creating Icelandic spirits from Icelandic barley, as well as sampling Vor our premium pot distilled gin.\n\n" +
+                    "3) Harpa Reykjavik Concert Hall and Conference Centre\n\n" + "Harpa Concert Hall and Conference Centre at the heart of Reykjavik is an award-winning building situated at the old harbour. Harpa opened its doors in 2011 and boasts a wide variety of hosted events where all musical genres play a part.\n\n",
+
                     FamilyFriendly = 0,
                     Outdoors = 0
                 },
@@ -1053,6 +1061,7 @@ namespace MidtermApi.Data
                     Name = "1) activity with family outdoors placeholder #1. \n" +
                     "2) activity with family outdoors placeholder #2. \n" +
                     "3) activity with family outdoors placeholder #3.\n ",
+
                     FamilyFriendly = 1,
                     Outdoors = 1
                 },
@@ -1064,6 +1073,7 @@ namespace MidtermApi.Data
                     Name = "1) activity without family outdoors placeholder #1. \n" +
                     "2) activity without family outdoors placeholder #2.\n" +
                     "3) activity without family outdoors placeholder #3.\n ",
+
                     FamilyFriendly = 0,
                     Outdoors = 1
                 },
@@ -1075,6 +1085,7 @@ namespace MidtermApi.Data
                     Name = "1) activity with family indoors placeholder #1. \n" +
                     "2) activity with family indoors placeholder #2.\n" +
                     "3) activity with family indoors placeholder #3.\n ",
+
                     FamilyFriendly = 1,
                     Outdoors = 0
                 },
@@ -1086,6 +1097,7 @@ namespace MidtermApi.Data
                     Name = "1) activity without family indoors placeholder #1. \n" +
                     "2) activity without family indoors placeholder #2.\n" +
                     "3) activity without family indoors placeholder #3.\n ",
+
                     FamilyFriendly = 0,
                     Outdoors = 0
                 },
@@ -1099,6 +1111,7 @@ namespace MidtermApi.Data
                     Name = "1) activity with family outdoors placeholder #1. \n" +
                     "2) activity with family outdoors placeholder #2. \n" +
                     "3) activity with family outdoors placeholder #3.\n ",
+
                     FamilyFriendly = 1,
                     Outdoors = 1
                 },
@@ -1110,6 +1123,7 @@ namespace MidtermApi.Data
                     Name = "1) activity without family outdoors placeholder #1. \n" +
                     "2) activity without family outdoors placeholder #2.\n" +
                     "3) activity without family outdoors placeholder #3.\n ",
+
                     FamilyFriendly = 0,
                     Outdoors = 1
                 },
@@ -1121,6 +1135,7 @@ namespace MidtermApi.Data
                     Name = "1) activity with family indoors placeholder #1. \n" +
                     "2) activity with family indoors placeholder #2.\n" +
                     "3) activity with family indoors placeholder #3.\n ",
+
                     FamilyFriendly = 1,
                     Outdoors = 0
                 },
@@ -1132,6 +1147,7 @@ namespace MidtermApi.Data
                     Name = "1) activity without family indoors placeholder #1. \n" +
                     "2) activity without family indoors placeholder #2.\n" +
                     "3) activity without family indoors placeholder #3.\n ",
+
                     FamilyFriendly = 0,
                     Outdoors = 0
                 }
