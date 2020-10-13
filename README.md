@@ -60,6 +60,6 @@ Then select and open ```MidtermApi.sln```
 
 ## Change Log
 
-1.1: *Docker support and Heroku deployment workflow added* - 12 October 2020
-1.0: *Domain Model and ERD updated* - 16 Nov 2019
-1.0: *Blind Vacation API Scaffolded* - 11 Nov 2019
+* 1.1: *Docker support and Heroku deployment workflow added* - 12 October 2020
+* 1.0: *Domain Model and ERD updated* - 16 Nov 2019
+* 1.0: *Blind Vacation API Scaffolded* - 11 Nov 2019
