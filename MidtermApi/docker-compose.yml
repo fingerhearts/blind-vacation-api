@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  midtermapi:
+    image: ${DOCKER_REGISTRY-}midtermapi
+    build:
+      context: .
+      dockerfile: MidtermApi/Dockerfile
