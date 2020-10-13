@@ -2,9 +2,9 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
-using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using MidtermApi.Data;
+using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 namespace MidtermApi.Migrations
 {
@@ -15,28 +15,28 @@ namespace MidtermApi.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "3.0.0")
-                .HasAnnotation("Relational:MaxIdentifierLength", 128)
-                .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn)
+                .HasAnnotation("ProductVersion", "3.1.8")
+                .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
             modelBuilder.Entity("MidtermApi.Models.Activity", b =>
                 {
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                        .HasColumnType("integer")
+                        .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
 
                     b.Property<int>("CityID")
-                        .HasColumnType("int");
+                        .HasColumnType("integer");
 
                     b.Property<int>("FamilyFriendly")
-                        .HasColumnType("int");
+                        .HasColumnType("integer");
 
                     b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("text");
 
                     b.Property<int>("Outdoors")
-                        .HasColumnType("int");
+                        .HasColumnType("integer");
 
                     b.HasKey("ID");
 
@@ -48,7 +48,6 @@ namespace MidtermApi.Migrations
                             ID = 1,
                             CityID = 1,
                             FamilyFriendly = 1,
-
                             Name = @"1) Space Needle
 
 This is it. You’re about to walk into a memory. Soaring 520 feet skyward. The city actually, really, truly at your feet. Step up. Step out. Step beyond your comfort zone. And experience wonder on a higher level. Visit the Space Needle in the heart of Seattle.
@@ -948,7 +947,6 @@ Ferries to the islands are a good way to see Helsinki from the sea but if you ar
                             ID = 46,
                             CityID = 12,
                             FamilyFriendly = 0,
-
                             Name = @"1) Suomenlinna Sea Fortress
 
 The sea fortress is a Unesco World Heritage Site and one of the most popular attractions in Finland. Suomenlinna is accessible around the year by ferry from the market square with a regular public transportation ticket. The market is a perfect spot to buy some Finnish berries and peas from to take along.
@@ -969,7 +967,6 @@ Rent a bicycle and head west from Helsinki through Lauttasaari to Espoo Westend 
                             ID = 47,
                             CityID = 12,
                             FamilyFriendly = 1,
-
                             Name = @"1) Old Market Hall
 
 Old Market Hall is aesthetically pleasing as well as historically interesting, and well located by the harbour. It is filled with every imaginable fresh and cooked food, and quickly became our local coffee hang whilst in Helsinki, as well as the place to gather local produce and meats to prepare for dinner.
@@ -990,7 +987,6 @@ In the center of the busy town of Helsinki you find this Little chapel which loo
                             ID = 48,
                             CityID = 12,
                             FamilyFriendly = 0,
-
                             Name = @"1) Tallink and Silja Line - Cruises
 
 With the most modern fleet operating in the Baltic Sea today, there are various short cruises of routes include Stockholm-Helsinki, Stockholm-Turku, Helsinki-Tallinn, Stockholm-Tallinn and Stockholm-Riga.
@@ -1004,7 +1000,6 @@ Kiasma is a contemporary art museum located on Mannerheimintie in Helsinki, Finl
 Founded in 1862, Stockmann is the largest department store in Scandinavia. Here you can find everything you need. The flagship of the department store chain, located in the heart of Helsinki, offers more than 50,000 square meters of shopping space across ten floors. Stockmann is famous for its wide selection of products and excellent customer service.
 
 ",
-
                             Outdoors = 0
                         },
                         new
@@ -1012,7 +1007,6 @@ Founded in 1862, Stockmann is the largest department store in Scandinavia. Here 
                             ID = 49,
                             CityID = 13,
                             FamilyFriendly = 1,
-
                             Name = @"1) Sea Cave Canoeing
 
 Well known for its limestone karsts jutting out of the sea, numerous caves and the shimmery emerald-green water, Phang Nga Bay is an ideal to find the thrill and serenity on a journey through the spectacular scenery and exotic seascape on the east coast of Phuket.
@@ -1026,7 +1020,6 @@ Zipline in Phuket combines a thrilling mix of adrenaline and the beauty of natur
 Situated in the south of the island is Nai Harn Beach, it is a popular beach with thousands of visitors every year but it is still relatively untouched and maintains a lot of its originality.  With beautifully soft sand and crystal clear water you will immediately see why the beach is so popular.
 
 ",
-
                             Outdoors = 1
                         },
                         new
@@ -1034,7 +1027,6 @@ Situated in the south of the island is Nai Harn Beach, it is a popular beach wit
                             ID = 50,
                             CityID = 13,
                             FamilyFriendly = 0,
-
                             Name = @"1) Jungle Bungee Jump
 
 A jungle bungee jump in Kathu gives a perfect combination of views and thrills. Jumpers can choose to stay dry, to be dunked in the water, or try something different from the classic solo jump, like tandem and catapult variations.
@@ -1055,7 +1047,6 @@ This fun adventure activity combines a thrilled ride on an ATV quad bike and the
                             ID = 51,
                             CityID = 13,
                             FamilyFriendly = 1,
-
                             Name = @"1) Phuket Trickeye Museum
 
 Phuket Trickeye Museum is an interactive 3D painting museum offering amazing photo opportunities and great fun for the whole family. Phuket Trickeye Museum features a gallery of about 100 scenes painted using trompe-l’oeil techniques.
@@ -1097,26 +1088,26 @@ For over two decades the now very famous Simon Cabaret show has wowed tourists t
                 {
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                        .HasColumnType("integer")
+                        .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
 
                     b.Property<string>("Description")
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("text");
 
                     b.Property<int>("Hot")
-                        .HasColumnType("int");
+                        .HasColumnType("integer");
 
                     b.Property<string>("ImageURL")
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("text");
 
                     b.Property<int>("InUSA")
-                        .HasColumnType("int");
+                        .HasColumnType("integer");
 
                     b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("text");
 
                     b.Property<int>("Price")
-                        .HasColumnType("int");
+                        .HasColumnType("integer");
 
                     b.HasKey("ID");
 
@@ -1259,17 +1250,17 @@ For over two decades the now very famous Simon Cabaret show has wowed tourists t
                 {
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                        .HasColumnType("integer")
+                        .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
 
                     b.Property<int>("CityID")
-                        .HasColumnType("int");
+                        .HasColumnType("integer");
 
                     b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("text");
 
                     b.Property<int>("Price")
-                        .HasColumnType("int");
+                        .HasColumnType("integer");
 
                     b.HasKey("ID");
 
@@ -1555,20 +1546,20 @@ For over two decades the now very famous Simon Cabaret show has wowed tourists t
                 {
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                        .HasColumnType("integer")
+                        .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
 
                     b.Property<int?>("ActivityID")
-                        .HasColumnType("int");
+                        .HasColumnType("integer");
 
                     b.Property<int?>("CityID")
-                        .HasColumnType("int");
+                        .HasColumnType("integer");
 
                     b.Property<int?>("HotelID")
-                        .HasColumnType("int");
+                        .HasColumnType("integer");
 
                     b.Property<int>("RecommendationCode")
-                        .HasColumnType("int");
+                        .HasColumnType("integer");
 
                     b.HasKey("ID");
 
